@@ -1,0 +1,392 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "CREATE_SERVICE_CONTRACT_(FROM_ACCOUNT);SERVICE/MAINTENANCE_CONTRACT;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qjowEAA",
+      "objectAPIName": "Account",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "Account",
+      "referenceId": "a0G5g000006qjoxEAA",
+      "objectLabel": "Service Contract",
+      "objectAPIName": "SVMXC__Service_Contract__c",
+      "mappingId": "MapAccountToSC",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJB9eAAH",
+          "name": "Service/Maintenance Contract",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "STRING",
+              "sequence": 1,
+              "row": 1,
+              "required": true,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Name"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "referenceTo": "SVMXC__Service_Plan__c",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "ServicePlanLookup",
+                "isStandard": false,
+                "lookupObject": "SVMXC__Service_Plan__c",
+                "lookupFilter": {
+                  "sourceObject": "SVMXC__Service_Plan__c",
+                  "expressionsList": [
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1
+                    },
+                    {
+                      "sourceField": "SVMXC__Description__c",
+                      "sequence": 2
+                    },
+                    {
+                      "sourceField": "SVMXC__List_Price__c",
+                      "sequence": 2
+                    },
+                    {
+                      "sourceField": "SVMXC__List_Price__c",
+                      "sequence": 3
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "ServicePlanLookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Service_Plan__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "row": 2,
+              "required": true,
+              "referenceTo": "Account",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "SVMXSTD: Account Lookup",
+                "isStandard": true,
+                "description": "Pre-configured standard lookup for Account object",
+                "lookupObject": "Account",
+                "lookupFilter": {
+                  "sourceObject": "Account",
+                  "expressionsList": [
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "AccountNumber",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "SVMXSTD: Account Lookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Company__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 4,
+              "row": 2,
+              "required": false,
+              "referenceTo": "Contact",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": true,
+              "lookupMatchingField": "AccountId",
+              "lookupContext": "SVMXC__Company__c",
+              "lookupConfiguration": {
+                "name": "SVMXSTD: Contact Lookup",
+                "isStandard": true,
+                "description": "Pre-configured standard lookup for Contact object",
+                "lookupObject": "Contact",
+                "lookupFilter": {
+                  "sourceObject": "Contact",
+                  "expressionsList": [
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "AccountId",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "MobilePhone",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Email",
+                      "sequence": 4,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Email",
+                      "sequence": 4,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "SVMXSTD: Contact Lookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Contact__c"
+            },
+            {
+              "type": "DATE",
+              "sequence": 5,
+              "row": 3,
+              "required": true,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Start_Date__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 6,
+              "row": 3,
+              "required": false,
+              "referenceTo": "SVMXC__Service_Level__c",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "SVMXSTD: SLA Term Lookup",
+                "isStandard": true,
+                "description": "SVMXSTD: SLA Term Lookup",
+                "lookupObject": "SVMXC__Service_Level__c",
+                "lookupFilter": {
+                  "sourceObject": "SVMXC__Service_Level__c",
+                  "expressionsList": [
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "True",
+                      "sourceField": "SVMXC__Active__c",
+                      "sequence": 1,
+                      "parameterType": "Value",
+                      "operator": "eq",
+                      "operand": "True",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "SVMXC__Description__c",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "SVMXSTD: SLA Term Lookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Service_Level__c"
+            },
+            {
+              "type": "DATE",
+              "sequence": 7,
+              "row": 4,
+              "required": true,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__End_Date__c"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "referenceId": "a0c5g00000FJB9fAAH",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "TEXTAREA",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Service_Contract_Notes__c"
+            }
+          ],
+          "columns": 1
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Contract__c"
+    },
+    "objectAPIName": "SVMXC__Service_Contract__c",
+    "name": "SCON_PAG_CR_ServiceContract1",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring12/en_us/svmx_redirector.htm?uid=",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Create Service Contract (from Account)",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "Create_Service_Contract_from_Account1",
+  "childProcessNodes": []
+}

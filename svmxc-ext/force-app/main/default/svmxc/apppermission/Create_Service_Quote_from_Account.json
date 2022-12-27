@@ -1,0 +1,12 @@
+{
+  "name": "Create Service Quote from Account",
+  "developerName": "Create_Service_Quote_from_Account",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

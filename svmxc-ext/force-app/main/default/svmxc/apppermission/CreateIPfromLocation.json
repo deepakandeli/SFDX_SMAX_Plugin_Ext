@@ -1,0 +1,12 @@
+{
+  "name": "Create Installed Product From Location",
+  "developerName": "CreateIPfromLocation",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

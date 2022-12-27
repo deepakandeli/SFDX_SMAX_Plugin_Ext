@@ -1,0 +1,12 @@
+{
+  "name": "View Labor Pricing",
+  "developerName": "SFM15817028716646f96bb7ceb20e345c041ff1c90239615",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Labor_Pricing__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

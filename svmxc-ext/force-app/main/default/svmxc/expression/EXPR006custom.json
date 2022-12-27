@@ -1,0 +1,16 @@
+{
+  "name": "SVMXSTD: Request Lines Only",
+  "isStandard": false,
+  "developerName": "EXPR006custom",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "expressionDetails": [
+    {
+      "value": "Request/Receipt",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Request/Receipt",
+      "fieldAPIName": "RecordTypeId",
+      "actionType": "Set Value"
+    }
+  ]
+}

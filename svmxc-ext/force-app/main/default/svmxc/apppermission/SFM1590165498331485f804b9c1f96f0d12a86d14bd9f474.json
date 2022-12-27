@@ -1,0 +1,12 @@
+{
+  "name": "View Parts Request",
+  "developerName": "SFM1590165498331485f804b9c1f96f0d12a86d14bd9f474",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Parts_Request__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

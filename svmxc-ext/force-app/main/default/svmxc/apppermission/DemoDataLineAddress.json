@@ -1,0 +1,12 @@
+{
+  "name": "Validate Address",
+  "developerName": "DemoDataLineAddress",
+  "windowsEnabled": true,
+  "sourceObjectName": "Demo_Data_Object_Line__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "SVMXSTD: Create Estimate Lines (Parts)",
+  "isStandard": false,
+  "developerName": "MAP014V-DEMO",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "Parts",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Parts"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Usage/Consumption"
+    }
+  ]
+}

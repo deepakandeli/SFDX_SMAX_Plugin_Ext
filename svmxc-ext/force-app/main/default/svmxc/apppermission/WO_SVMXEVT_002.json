@@ -1,0 +1,13 @@
+{
+  "name": "Edit Work Order Event",
+  "developerName": "WO_SVMXEVT_002",
+  "description": "This SFM transaction is used to edit the ServiceMax Event record realated to Work Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__SVMX_Event__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

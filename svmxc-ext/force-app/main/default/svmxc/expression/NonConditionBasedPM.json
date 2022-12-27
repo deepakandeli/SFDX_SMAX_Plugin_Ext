@@ -1,0 +1,25 @@
+{
+  "name": "NonConditionBasedPM",
+  "isStandard": false,
+  "developerName": "NonConditionBasedPM",
+  "objectAPIName": "SVMXC__PM_Plan__c",
+  "expressionDetails": [
+    {
+      "value": "Counter",
+      "sequence": 1,
+      "operator": "notcontain",
+      "operand": "Counter",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Schedule_Type__c"
+    },
+    {
+      "value": "Condition",
+      "sequence": 2,
+      "operator": "notcontain",
+      "operand": "Condition",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Schedule_Type__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

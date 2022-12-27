@@ -1,0 +1,24 @@
+{
+  "objectAPIName": "SVMXC__RMA_Shipment_Order__c",
+  "name": "RMA Only for Hubs",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "RMA",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "RMA",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Hub",
+      "sequence": 2,
+      "operator": "contains",
+      "operand": "Hub",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Destination_Location__c"
+    }
+  ],
+  "developerName": "RMA Only for Hubs"
+}

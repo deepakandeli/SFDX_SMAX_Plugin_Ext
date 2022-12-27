@@ -1,0 +1,34 @@
+{
+  "name": "Packaging Labor Usage Lines Only_RTText",
+  "isStandard": false,
+  "developerName": "Packaging_Labor_Usage_Lines_Only_RTText",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Labor",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Labor",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Line_Type__c"
+    },
+    {
+      "value": "Usage/Consumption",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Usage/Consumption",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Packaging",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "Packaging",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Activity_Type__c"
+    }
+  ],
+  "advancedExpression": "1 and 2 and 3"
+}

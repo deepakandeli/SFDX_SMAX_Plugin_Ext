@@ -1,0 +1,64 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "NOTIFY_CUSTOMER_CARE;SERVICE_REQUEST;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk9MEAQ",
+      "objectLabel": "Service Request",
+      "objectAPIName": "SVMXC__Service_Request__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Service Request",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Request__c",
+      "elements": [
+        {
+          "type": "PICKLIST",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Status__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC0qAAH",
+          "column": 1
+        }
+      ]
+    },
+    "name": "SR - In Progress",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/192/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Notify Customer Care",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [],
+  "developerName": "Notify Customer Care"
+}

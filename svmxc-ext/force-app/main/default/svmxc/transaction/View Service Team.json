@@ -1,0 +1,146 @@
+{
+  "validationRules": [],
+  "transactionType": "VIEW RECORD",
+  "tagKeys": "VIEW_SERVICE_TEAM;TECHNICIANS;SERVICE_TEAM;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk0GEAQ",
+      "objectLabel": "Service Team",
+      "objectAPIName": "SVMXC__Service_Group__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Service Team",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Technicians",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Group__c",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBhYAAX",
+          "column": 1
+        },
+        {
+          "type": "BOOLEAN",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Active__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBhZAAX",
+          "column": 2
+        }
+      ]
+    },
+    "name": "View Service Team",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Technicians",
+        "elements": [
+          {
+            "type": "STRING",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Name",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBhaAAH",
+            "column": 1
+          },
+          {
+            "type": "STRING",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "Technician_Manager__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBhbAAH",
+            "column": 2
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Active__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBhcAAH",
+            "column": 3
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": true,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter17/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "View Service Team",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk0HEAQ",
+      "parentColumnAPIName": "SVMXC__Service_Group__c",
+      "objectLabel": "Technicians",
+      "objectAPIName": "SVMXC__Service_Group_Members__c",
+      "nodeAPIName": "SVMXC__Service_Group__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "View Service Team"
+}

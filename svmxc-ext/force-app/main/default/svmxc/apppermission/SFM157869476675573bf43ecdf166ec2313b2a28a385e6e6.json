@@ -1,0 +1,12 @@
+{
+  "name": "Create Quote",
+  "developerName": "SFM157869476675573bf43ecdf166ec2313b2a28a385e6e6",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": false,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Edit Service Plan Travel Policy",
+  "developerName": "SCON_ED_CLOG_TravelPolicy",
+  "description": "Edit Service Plan Travel Policy",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Plan__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

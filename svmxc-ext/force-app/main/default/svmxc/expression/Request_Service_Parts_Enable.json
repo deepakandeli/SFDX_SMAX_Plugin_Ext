@@ -1,0 +1,16 @@
+{
+  "name": "Request Service Parts Enable",
+  "isStandard": false,
+  "developerName": "Request_Service_Parts_Enable",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "true",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "true",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Parts_Required__c"
+    }
+  ]
+}

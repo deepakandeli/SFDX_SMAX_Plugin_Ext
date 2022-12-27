@@ -1,0 +1,37 @@
+{
+  "name": "Prod To IP",
+  "isStandard": false,
+  "developerName": "Prod_To_IP",
+  "targetObject": "SVMXC__Installed_Product__c",
+  "sourceObject": "Product2",
+  "objectMappingDetails": [
+    {
+      "value": "100",
+      "targetFieldAPIName": "Asset_UpTime__c",
+      "mappingType": "Value",
+      "displayValue": "100"
+    },
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Customer_Asset__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "false",
+      "targetFieldAPIName": "Update__c",
+      "mappingType": "Value",
+      "displayValue": "false"
+    }
+  ]
+}

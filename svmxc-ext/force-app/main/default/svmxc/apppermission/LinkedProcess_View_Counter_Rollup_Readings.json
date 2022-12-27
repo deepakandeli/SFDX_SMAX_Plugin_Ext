@@ -1,0 +1,13 @@
+{
+  "name": "View Counter Rollup Readings",
+  "developerName": "LinkedProcess_View_Counter_Rollup_Readings",
+  "description": "This SFM allows users to view the counter readings for a specific counter type that was recorded during the term of a given service contract.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Counter_Rollup__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "Tools Used",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "New Tools Used",
+  "isStandard": false,
+  "developerName": "New Tools Used"
+}

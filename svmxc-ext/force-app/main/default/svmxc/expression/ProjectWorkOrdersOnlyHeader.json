@@ -1,0 +1,24 @@
+{
+  "name": "ProjectWorkOrdersOnlyHeader",
+  "isStandard": false,
+  "developerName": "ProjectWorkOrdersOnlyHeader",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Project",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Project",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Project",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Project",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Type__c"
+    }
+  ]
+}

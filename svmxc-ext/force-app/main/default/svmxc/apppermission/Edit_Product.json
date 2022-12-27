@@ -1,0 +1,12 @@
+{
+  "name": "Edit Product",
+  "developerName": "Edit_Product",
+  "windowsEnabled": true,
+  "sourceObjectName": "Product2",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

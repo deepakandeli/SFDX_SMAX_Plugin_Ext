@@ -1,0 +1,13 @@
+{
+  "name": "View Site Survey",
+  "developerName": "View_Site_Survey",
+  "description": "This SFM page allows view of Site Survey object",
+  "windowsEnabled": true,
+  "sourceObjectName": "Site_Survey__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

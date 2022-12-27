@@ -1,0 +1,39 @@
+{
+  "targetObject": "SVMXC__RMA_Shipment_Line__c",
+  "sourceObject": "SVMXC__Service_Request__c",
+  "objectMappingDetails": [
+    {
+      "value": "Repair",
+      "targetFieldAPIName": "SVMXC__Disposition__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Good/Working",
+      "targetFieldAPIName": "SVMXC__Expected_Condition__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Expected_Quantity2__c",
+      "mappingType": "Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Serial_Number__c",
+      "sourceFieldAPIName": "SVMXC__Serial_Number__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "RMA",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "SR to RMA Line Map",
+  "isStandard": false,
+  "developerName": "SR to RMA Line Map"
+}

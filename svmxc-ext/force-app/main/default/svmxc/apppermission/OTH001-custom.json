@@ -1,0 +1,13 @@
+{
+  "name": "View IP Configuration",
+  "developerName": "OTH001-custom",
+  "description": "View Configuration in new window",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

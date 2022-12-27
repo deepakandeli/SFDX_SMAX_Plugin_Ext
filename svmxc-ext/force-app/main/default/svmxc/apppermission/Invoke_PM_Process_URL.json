@@ -1,0 +1,13 @@
+{
+  "name": "Invoke PM Process - URL",
+  "developerName": "Invoke_PM_Process_URL",
+  "description": "URL version instead of WebServices",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__PM_Plan__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

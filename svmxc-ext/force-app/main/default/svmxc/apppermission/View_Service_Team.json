@@ -1,0 +1,12 @@
+{
+  "name": "View Service Team",
+  "developerName": "View_Service_Team",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Group__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

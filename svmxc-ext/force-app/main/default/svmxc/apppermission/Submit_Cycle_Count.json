@@ -1,0 +1,13 @@
+{
+  "name": "Submit Cycle Count",
+  "developerName": "Submit_Cycle_Count",
+  "description": "SFM transaction that allows a user to update cycle count lines",
+  "windowsEnabled": true,
+  "sourceObjectName": "Cycle_Count__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

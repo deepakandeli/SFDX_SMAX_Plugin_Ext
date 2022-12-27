@@ -1,0 +1,26 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Approved",
+      "targetFieldAPIName": "Estimate_Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Order_Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Fixing_Done__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Set Estimate Status To Approved",
+  "isStandard": false,
+  "developerName": "Set Estimate Status To Approved"
+}

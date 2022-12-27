@@ -1,0 +1,13 @@
+{
+  "name": "Configure Start Date",
+  "developerName": "OTH028",
+  "description": "Configure Start Date",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Template__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

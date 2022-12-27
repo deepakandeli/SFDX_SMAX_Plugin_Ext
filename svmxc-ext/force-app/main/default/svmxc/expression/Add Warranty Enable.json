@@ -1,0 +1,14 @@
+{
+  "objectAPIName": "SVMXC__Installed_Product__c",
+  "name": "Add Warranty Enable",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "fieldType": "STRING",
+      "fieldAPIName": "SVMXC__Warranty__c"
+    }
+  ],
+  "developerName": "Add Warranty Enable"
+}

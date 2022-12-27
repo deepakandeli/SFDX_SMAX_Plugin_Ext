@@ -1,0 +1,46 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Cycle_Count_Actions",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Submit_Cycle_Count",
+      "processDeveloperName": "Submit_Cycle_Count",
+      "name": "Submit Cycle Count",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Status Equals New",
+      "expression": "Status Equals New",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "SFM transaction that allows a user to update cycle count lines",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Cycle_Count_Actions",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Complete_Cycle_Count",
+      "processDeveloperName": "Complete_Cycle_Count",
+      "name": "Complete Cycle Count",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Status Equals Submitted",
+      "expression": "Status Equals Submitted",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "SFM transaction that allows the user to complete the Cycle Count transaction",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "Cycle_Count__c",
+  "name": "Cycle Count Actions",
+  "isStandard": false,
+  "developerName": "Cycle_Count_Actions",
+  "active": true
+}

@@ -1,0 +1,106 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "MANAGE_SERVICE_REQUEST;SERVICE_REQUEST;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk2iEAA",
+      "objectLabel": "Service Request",
+      "objectAPIName": "SVMXC__Service_Request__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Service Request",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Request__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Account__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnpAAH",
+          "column": 1
+        },
+        {
+          "type": "STRING",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "CSLM_SVMX_Alert_Name__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnqAAH",
+          "column": 2
+        },
+        {
+          "type": "STRING",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "CSLM_SVMX_Alert_Type__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnrAAH",
+          "column": 1
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "CSLM_SVMX_Alert_Priority__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnsAAH",
+          "column": 2
+        }
+      ]
+    },
+    "name": "Manage SR",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/182/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Manage Service Request",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [],
+  "developerName": "Manage Service Request"
+}

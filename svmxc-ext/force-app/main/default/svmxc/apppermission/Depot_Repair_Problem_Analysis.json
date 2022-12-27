@@ -1,0 +1,12 @@
+{
+  "name": "Depot Repair : Problem Analysis",
+  "developerName": "Depot_Repair_Problem_Analysis",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

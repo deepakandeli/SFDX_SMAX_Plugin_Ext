@@ -1,0 +1,101 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "START_JOB;WORK_DETAIL;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": [
+      {
+        "value": "Onsite",
+        "sourceObject": "SVMXC__Service_Order__c",
+        "sourceField": "SVMXC__Dispatch_Response__c",
+        "referenceId": "a0G5g000006qjVMEAY",
+        "parameterType": "Value",
+        "action": "Set"
+      }
+    ]
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qjVLEAY",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Service_Order__c",
+      "referenceId": "a0G5g000006qjVMEAY",
+      "objectLabel": "Labor",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "mappingId": "Create_Labor_Details",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJBnYAAX",
+          "name": "Work Detail",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "PICKLIST",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Activity_Type__c"
+            },
+            {
+              "type": "DATETIME",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Start_Date_and_Time__c"
+            }
+          ],
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Order_Line__c"
+    },
+    "objectAPIName": "SVMXC__Service_Order_Line__c",
+    "name": "Create Labor Details",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring18/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Start Job DNU",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "Start_JobDNU",
+  "childProcessNodes": []
+}

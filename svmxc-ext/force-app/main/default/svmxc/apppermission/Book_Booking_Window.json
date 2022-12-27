@@ -1,0 +1,13 @@
+{
+  "name": "Book Booking Window",
+  "developerName": "Book_Booking_Window",
+  "description": "Book Booking Window",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

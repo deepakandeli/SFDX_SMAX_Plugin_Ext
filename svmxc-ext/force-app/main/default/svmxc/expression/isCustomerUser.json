@@ -1,0 +1,16 @@
+{
+  "name": "isCustomerUser",
+  "isStandard": false,
+  "developerName": "isCustomerUser",
+  "objectAPIName": "SVMXC__Service_Request__c",
+  "expressionDetails": [
+    {
+      "value": "1",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "1",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "isCustomerUser__c"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "CREATE_SERVICE_REQUEST_FROM_IP;CREATE_SERVICE_REQUEST_FROM_IP_DESC;**CUSTOMER_ACTION_REQUIRED:_REQUEST_DETAIL**;**ADDITIONAL_DETAILS**;**ASSET_DETAILS**;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qk7kEAA",
+      "objectAPIName": "SVMXC__Installed_Product__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Installed_Product__c",
+      "referenceId": "a0G5g000006qk7lEAA",
+      "objectLabel": "Service Request",
+      "objectAPIName": "SVMXC__Service_Request__c",
+      "mappingId": "IP_to_SR_Form_Fill_Map",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJC5ZAAX",
+          "name": "**Customer Action Required: Request Detail**",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "PICKLIST",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Is_this_an_equipment_related_request__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "Equipment_Location__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 3,
+              "row": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Symptom__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 4,
+              "row": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "Equipment_Status__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 5,
+              "row": 3,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Common_Occurence__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 6,
+              "row": 3,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "Recent_Events__c"
+            },
+            {
+              "type": "BOOLEAN",
+              "sequence": 7,
+              "row": 4,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Remote_Troubleshooting_Request__c"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "referenceId": "a0c5g00000FJC5aAAH",
+          "name": "**Additional Details**",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "STRING",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Subject__c"
+            },
+            {
+              "type": "TEXTAREA",
+              "sequence": 2,
+              "row": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Problem_Description__c"
+            }
+          ],
+          "columns": 1
+        },
+        {
+          "type": "Section",
+          "sequence": 3,
+          "referenceId": "a0c5g00000FJC5bAAH",
+          "name": "**Asset Details**",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "referenceTo": "SVMXC__Installed_Product__c",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "Installed Product Lookup Search",
+                "isStandard": false,
+                "lookupObject": "SVMXC__Installed_Product__c",
+                "lookupFilter": {
+                  "sourceObject": "SVMXC__Installed_Product__c",
+                  "expressionsList": [
+                    {
+                      "sourceFldDtaType": "STRING",
+                      "sourceField": "SVMXC__Serial_Lot_Number__c",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "STRING",
+                      "sourceField": "SVMXC__Serial_Lot_Number__c",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "SVMXC__Product__c",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "SVMXC__Product__c",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "DATE",
+                      "sourceField": "SVMXC__Date_Installed__c",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "SVMXC__Company__c",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 20,
+                "isDefault": false,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "Installed Product Lookup Search",
+              "formFillMappingName": "IP to SR Form Fill Map",
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Serial_Number__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "referenceTo": "Product2",
+              "referenceNameField": "Name",
+              "readOnly": true,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Product__c"
+            }
+          ],
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Request__c"
+    },
+    "objectAPIName": "SVMXC__Service_Request__c",
+    "name": "SR from IP Layout",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/182/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Create Service Request from IP",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "Create_Service_Request_from_IP",
+  "description": "SFM transaction that creates a new Service Request record from the Installed Product",
+  "childProcessNodes": []
+}

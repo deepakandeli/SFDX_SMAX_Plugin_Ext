@@ -1,0 +1,235 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "PART_SWAP_DEBRIEF;PART_SWAP_DEBRIEF_DESC;PARTS;WORK_ORDER;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjuFEAQ",
+      "objectLabel": "Work Order",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Work Order",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Parts",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Company__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBWIAA5",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Order_Status__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBWJAA5",
+          "column": 2
+        }
+      ]
+    },
+    "name": "WDL_Parts_Swap",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Parts",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWKAA5",
+            "column": 1
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Serial_Number__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWLAA5",
+            "column": 2
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Replaced_with_Installed_Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWMAA5",
+            "column": 3
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Swap_Now__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWNAA5",
+            "column": 4
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Include_Subcomponents__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWOAA5",
+            "column": 5
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Include_Warranty_Service_Contract__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWPAA5",
+            "column": 6
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__From_Location__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWQAA5",
+            "column": 7
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 8,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "DateTime_Swapped__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWRAA5",
+            "column": 8
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 9,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Status__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBWSAA5",
+            "column": 9
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter16/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Part Swap Debrief",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "perform a Part Swap from the Work Detail lines",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjuGEAQ",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Parts",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Part Swap Debrief"
+}

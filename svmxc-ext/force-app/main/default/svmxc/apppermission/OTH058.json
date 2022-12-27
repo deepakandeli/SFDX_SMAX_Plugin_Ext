@@ -1,0 +1,13 @@
+{
+  "name": "New Condition Based PM Plan from Account",
+  "developerName": "OTH058",
+  "description": "Custom Action to create new Condition Based PM Plan from Account",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

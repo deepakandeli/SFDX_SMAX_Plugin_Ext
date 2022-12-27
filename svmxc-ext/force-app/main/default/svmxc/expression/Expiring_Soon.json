@@ -1,0 +1,17 @@
+{
+  "name": "Expiring Soon",
+  "isStandard": false,
+  "developerName": "Expiring_Soon",
+  "objectAPIName": "SVMXC__Service_Group_Skills__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "true",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "true",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Expiring_Soon__c"
+    }
+  ]
+}

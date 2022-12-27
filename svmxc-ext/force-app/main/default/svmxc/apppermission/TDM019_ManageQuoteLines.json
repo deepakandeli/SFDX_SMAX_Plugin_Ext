@@ -1,0 +1,13 @@
+{
+  "name": "Manage Quote Lines",
+  "developerName": "TDM019_ManageQuoteLines",
+  "description": "This SFM transaction is used to create or edit lines in an existing Service Quote.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Quote__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

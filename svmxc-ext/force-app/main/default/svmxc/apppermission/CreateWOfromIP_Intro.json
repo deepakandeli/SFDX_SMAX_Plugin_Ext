@@ -1,0 +1,13 @@
+{
+  "name": "Create Work Order from Installed Product - Intro",
+  "developerName": "CreateWOfromIP_Intro",
+  "description": "This SFM transaction is used to create a new Work Order from an installed product record.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

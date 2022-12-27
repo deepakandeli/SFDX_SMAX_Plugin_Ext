@@ -1,0 +1,261 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk43EAA",
+      "objectLabel": "Timesheet Daily Summary",
+      "objectAPIName": "SVMXC__Timesheet_Day_Entry__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Timesheet Daily Summary",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Time Entry (Timesheet Day Entry)"
+        }
+      ],
+      "objectAPIName": "SVMXC__Timesheet_Day_Entry__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Timesheet__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBrzAAH",
+          "column": 1
+        },
+        {
+          "type": "STRING",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBs0AAH",
+          "column": 2
+        },
+        {
+          "type": "STRING",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Day_of_the_Week__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBs1AAH",
+          "column": 1
+        },
+        {
+          "type": "DATETIME",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "CreatedDate",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBs2AAH",
+          "column": 2
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Total_Hours__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBs3AAH",
+          "column": 2
+        }
+      ]
+    },
+    "name": "Time Entry Layout",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Time Entry (Timesheet Day Entry)",
+        "elements": [
+          {
+            "type": "TEXTAREA",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Comments__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBs4AAH",
+            "column": 1
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Start_Time__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBs5AAH",
+            "column": 2
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__End_Time__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBs6AAH",
+            "column": 3
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Duration__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBs7AAH",
+            "column": 4
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Account__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBs8AAH",
+            "column": 5
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Timesheet__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBs9AAH",
+            "column": 6
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Timesheet_Day__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBsAAAX",
+            "column": 7
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter18/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Create Timesheet Entries Custom",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [
+    {
+      "sourceObject": "SVMXC__Timesheet_Day_Entry__c",
+      "name": "SVMXSTD: Total Hours For Day",
+      "modeOfExecution": "Interactive",
+      "isStandard": true,
+      "expressionDetails": [
+        {
+          "value": "$F.SUMOF($D.Time_Entry__Timesheet_Day_Entry_, 'SVMXC__Duration__c')",
+          "sourceField": "SVMXC__Total_Hours__c",
+          "processConfig": "[{\"objectLabel\":\"Timesheet Daily Summary\",\"sequence\":0,\"aliasName\":\"Timesheet_Daily_Summary\"},{\"objectLabel\":\"Time Entry (Timesheet Day Entry)\",\"sequence\":1,\"aliasName\":\"Time_Entry__Timesheet_Day_Entry_\"}]",
+          "actionType": "Set Value"
+        }
+      ],
+      "description": "Computes the sum of hours logged by the technician"
+    }
+  ],
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk44EAA",
+      "parentColumnAPIName": "SVMXC__Timesheet_Day__c",
+      "objectLabel": "Time Entry (Timesheet Day Entry)",
+      "objectAPIName": "SVMXC__Timesheet_Entry__c",
+      "nodeAPIName": "SVMXC__Timesheet_Day_Entry__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Create Timesheet Entries Custom"
+}

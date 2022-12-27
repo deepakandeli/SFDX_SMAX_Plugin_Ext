@@ -1,0 +1,13 @@
+{
+  "name": "Installed Product Actions",
+  "developerName": "Installed Product Action Customer",
+  "description": "SFW used in the Customer Community",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

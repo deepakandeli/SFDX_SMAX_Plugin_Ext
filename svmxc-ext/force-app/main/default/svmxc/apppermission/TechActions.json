@@ -1,0 +1,12 @@
+{
+  "name": "Technician Actions",
+  "developerName": "TechActions",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Group_Members__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

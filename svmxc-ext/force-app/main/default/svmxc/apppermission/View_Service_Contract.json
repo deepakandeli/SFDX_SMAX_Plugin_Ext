@@ -1,0 +1,12 @@
+{
+  "name": "View Service Contract",
+  "developerName": "View_Service_Contract",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

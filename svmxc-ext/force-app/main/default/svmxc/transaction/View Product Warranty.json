@@ -1,0 +1,148 @@
+{
+  "validationRules": [],
+  "transactionType": "VIEW RECORD",
+  "tagKeys": "VIEW_PRODUCT_WARRANTY;PRODUCT_WARRANTY;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk0oEAA",
+      "objectLabel": "Product Warranty",
+      "objectAPIName": "SVMXC__Warranty__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": true
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Product Warranty",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Warranty__c",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnRAAX",
+          "column": 1
+        },
+        {
+          "type": "PERCENT",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Expenses_Covered__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnSAAX",
+          "column": 2
+        },
+        {
+          "type": "DATE",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Start_Date__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnTAAX",
+          "column": 1
+        },
+        {
+          "type": "PERCENT",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Material_Covered__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnUAAX",
+          "column": 2
+        },
+        {
+          "type": "DATE",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__End_Date__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnVAAX",
+          "column": 1
+        },
+        {
+          "type": "PERCENT",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Time_Covered__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnWAAX",
+          "column": 2
+        },
+        {
+          "type": "PERCENT",
+          "sequence": 8,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Travel_Covered__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBnXAAX",
+          "column": 2
+        }
+      ]
+    },
+    "name": "View Product Warranty",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": true,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter18/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "View Product Warranty",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [],
+  "developerName": "View Product Warranty"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Picked Shipment Order",
+  "isStandard": false,
+  "developerName": "Picked_Shipment_Order",
+  "objectAPIName": "SVMXC__RMA_Shipment_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Shipment",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Shipment",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Picked",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Picked",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Status__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

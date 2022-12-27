@@ -1,0 +1,24 @@
+{
+  "name": "PST_0003",
+  "isStandard": false,
+  "developerName": "PST_0003",
+  "targetObject": "SVMXC__Stock_Transfer_Line__c",
+  "sourceObject": "SVMXC__Product_Serial__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_ID__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_ID__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_Number__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_Number__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

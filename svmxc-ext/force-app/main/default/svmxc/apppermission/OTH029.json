@@ -1,0 +1,13 @@
+{
+  "name": "Print RMA",
+  "developerName": "OTH029",
+  "description": "Print RMA",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

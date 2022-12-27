@@ -1,0 +1,13 @@
+{
+  "name": "Create Site Survey from Work Order",
+  "developerName": "Create_Site_Survey_from_Work_Order",
+  "description": "This transaction is to create a site survey/inspection from the work order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

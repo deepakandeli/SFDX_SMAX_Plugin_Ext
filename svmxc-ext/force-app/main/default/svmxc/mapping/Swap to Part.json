@@ -1,0 +1,81 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "Product_Swap__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Serial_Number__c",
+      "sourceFieldAPIName": "New_Installed_Product__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Include_Subcomponents__c",
+      "sourceFieldAPIName": "Include_Subcomponents__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Is_Billable__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Parts",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "Product_Part_Name__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Swap_Now__c",
+      "sourceFieldAPIName": "Swap_Now__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Requested_Location__c",
+      "sourceFieldAPIName": "Install_Location__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Use_Price_From_Pricebook__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Swap to Part",
+  "isStandard": false,
+  "developerName": "Swap to Part"
+}

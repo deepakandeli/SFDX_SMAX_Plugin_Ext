@@ -1,0 +1,12 @@
+{
+  "name": "View Timesheet and Entries",
+  "developerName": "View_Timesheet_and_Entries",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Timesheet__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

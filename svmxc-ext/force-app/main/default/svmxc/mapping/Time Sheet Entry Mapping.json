@@ -1,0 +1,20 @@
+{
+  "targetObject": "SVMXC__Timesheet_Entry__c",
+  "objectMappingDetails": [
+    {
+      "value": "Current Record Header",
+      "targetFieldAPIName": "SVMXC__Timesheet__c",
+      "mappingType": "Constant",
+      "literalValue": "SVMXC__Timesheet__c"
+    },
+    {
+      "value": "Current Record Header",
+      "targetFieldAPIName": "SVMXC__Timesheet_Day__c",
+      "mappingType": "Constant",
+      "literalValue": "Name"
+    }
+  ],
+  "name": "Time Sheet Entry Mapping",
+  "isStandard": false,
+  "developerName": "Time Sheet Entry Mapping"
+}

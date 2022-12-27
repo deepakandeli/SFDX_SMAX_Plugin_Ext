@@ -1,0 +1,13 @@
+{
+  "name": "Account Management",
+  "developerName": "Account_Management",
+  "description": "18.3\nWizard Steps: Create Location, Create Installed Product, Create Service Contract, Create PM Plan, Connected Asset Dashboard",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

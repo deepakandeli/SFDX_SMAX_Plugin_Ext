@@ -1,0 +1,13 @@
+{
+  "name": "Self Dispatch",
+  "developerName": "WO_EVT_001_custom",
+  "description": "This custom SFM transaction is used to create new Salesforce Event record from Work Order.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

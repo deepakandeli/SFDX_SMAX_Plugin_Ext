@@ -1,0 +1,16 @@
+{
+  "name": "Is Condition Based Template",
+  "isStandard": false,
+  "developerName": "Is Condition Based Template",
+  "objectAPIName": "SVMXC__PM_Plan_Template__c",
+  "expressionDetails": [
+    {
+      "value": "Condition Based",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Condition Based",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__SM_Schedule_Type__c"
+    }
+  ]
+}

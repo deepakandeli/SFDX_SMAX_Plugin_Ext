@@ -1,0 +1,244 @@
+<?xml version="1.0" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>
+      <api>SMAX_PS_MyVanStock</api>
+      <label>My Van Stock</label>
+    </members>
+    <members>
+      <api>SMAX_PS_Parts_Request_Search</api>
+      <label>Parts Requests Search</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Installed_Products_Search</api>
+      <label>Installed Products Search</label>
+    </members>
+    <name>sfmsearch</name>
+  </types>
+  <types>
+    <members>
+      <api>SMAX PS Edit Service Pricebook</api>
+      <label>Edit Service Pricebook</label>
+    </members>
+    <members>
+      <api>SMAX_PS_Follow_Up_Actions</api>
+      <label>Follow-Up Actions</label>
+    </members>
+    <members>
+      <api>SMAX_PS_Parts_Request_Actions</api>
+      <label>Parts Request Actions</label>
+    </members>
+    <members>
+      <api>SMAX_PS_Service_Quote_Actions</api>
+      <label>Service Quote Actions</label>
+    </members>
+    <members>
+      <api>SVMX_PS_During_Work_Non_Lead_FSE</api>
+      <label>During Work</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_Installed_Products</api>
+      <label>Edit Installed Products</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Location_Actions</api>
+      <label>Customer Location Actions</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Post_Work</api>
+      <label>Post Work</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Pre_Work</api>
+      <label>Pre Work</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Product_Stock_Actions</api>
+      <label>Product Stock Actions</label>
+    </members>
+    <name>sfmwizard</name>
+  </types>
+  <types>
+    <members>
+      <api>DKSH</api>
+      <label>DKSH</label>
+    </members>
+    <name>profiles</name>
+  </types>
+  <types>
+    <members>
+      <api>Output Document - Service Contract - SVMX-PS</api>
+      <label>Print Contract</label>
+    </members>
+    <members>
+      <api>SFM1580474526303ad8d5a695628f641c6b0ee9091bcfd18</api>
+      <label>Edit - WO Debrief Non Lead - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SFM162682994439130eabcb7651e5101f6a67c5e430a687d</api>
+      <label>View - Product Stock - SMAX PS</label>
+    </members>
+    <members>
+      <api>SFM163159515441210410d8b5330d8ec0f3e02fd36642cbe</api>
+      <label>Create - Installed Product (Competitor) from Location - SMAX PS</label>
+    </members>
+    <members>
+      <api>SFM163592933452353f4a4b24af3434b5956cc5dd6476d79</api>
+      <label>SMAX PS Edit Service Pricebook</label>
+    </members>
+    <members>
+      <api>SFM16366068168430aedfa9511e4b2723f5d2ed8ab61c76b</api>
+      <label>SMAX_PS_Create Preventive Maintenance Plan From PM Template</label>
+    </members>
+    <members>
+      <api>SFM16369535827075c23250326af8627db1321039655a962</api>
+      <label>SMAX_PS_Edit Service Quote and Lines</label>
+    </members>
+    <members>
+      <api>SFM16369554675548a2f5ac3450c6b78a59aef076c413c19</api>
+      <label>Create - Parts Request from Location - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SFM163698021369250a44a607c1433b323668f530ae0a235</api>
+      <label>SMAX_PS_Edit - Cancel Parts Request</label>
+    </members>
+    <members>
+      <api>SFM163714489005332d4a893ea3f399b233f18503e915df2</api>
+      <label>SMAX_PS_Edit - WO - Service Quote Approval Status Customer Accepted</label>
+    </members>
+    <members>
+      <api>SFM1637149532969e5e193323fd3b8b3ad498a88ce101cbb</api>
+      <label>SMAX_PS_Edit - WO - Service Quote Approval Status_Customer Rejected</label>
+    </members>
+    <members>
+      <api>SFM16373061856868b73a8e7008dddedb5a272e9bd084cdd</api>
+      <label>SMAX_PS_Edit - WO Debrief Non Lead</label>
+    </members>
+    <members>
+      <api>SFM16373221818332af9d4469ebf2884f5893b823841566e</api>
+      <label>SMAX_PS_Create-Parts Request</label>
+    </members>
+    <members>
+      <api>SFM16375616182906bf060e913b63d1a15e4a95d611aca0b</api>
+      <label>SMAX_PS_Edit-Bin Number</label>
+    </members>
+    <members>
+      <api>SFM163764545741200f790de8eb78c5b3c5680834aeb5684</api>
+      <label>SMAX_PS_Parts_Request_Approval</label>
+    </members>
+    <members>
+      <api>SFM16377331868833c5abd84ff241c3d632056351430886e</api>
+      <label>SMAX_PS_View-Parts Request</label>
+    </members>
+    <members>
+      <api>SFM16377338314665122ff07d0caf92a7f976d23265ac1dc</api>
+      <label>SMAX_PS_Service_Quote_Approval</label>
+    </members>
+    <members>
+      <api>SFM1637908690238a8dca559d7f7602c4231c1522c2186f9</api>
+      <label>SMAX_PS_Create-Work Order from Service Quote</label>
+    </members>
+    <members>
+      <api>SFM16379166040514a5f51a2ddc3d18046116e9618e1926e</api>
+      <label>SMAX_PS_Create-Service Quote from Service Quote</label>
+    </members>
+    <members>
+      <api>SFM16382442490050b4f5566991b97d703dda5b450627543</api>
+      <label>SMAX_PS_Create Linked Work Order</label>
+    </members>
+    <members>
+      <api>SFM16382487776015853bb6a52a6bd19e261f42d59859a9b</api>
+      <label>SMAX_PS_Create-Service Quote from Location</label>
+    </members>
+    <members>
+      <api>SFM1638250029456eab0a3d9a1bcae3aafade1e0d922c9c5</api>
+      <label>SMAX_PS_Create-Service Quote from Work Order</label>
+    </members>
+    <members>
+      <api>SFM1638523987379120c57f2809545a53bf678c4268c09fe</api>
+      <label>SMAX_PS_Create-Parts Request from Approved Service Quote</label>
+    </members>
+    <members>
+      <api>SFM1638534932253d5ce4ad5a2a6438d938c212d84127666</api>
+      <label>SMAX_PS_View-Installed Product-Competitor</label>
+    </members>
+    <members>
+      <api>SFM1639549116160e8a0680e4d06c31dac07fb22faecd2cb</api>
+      <label>SMAX_PS_View_ServiceQuoteWO</label>
+    </members>
+    <members>
+      <api>SFM16397209234191b1c727c0aaad17cabb74a793c754883</api>
+      <label>SMAX_PS_Edit-Work Details from Work Order</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Create_Installed_Product</api>
+      <label>Create - Installed Product - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Create_IP_From_IP</api>
+      <label>Create - Installed Product from Installed Product - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Create_Parts_Request_From_WO</api>
+      <label>Create - Parts Request from Work Order - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Create_PM_FromPMOffering</api>
+      <label>Create - Preventive Maintenance Plan From PM Offerings - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Create_Product_Wty_from_Wty_Terms</api>
+      <label>Create - Product Warranty from Warranty Terms - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Create_Work_Detail_Lines_Estimate</api>
+      <label>Create - Work Detail Lines from Work Order (Estimates) - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_Coverage</api>
+      <label>Edit - Coverage - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_Installed_Product_Details</api>
+      <label>Edit - Installed Product Details - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_Installed_Product_Key_Dates</api>
+      <label>Edit - Installed Product Key Dates - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_IP_Customer_Info</api>
+      <label>Edit - Installed Product Customer Info - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_Parts_Request_Lines</api>
+      <label>Edit - Add/Remove Parts Request Lines - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_Product_Warranty</api>
+      <label>Edit - Product Warranty - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_WO_Order_Information</api>
+      <label>Edit - WO Order Information - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_Edit_WO_Rejected_By_Technician_V2</api>
+      <label>Edit - WO Rejected By Technician - SVMX-PS V2</label>
+    </members>
+    <members>
+      <api>SVMX_PS_View_Installed_Product</api>
+      <label>View - Installed Product - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_View_Product</api>
+      <label>View - Product - SVMX-PS</label>
+    </members>
+    <members>
+      <api>SVMX_PS_View_Work_Order</api>
+      <label>View - Work Order - SVMX-PS</label>
+    </members>
+    <name>sfmtargetmanager</name>
+  </types>
+  <version>51.0</version>
+</Package>

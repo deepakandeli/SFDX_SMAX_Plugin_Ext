@@ -1,0 +1,33 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Clean_Start_Time__c",
+      "mappingType": "Constant"
+    },
+    {
+      "value": "In Process",
+      "targetFieldAPIName": "SVMXC__Order_Status__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "false",
+      "targetFieldAPIName": "Reset_Depot_Process__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Task_Start_Date__c",
+      "mappingType": "Constant"
+    },
+    {
+      "value": "Start",
+      "targetFieldAPIName": "Task_Status__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Start Cleaning Map",
+  "isStandard": false,
+  "developerName": "Start Cleaning Map"
+}

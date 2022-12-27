@@ -1,0 +1,14 @@
+{
+  "name": "Contacts",
+  "isStandard": false,
+  "developerName": "Contacts",
+  "objectAPIName": "Contact",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "ne",
+      "fieldType": "ID",
+      "fieldAPIName": "Id"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Edit Timesheet",
+  "developerName": "ED_Timesheet",
+  "description": "Edit Process for Mobile Timesheet View",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Timesheet__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

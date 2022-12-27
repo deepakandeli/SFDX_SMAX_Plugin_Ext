@@ -1,0 +1,58 @@
+{
+  "name": "CreateCaseFromAcct",
+  "isStandard": false,
+  "developerName": "CreateCaseFromAcct",
+  "targetObject": "Case",
+  "sourceObject": "Account",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "AccountId",
+      "sourceFieldAPIName": "ID",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Problem",
+      "targetFieldAPIName": "Type",
+      "mappingType": "Value",
+      "displayValue": "Problem"
+    },
+    {
+      "targetFieldAPIName": "SuppliedCompany",
+      "sourceFieldAPIName": "Name",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Latitude__c",
+      "sourceFieldAPIName": "SVMXC__Latitude__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Longitude__c",
+      "sourceFieldAPIName": "SVMXC__Longitude__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Perform_Auto_Entitlement__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    },
+    {
+      "targetFieldAPIName": "Preferred_Technician__c",
+      "sourceFieldAPIName": "SVMXC__Preferred_Technician__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Medium",
+      "targetFieldAPIName": "Priority",
+      "mappingType": "Value",
+      "displayValue": "Medium"
+    },
+    {
+      "value": "New",
+      "targetFieldAPIName": "Status",
+      "mappingType": "Value",
+      "displayValue": "New"
+    }
+  ]
+}

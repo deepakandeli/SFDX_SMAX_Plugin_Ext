@@ -1,0 +1,14 @@
+{
+  "name": "Products",
+  "isStandard": false,
+  "developerName": "Products",
+  "objectAPIName": "Product2",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "ID",
+      "fieldAPIName": "Id"
+    }
+  ]
+}

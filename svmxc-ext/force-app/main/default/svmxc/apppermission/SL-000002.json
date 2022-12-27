@@ -1,0 +1,13 @@
+{
+  "name": "Stock Lookup",
+  "developerName": "SL-000002",
+  "description": "Stock Lookup (Must be configured for each individual demo org)",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Parts_Request_Line__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

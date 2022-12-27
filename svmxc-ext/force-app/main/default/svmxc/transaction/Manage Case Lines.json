@@ -1,0 +1,338 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "MANAGE_CASE_LINES;SFM_CASE_LINE_DEMO_DESC;PAG039-CUSTOM_PAGEHELP;CASE_LINES;CASE;CASE_DETAILS;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjuhEAA",
+      "objectLabel": "Case",
+      "objectAPIName": "Case",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Case",
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "name": "Case Details",
+          "columns": 1
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Case Lines"
+        }
+      ],
+      "objectAPIName": "Case",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "CaseNumber",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR2AAP",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Status",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR3AAP",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "AccountId",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR4AAP",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Reason",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR5AAP",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Site__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR6AAP",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Type",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR7AAP",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 7,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Return_To_Location__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR8AAP",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 8,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Return_Type__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBR9AAP",
+          "column": 2
+        },
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Subject",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBRAAA5",
+          "column": 1
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 2,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Description",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBRBAA5",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Add/Edit Case Lines",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Case Lines",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": true,
+            "name": "SVMXC__Installed_Product__c",
+            "lookupMatchingField": "SVMXC__Company__c",
+            "lookupContextSource": "PARENT_RECORD",
+            "lookupContext": "AccountId",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBRCAA5",
+            "column": 1
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBRDAA5",
+            "column": 2
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Serial_Number_List__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBREAA5",
+            "column": 3
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBRFAA5",
+            "column": 4
+          },
+          {
+            "type": "STRING",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Summary__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBRGAA5",
+            "column": 5
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBRHAA5",
+            "column": 6
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Status__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBRIAA5",
+            "column": 7
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 8,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Entitlement_Status__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBRJAA5",
+            "column": 8
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Summer12/en_us/svmx_redirector.htm?uid=",
+    "dependencyExist": true
+  },
+  "name": "Manage Case Lines",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "This transaction is used to add / modfiy case lines for RMAs",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjuiEAA",
+      "parentColumnAPIName": "SVMXC__Case__c",
+      "objectLabel": "Case Lines",
+      "objectAPIName": "SVMXC__Case_Line__c",
+      "nodeAPIName": "Case",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Manage Case Lines"
+}

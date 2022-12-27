@@ -1,0 +1,15 @@
+{
+  "objectAPIName": "Event",
+  "name": "All Events",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "ne",
+      "fieldType": "STRING",
+      "fieldAPIName": "Work_Order_Number__c"
+    }
+  ],
+  "advancedExpression": "1",
+  "developerName": "All Events"
+}

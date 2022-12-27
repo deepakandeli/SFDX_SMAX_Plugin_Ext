@@ -1,0 +1,25 @@
+{
+  "objectAPIName": "SVMXC__Timesheet__c",
+  "name": "Timesheet submit for approval",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Submitted",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Submitted",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c"
+    },
+    {
+      "value": "Closed",
+      "sequence": 2,
+      "operator": "ne",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2",
+  "developerName": "Timesheet submit for approval"
+}

@@ -1,0 +1,1183 @@
+{
+  "transactionType": "CHECKLIST",
+  "tagKeys": "MEDICAL_IMAGING_EQUIPMENT_MAINTENANCE_CHECKLIST;BEGIN_CHECKLIST;GENERAL_RADIOGRAPHY_SYSTEM_-_GENERATOR;GENERAL_RADIOGRAPHY_SYSTEM_-_TABLE_AND_BUCKY;GENERAL_RADIOGRAPHY__SYSTEM_-_TUBE_SUSPENSION;FINALIZE_CHECKLIST;TYPE_OF_MEDICAL_SYSTEM;GENERATOR;TABLE_AND_BUCKY;TUBE_SUSPENSION;REFERENCE_ORIGINAL_EQUIPMENT_MANUFACTURER_(EOM)_SERVICE_MANUAL_FOR_PREVENTATIVE_MAINTENANCE_STEPS_(REQUIRED);COMPLETED;CHECK_THE_GENERAL_CONDITION_OF_THE_UNIT_(GENERATOR);COMPLETED;OPEN_AND_CLEAN_THE_INTERIOR_OF_THE_CONTROL_CONSOLE;COMPLETED;CHECK_THE_CIRCUIT_BOARDS_FOR_OBVIOUS_SIGNS_OF_DAMAGE;COMPLETED;CHECK_THE_INTEGRITY_OF_ALL_PLUGS_AND_SOCKETS;COMPLETED;REASSEMBLE_THE_COVER;_CHECK_THE_CONTROL_PANEL_OPERATION;COMPLETED;VACUUM_THE_POWER_CABINETS_OF_DUST_AND_DIRT;COMPLETED;CHECK_THE_INTEGRITY_OF_OF_THE_POWER_RELAYS_AND_CONTACTORS;COMPLETED;INSPECT_ANY_WIRE_ROPE_FOR_BREAKS_AND_FRAYS;COMPLETED;PERFORM_A_COMPLETE_OPERATIONAL_CHECK_AFTER_REASSEMBLING;COMPLETED;CHECK_THE_GENERAL_CONDITION_OF_THE_UNIT_(TABLE_AND_BUCKY);COMPLETED;REMOVE_ACCESS_COVER_AND_CLEAN_THE_INTERIOR;COMPLETED;CHECK_ALL_LOCKS_FOR_PROPER_FUNCTION/OPERATION_(TABLE_AND_BUCKY);COMPLETED;CHECK_MECHANICAL_CONDITION_OF_OF_THE_BUCKY_AND_TRAY;COMPLETED;CLEAN_THE_UNIT_OF_ANY_DIRT_AND_DUST;COMPLETED;PERFORM_COMPLETE_OPERATIONAL_CHECK_AFTER_REASSEMBLE;COMPLETED;CHECK_GENERAL_CONDITION_OF_THE_UNIT_(TUBE_SUSPENSION);COMPLETED;CHECK_THE_TRANSVERSE_AND_HORIZONTAL_MOVEMENT;COMPLETED;CHECK_FOR_EXCESSIVE_BEARING_NOISE_OR_VIBRATION;COMPLETED;CHECK_VERTICAL_MOVEMENT_AND_ANGULATIONS;COMPLETED;INSURE_THE_CABLES_ALLOW_FOR_MAXIMUM_TUBE_MOVEMENT;COMPLETED;INSPECT_THE_TUBE_SUPPORT_CABLE_FOR_BREAKS_AND_FRAYS;COMPLETED;CHECK_ALL_LOCKS_FOR_PROPER_FUNCTION/OPERATION_(TUBE_SUSPENSION);COMPLETED;CLEAN_THE_EXTERIOR_OF_EXCESS_DIRT_AND_DUST;COMPLETED;BASED_ON_YOUR_ASSESSMENT,_WHAT_ACTIONS_OR_CORRECTIVE_ACTIONS_SHOULD_THE_ORGANIZATION_TAKE?;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qkANEAY",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Service_Order__c",
+      "referenceId": "a0G5g000006qkAOEAY",
+      "qualificationCriteriaId": "Ultrasound_Products",
+      "objectLabel": "Checklist",
+      "objectAPIName": "SVMXC__Checklist__c",
+      "mappingId": "Map_WO_TO_CHKLST",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": false,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJAc1AAH",
+          "name": "Begin Checklist",
+          "hideSectionTitle": false,
+          "exitCriteria": [
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 2,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 3,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": true,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Picklist",
+                "tagsList": [
+                  "#Med Imaging",
+                  "#Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Generator",
+                    "Table and Bucky",
+                    "Tube Suspension"
+                  ],
+                  "name": "Medical Equipment Type"
+                },
+                "questionExtId": "QB000114",
+                "question": "Type of Medical System",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "referenceId": "a0c5g00000FJAc2AAH",
+          "name": "General Radiography System - Generator",
+          "hideSectionTitle": false,
+          "exitCriteria": [
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 2,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 3,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000067",
+                "question": "Reference Original Equipment Manufacturer (EOM) Service Manual for preventative maintenance Steps (required)",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000068",
+                "question": "Check the general condition of the unit (Generator)",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000069",
+                "question": "Open and clean the interior of the control console",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 4,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000070",
+                "question": "Check the circuit boards for obvious signs of damage",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 5,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000071",
+                "question": "Check the integrity of all plugs and sockets",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 6,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000072",
+                "question": "Reassemble the cover; check the control panel operation",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 7,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000073",
+                "question": "Vacuum the power cabinets of dust and dirt",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 8,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000074",
+                "question": "Check the integrity of of the power relays and contactors",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 9,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000075",
+                "question": "Inspect any wire rope for breaks and frays",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 10,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000076",
+                "question": "Perform a complete operational check after reassembling",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "sequence": 3,
+          "referenceId": "a0c5g00000FJAc3AAH",
+          "name": "General Radiography System - Table and Bucky",
+          "hideSectionTitle": false,
+          "exitCriteria": [
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 2,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 3,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000086",
+                "question": "Check the general condition of the unit (Table and Bucky)",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000077",
+                "question": "Remove access cover and clean the interior",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000078",
+                "question": "Check all locks for proper function/operation (Table and Bucky)",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 4,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000079",
+                "question": "Check mechanical condition of of the bucky and tray",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 5,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000080",
+                "question": "Clean the unit of any dirt and dust",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 6,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000087",
+                "question": "Perform complete operational check after reassemble",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "sequence": 4,
+          "referenceId": "a0c5g00000FJAc4AAH",
+          "name": "General Radiography  System - Tube Suspension",
+          "hideSectionTitle": false,
+          "exitCriteria": [
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 2,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 3,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Generator",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Generator",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Table and Bucky",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Table and Bucky",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            },
+            {
+              "isStandard": false,
+              "questionName": "Type of Medical System",
+              "objectAPIName": "SVMXC__Checklist__c",
+              "expressionDetails": [
+                {
+                  "value": "Tube Suspension",
+                  "sequence": 1,
+                  "operator": "eq",
+                  "operandType": "Value",
+                  "operand": "Tube Suspension",
+                  "fieldType": "PICKLIST",
+                  "fieldAPIName": "QB000114",
+                  "actionType": "Set Value"
+                }
+              ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000088",
+                "question": "Check general condition of the unit (Tube Suspension)",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000081",
+                "question": "Check the transverse and horizontal movement",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000082",
+                "question": "Check for excessive bearing noise or vibration",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 4,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000083",
+                "question": "Check vertical movement and angulations",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 5,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000084",
+                "question": "Insure the cables allow for maximum tube movement",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 6,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000085",
+                "question": "Inspect the tube support cable for breaks and frays",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 7,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000089",
+                "question": "Check all locks for proper function/operation (Tube Suspension)",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 8,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Checkbox",
+                "tagsList": [
+                  "Med Imaging",
+                  "Med Imaging"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Completed"
+                  ],
+                  "name": "Completed? Response Set"
+                },
+                "questionExtId": "QB000090",
+                "question": "Clean the exterior of excess dirt and dust",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "sequence": 5,
+          "referenceId": "a0c5g00000FJAc5AAH",
+          "name": "Finalize Checklist",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Text",
+                "showInSmartDoc": false,
+                "questionExtId": "QB000098",
+                "question": "Based on your assessment, what actions or corrective actions should the organization take?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            }
+          ]
+        }
+      ],
+      "objectAPIName": "SVMXC__Checklist__c"
+    },
+    "objectAPIName": "SVMXC__Checklist__c",
+    "name": "Medical Imaging Equipment Maintenance Checklist CHK",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "https://help.servicemax.com/articles/servicemax-20-1-consolidated-help/how-to-use-sfm-delivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Medical Imaging Equipment Maintenance Checklist",
+  "isStandard": false,
+  "enableTargetedSync": false,
+  "developerName": "Medical_Imaging_Equipment_Maintenance_Checklist",
+  "childProcessNodes": []
+}

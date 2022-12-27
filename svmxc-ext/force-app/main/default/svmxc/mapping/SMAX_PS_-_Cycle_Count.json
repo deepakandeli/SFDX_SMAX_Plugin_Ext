@@ -1,0 +1,31 @@
+{
+  "name": "SMAX PS - Cycle Count",
+  "isStandard": false,
+  "developerName": "SMAX_PS_-_Cycle_Count",
+  "targetObject": "Cycle_Count__c",
+  "sourceObject": "SVMXC__Site__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Location__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "New",
+      "targetFieldAPIName": "Status__c",
+      "mappingType": "Value",
+      "displayValue": "New"
+    },
+    {
+      "value": "A",
+      "targetFieldAPIName": "Type__c",
+      "mappingType": "Value",
+      "displayValue": "A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Create Follow-Up Work Order",
+  "developerName": "Create_Follow_Up_Work_Order",
+  "description": "This SFM is used to create a new follow up Work Order from an existing Work Order record",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

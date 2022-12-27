@@ -1,0 +1,12 @@
+{
+  "name": "Create Timesheet Entries",
+  "developerName": "LinkedProcess_Timesheet_Entries",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Timesheet_Day_Entry__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

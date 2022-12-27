@@ -1,0 +1,25 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Depot Location - Canada Mexico",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Canada Depot",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Canada Depot",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Site__c"
+    },
+    {
+      "value": "Mexico Depot",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Mexico Depot",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Site__c"
+    }
+  ],
+  "advancedExpression": "1 OR 2",
+  "developerName": "Depot Location - Canada Mexico"
+}

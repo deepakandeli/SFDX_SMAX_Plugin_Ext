@@ -1,0 +1,16 @@
+{
+  "name": "All_SVMX_Events",
+  "isStandard": false,
+  "developerName": "All_SVMX_Events",
+  "objectAPIName": "SVMXC__SVMX_Event__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Service_Order__c",
+      "actionType": "Set Value"
+    }
+  ],
+  "advancedExpression": "1"
+}

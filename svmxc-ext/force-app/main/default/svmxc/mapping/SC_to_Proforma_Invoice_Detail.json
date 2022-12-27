@@ -1,0 +1,14 @@
+{
+  "name": "SC_to_Proforma_Invoice_Detail",
+  "isStandard": false,
+  "developerName": "SC_to_Proforma_Invoice_Detail",
+  "targetObject": "SVMXC__Proforma_Invoice_Detail__c",
+  "sourceObject": "SVMXC__Service_Contract__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Service_Contract__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    }
+  ]
+}

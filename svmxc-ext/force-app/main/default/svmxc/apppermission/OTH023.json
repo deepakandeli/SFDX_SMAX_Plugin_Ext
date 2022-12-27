@@ -1,0 +1,13 @@
+{
+  "name": "Team Validate Address",
+  "developerName": "OTH023",
+  "description": "Team Validate Address",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Group__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

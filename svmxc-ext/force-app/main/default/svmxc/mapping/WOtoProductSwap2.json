@@ -1,0 +1,116 @@
+{
+  "name": "WOtoProductSwap2",
+  "isStandard": false,
+  "developerName": "WOtoProductSwap2",
+  "targetObject": "Product_Swap__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Account__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Date_Time_Swapped__c",
+      "mappingType": "Constant",
+      "displayValue": "Now",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "tomorrow",
+      "targetFieldAPIName": "Expected_Receipt_Date__c",
+      "mappingType": "Constant",
+      "displayValue": "Tomorrow",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "today",
+      "targetFieldAPIName": "Expected_Ship_Date__c",
+      "mappingType": "Constant",
+      "displayValue": "Today",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Include_RMA__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Include_Work_Detail_Line__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Install_Location__c",
+      "sourceFieldAPIName": "SVMXC__Site__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "a095g000004QyNDAA0",
+      "targetFieldAPIName": "Previous_Installed_Product__c",
+      "mappingType": "Value",
+      "displayValue": "a095g000004QyNDAA0",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "01t5g0000092GZaAAM",
+      "targetFieldAPIName": "Product_Part_Name__c",
+      "mappingType": "Value",
+      "displayValue": "01t5g0000092GZaAAM",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "0015g000010KYseAAG",
+      "targetFieldAPIName": "Shipping_Courier__c",
+      "mappingType": "Value",
+      "displayValue": "0015g000010KYseAAG",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "Status__c",
+      "mappingType": "Value",
+      "displayValue": "Open",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "a0S5g000009gCmrEAE",
+      "targetFieldAPIName": "Stock_Location__c",
+      "mappingType": "Value",
+      "displayValue": "a0S5g000009gCmrEAE",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "false",
+      "targetFieldAPIName": "Swap_Now__c",
+      "mappingType": "Value",
+      "displayValue": "false",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Top_Level_Installed_Product__c",
+      "sourceFieldAPIName": "SVMXC__Component__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Work_Order__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ]
+}

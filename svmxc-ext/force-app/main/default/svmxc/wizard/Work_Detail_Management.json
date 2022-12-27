@@ -1,0 +1,71 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Work_Detail_Management",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Manage_Work_Details_demo",
+      "processDeveloperName": "Manage_Work_Details_demo",
+      "name": "Manage Work Details",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Work_Detail_Management",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "CSOFWDL_0001",
+      "processDeveloperName": "CSOFWDL_0001",
+      "name": "Create Shipment Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create Shipment Order from Work Detail Line",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Work_Detail_Management",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "SL-000001",
+      "processDeveloperName": "SL-000001",
+      "name": "Stock Lookup",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Stock Lookup",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Work_Detail_Management"
+    },
+    {
+      "wizardDeveloperName": "Work_Detail_Management",
+      "accessConfigurationProfile": "Demo Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Work_Detail_Management",
+      "accessConfigurationProfile": "Default Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order_Line__c",
+  "name": "Work Detail Management",
+  "isStandard": false,
+  "developerName": "Work_Detail_Management",
+  "description": "Spring 16\nWizard Steps: Manage Work Detail, Create Shipment Order, Stock Lookup",
+  "active": true
+}

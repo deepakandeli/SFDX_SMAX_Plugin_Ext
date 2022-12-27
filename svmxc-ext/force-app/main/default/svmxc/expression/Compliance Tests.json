@@ -1,0 +1,16 @@
+{
+  "objectAPIName": "Inspection_Test__c",
+  "name": "Compliance Tests",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Compliance",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Compliance",
+      "fieldType": "STRING",
+      "fieldAPIName": "Category__c"
+    }
+  ],
+  "developerName": "Compliance Tests"
+}

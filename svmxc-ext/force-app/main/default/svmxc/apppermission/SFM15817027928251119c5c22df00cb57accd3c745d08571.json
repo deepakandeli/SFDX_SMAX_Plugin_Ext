@@ -1,0 +1,12 @@
+{
+  "name": "View Included Service",
+  "developerName": "SFM15817027928251119c5c22df00cb57accd3c745d08571",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract_Services__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

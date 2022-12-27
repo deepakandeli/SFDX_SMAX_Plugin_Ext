@@ -1,0 +1,13 @@
+{
+  "name": "Add/Edit Products Serviced",
+  "developerName": "LinkedSFM_WO_001",
+  "description": "This transaction is used to add or modify products serviced on a work order. This is used when Multiple products at a site are touched on a single visit.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

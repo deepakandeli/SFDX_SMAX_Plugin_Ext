@@ -1,0 +1,32 @@
+{
+  "name": "WO Download to Mobile & Logged In Tech User",
+  "isStandard": false,
+  "developerName": "WO_Download_To_Mobile",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Download_to_Mobile__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Yes",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Yes",
+      "fieldType": "STRING",
+      "fieldAPIName": "Logged_In_User_Same_as_Assigned__c",
+      "actionType": "Set Value"
+    },
+    {
+      "sequence": 3,
+      "operator": "isnull",
+      "fieldType": "STRING",
+      "fieldAPIName": "Logged_In_User_Same_as_Assigned__c",
+      "actionType": "Set Value"
+    }
+  ],
+  "advancedExpression": "1 AND (2 OR 3)"
+}

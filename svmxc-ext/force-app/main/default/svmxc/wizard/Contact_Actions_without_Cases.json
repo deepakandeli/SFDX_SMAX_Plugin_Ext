@@ -1,0 +1,33 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Contact_Actions_without_Cases",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "CreateWOfromContact",
+      "processDeveloperName": "CreateWOfromContact",
+      "name": "Create Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create Work Order",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Contact_Actions_without_Cases",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "Contact",
+  "name": "Contact Actions",
+  "isStandard": false,
+  "developerName": "Contact_Actions_without_Cases",
+  "description": "Winter 15 SP\nWizard Steps: Create Work Order",
+  "active": true
+}

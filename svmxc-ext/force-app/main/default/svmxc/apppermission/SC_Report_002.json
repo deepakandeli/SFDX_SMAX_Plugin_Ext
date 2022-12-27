@@ -1,0 +1,13 @@
+{
+  "name": "Service Contract Quote Report",
+  "developerName": "SC_Report_002",
+  "description": "Service Contract Quote Report",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

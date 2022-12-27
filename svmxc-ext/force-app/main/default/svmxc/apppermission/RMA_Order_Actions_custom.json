@@ -1,0 +1,13 @@
+{
+  "name": "RMA Actions",
+  "developerName": "RMA_Order_Actions_custom",
+  "description": "Summer 15\nWizard Steps: Ship Replacement, Create Depot Repair Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

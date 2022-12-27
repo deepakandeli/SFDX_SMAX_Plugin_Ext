@@ -1,0 +1,17 @@
+{
+  "name": "Compliance Tests",
+  "isStandard": false,
+  "developerName": "Compliance_Tests",
+  "objectAPIName": "Inspection_Test__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Compliance",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Compliance",
+      "fieldType": "STRING",
+      "fieldAPIName": "Category__c"
+    }
+  ]
+}

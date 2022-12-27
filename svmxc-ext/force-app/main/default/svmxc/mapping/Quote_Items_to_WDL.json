@@ -1,0 +1,49 @@
+{
+  "name": "Quote Items to WDL",
+  "isStandard": false,
+  "developerName": "Quote_Items_to_WDL",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__Quote_Line__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Actual_Price2__c",
+      "sourceFieldAPIName": "SVMXC__Line_Price2__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "sourceFieldAPIName": "SVMXC__Quantity2__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "sourceFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_ID__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_ID__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_Number__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_Number__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Select__c",
+      "sourceFieldAPIName": "SVMXC__Select__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Work_Description__c",
+      "sourceFieldAPIName": "SVMXC__Line_Description__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

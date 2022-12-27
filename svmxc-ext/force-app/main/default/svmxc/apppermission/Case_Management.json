@@ -1,0 +1,13 @@
+{
+  "name": "Case Management",
+  "developerName": "Case_Management",
+  "description": "Spring 14\nWizards Steps: Log Initial Response, Add/Edit Time, Booking Window",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

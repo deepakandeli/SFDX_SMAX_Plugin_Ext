@@ -1,0 +1,12 @@
+{
+  "name": "Project Actions",
+  "developerName": "Project_Actions",
+  "windowsEnabled": true,
+  "sourceObjectName": "Project__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

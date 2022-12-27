@@ -1,0 +1,13 @@
+{
+  "name": "SFA - Accept Work Order",
+  "developerName": "SFM1583870659957f6e8c259f4c550f17f2138365a2f3d71",
+  "description": "Dispatch Response to Accept Assignment",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

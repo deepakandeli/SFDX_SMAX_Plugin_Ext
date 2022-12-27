@@ -1,0 +1,69 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "Project_Detail__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Cost__c",
+      "sourceFieldAPIName": "Cost_per_hour__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Straight",
+      "targetFieldAPIName": "SVMXC__Cost_Category__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Estimated_Quantity2__c",
+      "sourceFieldAPIName": "Qty_Role__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Is_Billable__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Estimate",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Use_Price_From_Pricebook__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Labor",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Activity_Type__c",
+      "sourceFieldAPIName": "Role__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Project Labor to WO",
+  "isStandard": false,
+  "developerName": "Project Labor to WO"
+}

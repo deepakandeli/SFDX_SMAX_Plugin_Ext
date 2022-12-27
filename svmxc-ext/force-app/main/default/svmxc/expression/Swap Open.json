@@ -1,0 +1,16 @@
+{
+  "objectAPIName": "Product_Swap__c",
+  "name": "Swap Open",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Open",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Open",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Status__c"
+    }
+  ],
+  "developerName": "Swap Open"
+}

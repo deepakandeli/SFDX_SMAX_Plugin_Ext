@@ -1,0 +1,17 @@
+{
+  "name": "Technicians",
+  "isStandard": false,
+  "developerName": "Technicians",
+  "objectAPIName": "SVMXC__Service_Group_Members__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Tool",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Tool",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Role__c"
+    }
+  ]
+}

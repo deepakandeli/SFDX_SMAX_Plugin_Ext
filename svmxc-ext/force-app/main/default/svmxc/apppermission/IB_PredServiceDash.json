@@ -1,0 +1,12 @@
+{
+  "name": "Predictive Service Dashboard",
+  "developerName": "IB_PredServiceDash",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

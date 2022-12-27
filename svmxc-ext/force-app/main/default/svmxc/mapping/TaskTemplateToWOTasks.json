@@ -1,0 +1,24 @@
+{
+  "name": "TaskTemplateToWOTasks",
+  "isStandard": false,
+  "developerName": "TaskTemplateToWOTasks",
+  "targetObject": "Work_Order_Task__c",
+  "sourceObject": "SVMXC__Task_Template__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Task_Description__c",
+      "sourceFieldAPIName": "SVMXC__Description__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Tech_Description__c",
+      "sourceFieldAPIName": "SVMXC__Task_Title__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Open and Connected Cases",
+  "isStandard": false,
+  "developerName": "Open and Connected Cases",
+  "objectAPIName": "Case",
+  "expressionDetails": [
+    {
+      "value": "Closed",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Status"
+    },
+    {
+      "value": "IoT",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "IoT",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Origin"
+    }
+  ]
+}

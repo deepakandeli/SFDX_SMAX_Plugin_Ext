@@ -1,0 +1,12 @@
+{
+  "name": "Depot Repair : Inspection",
+  "developerName": "Depot_Repair_Inspection",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

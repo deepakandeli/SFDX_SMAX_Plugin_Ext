@@ -1,0 +1,49 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Not Project WO",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Project",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Project",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Service",
+      "sequence": 2,
+      "operator": "ne",
+      "operand": "Service",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Purpose_of_Visit__c"
+    },
+    {
+      "value": "Lite,Mobile 1st",
+      "sequence": 3,
+      "operator": "ne",
+      "operand": "Lite,Mobile 1st",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Page_Style__c"
+    },
+    {
+      "value": "Alexanderson",
+      "sequence": 4,
+      "operator": "notcontain",
+      "operand": "Alexanderson",
+      "fieldType": "STRING",
+      "fieldAPIName": "Account_Name__c"
+    },
+    {
+      "value": "0",
+      "sequence": 5,
+      "operator": "eq",
+      "operand": "0",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "isPartnerUser__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2 AND 3 AND 4 AND 5",
+  "developerName": "Not Project WO"
+}

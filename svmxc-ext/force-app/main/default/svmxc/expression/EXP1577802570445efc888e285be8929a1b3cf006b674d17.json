@@ -1,0 +1,19 @@
+{
+  "name": "Part Recdtype",
+  "isStandard": false,
+  "developerName": "EXP1577802570445efc888e285be8929a1b3cf006b674d17",
+  "objectAPIName": "Project_Detail__c",
+  "expressionDetails": [
+    {
+      "value": "Parts Forecast",
+      "targetField": "RecordTypeId",
+      "sequence": 1,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Parts Forecast",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId",
+      "actionType": "Set Value"
+    }
+  ]
+}

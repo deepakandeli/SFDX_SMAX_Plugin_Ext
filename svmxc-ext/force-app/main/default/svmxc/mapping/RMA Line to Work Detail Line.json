@@ -1,0 +1,50 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__RMA_Shipment_Line__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Date_Received__c",
+      "sourceFieldAPIName": "SVMXC__Actual_Receipt_Date__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Serial_Number__c",
+      "sourceFieldAPIName": "SVMXC__Serial_Number__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "sourceFieldAPIName": "SVMXC__Expected_Quantity2__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Parts",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Products Serviced",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Work_Description__c",
+      "sourceFieldAPIName": "SVMXC__Disposition_Instructions__c",
+      "mappingType": "Field Value"
+    }
+  ],
+  "name": "RMA Line to Work Detail Line",
+  "isStandard": false,
+  "description": "Map for creating depot repair work detail lines from RMA's after receipt.",
+  "developerName": "RMA Line to Work Detail Line"
+}

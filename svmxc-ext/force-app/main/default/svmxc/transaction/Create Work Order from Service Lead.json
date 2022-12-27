@@ -1,0 +1,422 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "CREATE_WORK_ORDER_FROM_SERVICE_LEAD;PAG031-CUSTOM_PAGEHELP;ESTIMATES;WORK_ORDER;PROBLEM_SUMMARY;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qjtHEAQ",
+      "objectAPIName": "Service_Lead__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "Service_Lead__c",
+      "referenceId": "a0G5g000006qjtJEAQ",
+      "objectLabel": "Work Order",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Work Order",
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "name": "Problem Summary",
+          "columns": 1
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Estimates",
+          "columns": 1
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Company__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8kAAH",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Priority__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8lAAH",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": true,
+          "name": "SVMXC__Contact__c",
+          "lookupConfiguration": {
+            "name": "SVMXSTD: Contact Lookup",
+            "lookupObject": "Contact",
+            "lookupFilter": {
+              "sourceObject": "Contact",
+              "expressionsList": [
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceFldDtaType": "REFERENCE",
+                  "sourceField": "AccountId",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "MobilePhone",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Email",
+                  "sequence": 4,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Email",
+                  "sequence": 4,
+                  "actionType": "Set Value"
+                }
+              ],
+              "defaultOn": false,
+              "allowOverride": false
+            },
+            "lkpRecords": 10,
+            "isStandard": true,
+            "isDefault": true,
+            "description": "Pre-configured standard lookup for Contact object",
+            "defaultColumn": "Name",
+            "advancedFilters": []
+          },
+          "lookupConfigName": "SVMXSTD: Contact Lookup",
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8mAAH",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Order_Type__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8nAAH",
+          "column": 2
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Billing_Type__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8oAAH",
+          "column": 2
+        },
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Subject2__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8pAAH",
+          "column": 1
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 2,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Problem_Description__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8qAAH",
+          "column": 1
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 3,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Special_Instructions__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJB8rAAH",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Create Work Order and Estimates",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Estimates",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "SVMXSTD: Product Lookup",
+              "lookupObject": "Product2",
+              "lookupFilter": {
+                "sourceObject": "Product2",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 10,
+              "isStandard": true,
+              "isDefault": true,
+              "description": "Pre-configured standard lookup for Product object",
+              "defaultColumn": "Name",
+              "advancedFilters": [
+                {
+                  "sourceObject": "SVMXC__Product_Stock__c",
+                  "expressionsList": [
+                    {
+                      "value": "Available",
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 1,
+                      "parameterType": "Value",
+                      "operator": "eq",
+                      "operand": "Available",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "0",
+                      "sourceField": "SVMXC__Available_Qty__c",
+                      "sequence": 2,
+                      "parameterType": "Value",
+                      "operator": "gt",
+                      "operand": "0",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "User Trunk",
+                      "sourceField": "SVMXC__Location__c",
+                      "sequence": 3,
+                      "parameterType": "Constant",
+                      "operator": "eq",
+                      "operand": "User Trunk",
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": true
+                }
+              ]
+            },
+            "lookupConfigName": "SVMXSTD: Product Lookup",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJB8sAAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJB8tAAH",
+            "column": 2
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJB8uAAH",
+            "column": 3
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter11/en_us/svmx_redirector.htm?uid=APP19_10",
+    "dependencyExist": true
+  },
+  "name": "Create Work Order from Service Lead",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [
+    {
+      "type": "SOURCECHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjtIEAQ",
+      "objectAPIName": "Service_Lead__c",
+      "nodeAPIName": "Service_Lead__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "Service_Lead__c",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjtKEAQ",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Work Detail (Work Order)",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Create Work Order from Service Lead"
+}

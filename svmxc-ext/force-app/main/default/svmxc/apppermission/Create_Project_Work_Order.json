@@ -1,0 +1,12 @@
+{
+  "name": "Create Project Work Order",
+  "developerName": "Create_Project_Work_Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

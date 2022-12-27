@@ -1,0 +1,13 @@
+{
+  "name": "SFA - Reject Work Order",
+  "developerName": "SFM1583871513153fd420339c4daeaca36078b86ae29774d",
+  "description": "Dispatch Response to Accept Assignment",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IP Download to Mobile",
+  "isStandard": false,
+  "developerName": "IP_DownloadToMobile",
+  "objectAPIName": "SVMXC__Installed_Product__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Download_to_Mobile__c"
+    }
+  ],
+  "advancedExpression": "1"
+}

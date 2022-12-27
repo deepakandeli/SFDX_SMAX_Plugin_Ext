@@ -1,0 +1,58 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Service_Request_Actions_Customer",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "SR_Stark_Investigation_New",
+      "processDeveloperName": "SR_Stark_Investigation_New",
+      "name": "Investigate",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Service_Request_Actions_Customer",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Notify_Customer_Care",
+      "processDeveloperName": "Notify_Customer_Care",
+      "name": "Notify Level-3 Support",
+      "modeOfExecution": "Background",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Service_Request_Actions_Customer",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_RMA_from_Service_Request",
+      "processDeveloperName": "Create_RMA_from_Service_Request",
+      "name": "Create Outbound Shipment",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "SFM transaction that creates a RMA from a Service Request record",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Request__c",
+  "name": "Service Request Actions",
+  "isStandard": false,
+  "expressionDeveloperName": "isCustomerUser",
+  "expression": "isCustomerUser",
+  "developerName": "Service_Request_Actions_Customer",
+  "active": true
+}

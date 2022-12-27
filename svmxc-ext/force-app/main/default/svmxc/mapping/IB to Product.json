@@ -1,0 +1,15 @@
+{
+  "targetObject": "Project_Detail__c",
+  "sourceObject": "SVMXC__Installed_Product__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Product_Part_Name__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "IB to Product",
+  "isStandard": false,
+  "developerName": "IB to Product"
+}

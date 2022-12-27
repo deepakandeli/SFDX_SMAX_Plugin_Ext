@@ -1,0 +1,20 @@
+{
+  "name": "Stop Packaging Enable",
+  "isStandard": false,
+  "developerName": "Stop Packaging Enable",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Packaging_Start_Time__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Packaging_End_Time__c"
+    }
+  ]
+}

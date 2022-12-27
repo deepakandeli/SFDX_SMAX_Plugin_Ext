@@ -1,0 +1,12 @@
+{
+  "name": "View Work Order Tasks",
+  "developerName": "View_Work_Order_Tasks",
+  "windowsEnabled": true,
+  "sourceObjectName": "Work_Order_Task__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

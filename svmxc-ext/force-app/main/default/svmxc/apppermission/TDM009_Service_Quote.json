@@ -1,0 +1,13 @@
+{
+  "name": "Create Service Quote from Work Order",
+  "developerName": "TDM009_Service_Quote",
+  "description": "This SFM transaction displays quotable estimate lines from a work order, allows the user to add, modify or delete lines and creates a service quote for the selected items.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

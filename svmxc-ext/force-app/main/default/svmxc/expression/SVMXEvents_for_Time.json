@@ -1,0 +1,15 @@
+{
+  "name": "SVMXEvents for Time",
+  "isStandard": false,
+  "developerName": "SVMXEvents_for_Time",
+  "objectAPIName": "SVMXC__SVMX_Event__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Technician__c"
+    }
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "CREATE_PM_PLAN_FROM_PM_TEMPLATE;CREATE_PMPLAN_FROM_PM_TEMPLATE_DESC;SCHEDULE_DEFINITION;COVERAGES;SCHEDULE;PREVENTIVE_MAINTENANCE_PLAN;ADDITIONAL_INFO;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qjnqEAA",
+      "objectAPIName": "SVMXC__PM_Plan_Template__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__PM_Plan_Template__c",
+      "referenceId": "a0G5g000006qjqfEAA",
+      "objectLabel": "Preventive Maintenance Plan",
+      "objectAPIName": "SVMXC__PM_Plan__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Preventive Maintenance Plan",
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "name": "Additional Info",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Schedule Definition",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 2,
+          "name": "Coverages",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 3,
+          "name": "Schedule",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__PM_Plan__c",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFOAA5",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Service_Contract__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFPAA5",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__PM_Plan_Template__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFQAA5",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Account__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFRAA5",
+          "column": 2
+        },
+        {
+          "type": "DATE",
+          "sequence": 5,
+          "row": 3,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Start_Date__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFSAA5",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Location__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFTAA5",
+          "column": 2
+        },
+        {
+          "type": "DATE",
+          "sequence": 7,
+          "row": 4,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__End_Date__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFUAA5",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 8,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Status__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFVAA5",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 9,
+          "row": 5,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__SM_Task_Template2__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAcAAAX",
+          "column": 1
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Description__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBFWAA5",
+          "column": 1
+        }
+      ]
+    },
+    "name": "ManagePMPlan",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Schedule Definition",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Order_Purpose__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFXAA5",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Schedule_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFYAA5",
+            "column": 2
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Frequency__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFZAA5",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Frequency_Unit__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFaAAP",
+            "column": 4
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Recurring__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFbAAP",
+            "column": 5
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product_Name__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFcAAP",
+            "column": 1
+          },
+          {
+            "type": "DATE",
+            "sequence": 1,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Last_Run_Date__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFdAAP",
+            "column": 1
+          },
+          {
+            "type": "DATE",
+            "sequence": 2,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Scheduled_On__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFeAAP",
+            "column": 2
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__PM_Schedule_Definition__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "PMscheduleDef",
+              "lookupObject": "SVMXC__PM_Schedule_Definition__c",
+              "lookupFilter": {
+                "sourceObject": "SVMXC__PM_Schedule_Definition__c",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "CreatedById",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "SVMXC__PM_Plan__c",
+                    "sequence": 2
+                  },
+                  {
+                    "sourceField": "SVMXC__Frequency__c",
+                    "sequence": 2
+                  },
+                  {
+                    "sourceField": "SVMXC__Frequency_Unit__c",
+                    "sequence": 3
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "SVMXC__PM_Plan__c",
+                    "sequence": 4
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 40,
+              "isStandard": false,
+              "isDefault": false,
+              "defaultColumn": "Name",
+              "advancedFilters": []
+            },
+            "lookupConfigName": "PMscheduleDef",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFfAAP",
+            "column": 3
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "name": "Coverages",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Order_Purpose__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFXAA5",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Schedule_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFYAA5",
+            "column": 2
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Frequency__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFZAA5",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Frequency_Unit__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFaAAP",
+            "column": 4
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Recurring__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFbAAP",
+            "column": 5
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product_Name__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFcAAP",
+            "column": 1
+          },
+          {
+            "type": "DATE",
+            "sequence": 1,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Last_Run_Date__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFdAAP",
+            "column": 1
+          },
+          {
+            "type": "DATE",
+            "sequence": 2,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Scheduled_On__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFeAAP",
+            "column": 2
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__PM_Schedule_Definition__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "PMscheduleDef",
+              "lookupObject": "SVMXC__PM_Schedule_Definition__c",
+              "lookupFilter": {
+                "sourceObject": "SVMXC__PM_Schedule_Definition__c",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "CreatedById",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "SVMXC__PM_Plan__c",
+                    "sequence": 2
+                  },
+                  {
+                    "sourceField": "SVMXC__Frequency__c",
+                    "sequence": 2
+                  },
+                  {
+                    "sourceField": "SVMXC__Frequency_Unit__c",
+                    "sequence": 3
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "SVMXC__PM_Plan__c",
+                    "sequence": 4
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 40,
+              "isStandard": false,
+              "isDefault": false,
+              "defaultColumn": "Name",
+              "advancedFilters": []
+            },
+            "lookupConfigName": "PMscheduleDef",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFfAAP",
+            "column": 3
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "name": "Schedule",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Order_Purpose__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFXAA5",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Schedule_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFYAA5",
+            "column": 2
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Frequency__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFZAA5",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Frequency_Unit__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFaAAP",
+            "column": 4
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Recurring__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFbAAP",
+            "column": 5
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product_Name__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFcAAP",
+            "column": 1
+          },
+          {
+            "type": "DATE",
+            "sequence": 1,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Last_Run_Date__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFdAAP",
+            "column": 1
+          },
+          {
+            "type": "DATE",
+            "sequence": 2,
+            "row": 0,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Scheduled_On__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFeAAP",
+            "column": 2
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__PM_Schedule_Definition__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "PMscheduleDef",
+              "lookupObject": "SVMXC__PM_Schedule_Definition__c",
+              "lookupFilter": {
+                "sourceObject": "SVMXC__PM_Schedule_Definition__c",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "CreatedById",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "SVMXC__PM_Plan__c",
+                    "sequence": 2
+                  },
+                  {
+                    "sourceField": "SVMXC__Frequency__c",
+                    "sequence": 2
+                  },
+                  {
+                    "sourceField": "SVMXC__Frequency_Unit__c",
+                    "sequence": 3
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "SVMXC__PM_Plan__c",
+                    "sequence": 4
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 40,
+              "isStandard": false,
+              "isDefault": false,
+              "defaultColumn": "Name",
+              "advancedFilters": []
+            },
+            "lookupConfigName": "PMscheduleDef",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBFfAAP",
+            "column": 3
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring13/en_us/svmx_redirector.htm?uid=",
+    "dependencyExist": true
+  },
+  "name": "Create PM Plan from PM Template",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "custom PM Plan from Template",
+  "childProcessNodes": [
+    {
+      "type": "SOURCECHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjnrEAA",
+      "parentColumnAPIName": "SVMXC__PM_Plan_Template__c",
+      "objectAPIName": "SVMXC__PM_Schedule_Template__c",
+      "nodeAPIName": "SVMXC__PM_Plan_Template__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "SOURCECHILD",
+      "sequence": 2,
+      "referenceId": "a0G5g000006qjnsEAA",
+      "parentColumnAPIName": "SVMXC__PM_Plan_Template__c",
+      "objectAPIName": "SVMXC__PM_Applicable_Product__c",
+      "nodeAPIName": "SVMXC__PM_Plan_Template__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "SOURCECHILD",
+      "sequence": 3,
+      "referenceId": "a0G5g000006qjntEAA",
+      "objectAPIName": "SVMXC__PM_Plan_Template__c",
+      "nodeAPIName": "SVMXC__PM_Plan_Template__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "SVMXC__PM_Schedule_Template__c",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjqgEAA",
+      "parentColumnAPIName": "SVMXC__PM_Plan__c",
+      "objectLabel": "PM Schedule Definition (PM Plan)",
+      "objectAPIName": "SVMXC__PM_Schedule_Definition__c",
+      "nodeAPIName": "SVMXC__PM_Plan__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "SVMXC__PM_Applicable_Product__c",
+      "sequence": 2,
+      "referenceId": "a0G5g000006qjqhEAA",
+      "parentColumnAPIName": "SVMXC__PM_Plan__c",
+      "objectLabel": "Preventive Maintenance Coverage (Preventive Maintenance Plan)",
+      "objectAPIName": "SVMXC__PM_Coverage__c",
+      "nodeAPIName": "SVMXC__PM_Plan__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "SVMXC__PM_Plan_Template__c",
+      "sequence": 3,
+      "referenceId": "a0G5g000006qjqiEAA",
+      "parentColumnAPIName": "SVMXC__PM_Plan__c",
+      "objectLabel": "PM Schedule (PM Plan)",
+      "objectAPIName": "SVMXC__PM_Schedule__c",
+      "nodeAPIName": "SVMXC__PM_Plan__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Create PM Plan from PM Template"
+}

@@ -1,0 +1,40 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Dependency_Management_SFW",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_Work_Order_Dependency",
+      "processDeveloperName": "Create_Work_Order_Dependency",
+      "name": "Create Work Order Dependency",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Dependency_Management_SFW",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Manage_Work_Order_Dependency",
+      "processDeveloperName": "Manage_Work_Order_Dependency",
+      "name": "Manage Work Order Dependency",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Dependency_Management__c",
+  "name": "Dependency Management SFW",
+  "isStandard": false,
+  "developerName": "Dependency_Management_SFW",
+  "active": true
+}

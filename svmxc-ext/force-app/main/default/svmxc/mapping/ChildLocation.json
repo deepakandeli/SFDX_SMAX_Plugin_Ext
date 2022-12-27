@@ -1,0 +1,179 @@
+{
+  "name": "ChildLocation",
+  "isStandard": false,
+  "developerName": "ChildLocation",
+  "targetObject": "SVMXC__Site__c",
+  "sourceObject": "SVMXC__Site__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Access_Hours__c",
+      "sourceFieldAPIName": "Access_Hours__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Preferred_Business_Hours__c",
+      "sourceFieldAPIName": "SVMXC__Preferred_Business_Hours__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Account__c",
+      "sourceFieldAPIName": "SVMXC__Account__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Account_Name__c",
+      "sourceFieldAPIName": "Account_Name__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__City__c",
+      "sourceFieldAPIName": "SVMXC__City__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Costed_at_value__c",
+      "sourceFieldAPIName": "SVMXC__Costed_at_value__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Country__c",
+      "sourceFieldAPIName": "SVMXC__Country__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "DemoDataKey__c",
+      "sourceFieldAPIName": "DemoDataKey__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Email__c",
+      "sourceFieldAPIName": "SVMXC__Email__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Inventory_Account__c",
+      "sourceFieldAPIName": "SVMXC__Inventory_Account__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__IsDefault_Delivery__c",
+      "sourceFieldAPIName": "SVMXC__IsDefault_Delivery__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__IsDelivery_Location__c",
+      "sourceFieldAPIName": "SVMXC__IsDelivery_Location__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__IsGood_Stock__c",
+      "sourceFieldAPIName": "SVMXC__IsGood_Stock__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__IsPartnerRecord__c",
+      "sourceFieldAPIName": "SVMXC__IsPartnerRecord__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__IsReceiving_Location__c",
+      "sourceFieldAPIName": "SVMXC__IsReceiving_Location__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__IsRepair_Location__c",
+      "sourceFieldAPIName": "SVMXC__IsRepair_Location__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__IsStaging_Location__c",
+      "sourceFieldAPIName": "SVMXC__IsStaging_Location__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Latitude__c",
+      "sourceFieldAPIName": "SVMXC__Latitude__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Name",
+      "sourceFieldAPIName": "Name",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Location_Type__c",
+      "sourceFieldAPIName": "SVMXC__Location_Type__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Longitude__c",
+      "sourceFieldAPIName": "SVMXC__Longitude__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Parent__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Partner_Account__c",
+      "sourceFieldAPIName": "SVMXC__Partner_Account__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Partner_Contact__c",
+      "sourceFieldAPIName": "SVMXC__Partner_Contact__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "RecordTypeId",
+      "sourceFieldAPIName": "RecordTypeId",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Engineer__c",
+      "sourceFieldAPIName": "SVMXC__Service_Engineer__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Site_Fax__c",
+      "sourceFieldAPIName": "SVMXC__Site_Fax__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Site_Phone__c",
+      "sourceFieldAPIName": "SVMXC__Site_Phone__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__State__c",
+      "sourceFieldAPIName": "SVMXC__State__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Stocking_Location__c",
+      "sourceFieldAPIName": "SVMXC__Stocking_Location__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Street__c",
+      "sourceFieldAPIName": "SVMXC__Street__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Web_site__c",
+      "sourceFieldAPIName": "SVMXC__Web_site__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Zip__c",
+      "sourceFieldAPIName": "SVMXC__Zip__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

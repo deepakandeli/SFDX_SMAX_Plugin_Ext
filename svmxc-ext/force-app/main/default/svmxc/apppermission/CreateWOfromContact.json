@@ -1,0 +1,12 @@
+{
+  "name": "Create Work Order From Contact",
+  "developerName": "CreateWOfromContact",
+  "windowsEnabled": true,
+  "sourceObjectName": "Contact",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

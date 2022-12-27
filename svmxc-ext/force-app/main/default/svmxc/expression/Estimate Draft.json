@@ -1,0 +1,16 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Estimate Draft",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Draft",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Draft",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Estimate_Status__c"
+    }
+  ],
+  "developerName": "Estimate Draft"
+}

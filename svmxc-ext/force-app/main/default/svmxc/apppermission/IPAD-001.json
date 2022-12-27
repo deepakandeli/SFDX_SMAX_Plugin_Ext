@@ -1,0 +1,13 @@
+{
+  "name": "Create New Contact (for an existing account)",
+  "developerName": "IPAD-001",
+  "description": "This SFM transaction is used to create new Contact record for an existing account.",
+  "windowsEnabled": true,
+  "sourceObjectName": "Contact",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

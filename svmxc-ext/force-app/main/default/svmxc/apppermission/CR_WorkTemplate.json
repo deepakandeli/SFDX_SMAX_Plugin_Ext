@@ -1,0 +1,13 @@
+{
+  "name": "Create Work Template",
+  "developerName": "CR_WorkTemplate",
+  "description": "Create Work Template",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Task_Template__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

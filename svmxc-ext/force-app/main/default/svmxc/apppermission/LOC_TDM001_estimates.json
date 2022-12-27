@@ -1,0 +1,13 @@
+{
+  "name": "Create Work Order from Location (with estimates)",
+  "developerName": "LOC_TDM001_estimates",
+  "description": "This custom SFM transaction enables a new work order to be initiated from a Location.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,126 @@
+{
+  "validationRules": [],
+  "transactionType": "VIEW RECORD",
+  "tagKeys": "VIEW_EVENT;MANAGEEVENT_PAGEHELP;EVENT_TIMES;DESCRIPTION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qju6EAA",
+      "objectLabel": "Event",
+      "objectAPIName": "Event",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Event Times",
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "name": "Description",
+          "columns": 1
+        }
+      ],
+      "objectAPIName": "Event",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "Work_Order__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBUuAAP",
+          "column": 1
+        },
+        {
+          "type": "DATETIME",
+          "sequence": 2,
+          "row": 1,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "StartDateTime",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBUvAAP",
+          "column": 2
+        },
+        {
+          "type": "STRING",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Subject",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBUwAAP",
+          "column": 1
+        },
+        {
+          "type": "DATETIME",
+          "sequence": 4,
+          "row": 2,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "EndDateTime",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBUxAAP",
+          "column": 2
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Description",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBUyAAP",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Manage Event",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": true,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring15/en_us/svmx_redirector.htm?uid=SFM01_16",
+    "dependencyExist": true
+  },
+  "name": "View Event",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [],
+  "developerName": "View Event"
+}

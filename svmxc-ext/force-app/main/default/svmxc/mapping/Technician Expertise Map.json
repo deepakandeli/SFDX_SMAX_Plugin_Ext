@@ -1,0 +1,16 @@
+{
+  "targetObject": "SVMXC__Service_Group_Members__c",
+  "objectMappingDetails": [
+    {
+      "value": "Current Record Header",
+      "targetFieldAPIName": "SVMXC__Service_Group__c",
+      "mappingType": "Constant",
+      "literalValue": "SVMXC__Service_Group__c",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Technician Expertise Map",
+  "isStandard": false,
+  "description": "Map over the Service Team from Technician header to Expertise.",
+  "developerName": "Technician Expertise Map"
+}

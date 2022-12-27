@@ -1,0 +1,183 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "CREATE_CYCLE_COUNT_FROM_LOCATION;CREATE_CYCLE_COUNT_FROM_LOCATION_DESC;CYCLE_COUNT_LINE;CYCLE_COUNT;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qk5uEAA",
+      "objectAPIName": "SVMXC__Site__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Site__c",
+      "referenceId": "a0G5g000006qk5wEAA",
+      "objectLabel": "Cycle Count",
+      "objectAPIName": "Cycle_Count__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Cycle Count",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Cycle Count Line"
+        }
+      ],
+      "objectAPIName": "Cycle_Count__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Location__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBsnAAH",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 2,
+          "row": 1,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Technician__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBsoAAH",
+          "column": 2
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Status__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBspAAH",
+          "column": 2
+        }
+      ]
+    },
+    "name": "Cycle Count Page Layout",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Cycle Count Line",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "Part__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBsqAAH",
+            "column": 1
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "Product_Stock__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBsrAAH",
+            "column": 2
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Counted_Qty__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBssAAH",
+            "column": 3
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/182/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Create Cycle Count from Location",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "Creates cycle count and cycle count lines from storage location and product stock",
+  "childProcessNodes": [
+    {
+      "type": "SOURCECHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk5vEAA",
+      "parentColumnAPIName": "SVMXC__Location__c",
+      "objectAPIName": "SVMXC__Product_Stock__c",
+      "nodeAPIName": "SVMXC__Site__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "SVMXC__Product_Stock__c",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk5xEAA",
+      "parentColumnAPIName": "Cycle_Count__c",
+      "objectLabel": "Cycle Count Line",
+      "objectAPIName": "Cycle_Count_Line__c",
+      "nodeAPIName": "Cycle_Count__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Create Cycle Count from Location"
+}

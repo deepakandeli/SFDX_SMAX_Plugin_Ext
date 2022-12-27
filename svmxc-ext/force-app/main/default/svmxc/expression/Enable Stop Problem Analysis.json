@@ -1,0 +1,21 @@
+{
+  "name": "Enable Stop Problem Analysis",
+  "isStandard": false,
+  "developerName": "Enable Stop Problem Analysis",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Testing_Start_Time__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Testing_End_Time__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Manage Work Order Lines - Estimates",
+  "developerName": "TDM017",
+  "description": "This SFM transaction is used to create or edit Estimate lines in a work order. Estimate line types can be of Parts, labor, expense or travel",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

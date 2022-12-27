@@ -1,0 +1,228 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "CREATE_LOCATION_FROM_CONTACT;CLFC_0001_DESC;LOCATION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qjhnEAA",
+      "objectAPIName": "Contact",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "Contact",
+      "referenceId": "a0G5g000006qjhxEAA",
+      "objectLabel": "Location",
+      "objectAPIName": "SVMXC__Site__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Location",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Site__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Account__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArRAAX",
+          "column": 1
+        },
+        {
+          "type": "STRING",
+          "sequence": 2,
+          "row": 1,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArSAAX",
+          "column": 2
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 4,
+          "row": 2,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Location_Type__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArTAAX",
+          "column": 2
+        },
+        {
+          "type": "PHONE",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Site_Phone__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArUAAX",
+          "column": 1
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Street__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArVAAX",
+          "column": 2
+        },
+        {
+          "type": "PHONE",
+          "sequence": 7,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Site_Fax__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArWAAX",
+          "column": 1
+        },
+        {
+          "type": "STRING",
+          "sequence": 8,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__City__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArXAAX",
+          "column": 2
+        },
+        {
+          "type": "STRING",
+          "sequence": 10,
+          "row": 5,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__State__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArYAAX",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 11,
+          "row": 6,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Partner_Account__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArZAAX",
+          "column": 1
+        },
+        {
+          "type": "STRING",
+          "sequence": 12,
+          "row": 6,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Zip__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAraAAH",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 13,
+          "row": 7,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Partner_Contact__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArbAAH",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 14,
+          "row": 7,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Country__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJArcAAH",
+          "column": 2
+        }
+      ]
+    },
+    "name": "CLFC-0003",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring12/en_us/svmx_redirector.htm?uid=",
+    "dependencyExist": true
+  },
+  "name": "Create Location from Contact",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "Create Location",
+  "childProcessNodes": [],
+  "developerName": "Create Location from Contact"
+}

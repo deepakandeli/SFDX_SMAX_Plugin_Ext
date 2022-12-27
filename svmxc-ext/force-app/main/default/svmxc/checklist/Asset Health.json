@@ -1,0 +1,223 @@
+{
+  "transactionType": "CHECKLIST",
+  "tagKeys": "ASSET_HEALTH;HEALTH_CHECK;IS_THE_OIL_CLEAR_AND_FREE_OF_ANY_DEBRIS?;YES;NO;IS_OIL_LEVEL_ADEQUATE?;YES;NO;IS_THE_SEAL/PACKING_LEAKING_EXCESSIVELY?;YES;NO;IS_THE_SEAL_WATER_FLOW_ADEQUATE?;YES;NO;IS_THE_OIL_BREATHER_INSTALLED_AND_CLEAR_OF_DEBRIS?;YES;NO;MOUNTING_BOLTS_SECURE?;YES;NO;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qk2AEAQ",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Service_Order__c",
+      "referenceId": "a0G5g000006qk2BEAQ",
+      "objectLabel": "Checklist",
+      "objectAPIName": "SVMXC__Checklist__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Health Check",
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Picklist",
+                "tagsList": [
+                  "#Asset Health"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Yes",
+                    "No"
+                  ],
+                  "name": "Yes_No"
+                },
+                "questionExtId": "QB000118",
+                "question": "Is the oil clear and free of any debris?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBrFAAX"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Picklist",
+                "tagsList": [
+                  "#Asset Health"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Yes",
+                    "No"
+                  ],
+                  "name": "Yes_No"
+                },
+                "questionExtId": "QB000119",
+                "question": "Is oil level adequate?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBrGAAX"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Picklist",
+                "tagsList": [
+                  "#Asset Health"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Yes",
+                    "No"
+                  ],
+                  "name": "Yes_No"
+                },
+                "questionExtId": "QB000117",
+                "question": "Is the seal/packing leaking excessively?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBrHAAX"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 4,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Picklist",
+                "tagsList": [
+                  "#Asset Health"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Yes",
+                    "No"
+                  ],
+                  "name": "Yes_No"
+                },
+                "questionExtId": "QB000120",
+                "question": "Is the seal water flow adequate?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBrIAAX"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 5,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Picklist",
+                "tagsList": [
+                  "#Asset Health"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Yes",
+                    "No"
+                  ],
+                  "name": "Yes_No"
+                },
+                "questionExtId": "QB000121",
+                "question": "Is the oil breather installed and clear of debris?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBrJAAX"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 6,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Picklist",
+                "tagsList": [
+                  "#Asset Health"
+                ],
+                "showInSmartDoc": false,
+                "responseSet": {
+                  "values": [
+                    "Yes",
+                    "No"
+                  ],
+                  "name": "Yes_No"
+                },
+                "questionExtId": "QB000122",
+                "question": "Mounting Bolts Secure?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBrKAAX"
+            }
+          ]
+        }
+      ],
+      "objectAPIName": "SVMXC__Checklist__c"
+    },
+    "name": "Asset Health CHK",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring18/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Asset Health",
+  "isStandard": false,
+  "enableTargetedSync": false,
+  "childProcessNodes": [],
+  "developerName": "Asset Health"
+}

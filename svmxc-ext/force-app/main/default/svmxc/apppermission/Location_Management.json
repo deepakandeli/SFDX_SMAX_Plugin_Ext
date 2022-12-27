@@ -1,0 +1,13 @@
+{
+  "name": "Location Management",
+  "developerName": "Location_Management",
+  "description": "Spring 13\nWizard Steps: Add Installed Product, Create PM Plan",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Time Entry from ServiceMax Event - NonProductive",
+  "isStandard": false,
+  "developerName": "SVMXEvent_to_Time_Entry1",
+  "targetObject": "SVMXC__Timesheet_Entry__c",
+  "sourceObject": "SVMXC__SVMX_Event__c",
+  "objectMappingDetails": [
+    {
+      "value": "Event",
+      "targetFieldAPIName": "SVMXC__Activity__c",
+      "sourceFldDtaType": "PICKLIST",
+      "mappingType": "Value",
+      "displayValue": "Event",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFldDtaType": "PICKLIST",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Comments__c",
+      "sourceFldDtaType": "TEXTAREA",
+      "sourceFieldAPIName": "SVMXC__Description__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__End_Time__c",
+      "sourceFldDtaType": "DATETIME",
+      "sourceFieldAPIName": "SVMXC__EndDateTime__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Start_Time__c",
+      "sourceFldDtaType": "DATETIME",
+      "sourceFieldAPIName": "SVMXC__StartDateTime__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "false",
+      "targetFieldAPIName": "SVMX_PS_Productive_Time__c",
+      "sourceFldDtaType": "BOOLEAN",
+      "mappingType": "Value",
+      "displayValue": "false",
+      "actionType": "Set Value"
+    }
+  ]
+}

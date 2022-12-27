@@ -1,0 +1,14 @@
+{
+  "name": "Cases",
+  "isStandard": false,
+  "developerName": "All_Cases",
+  "objectAPIName": "Case",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "ne",
+      "fieldType": "ID",
+      "fieldAPIName": "Id"
+    }
+  ]
+}

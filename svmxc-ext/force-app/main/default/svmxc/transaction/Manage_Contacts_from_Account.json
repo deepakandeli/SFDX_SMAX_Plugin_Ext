@@ -1,0 +1,165 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "MANAGE_CONTACTS_FROM_ACCOUNT;CONTACTS;ACCOUNT;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjzTEAQ",
+      "objectLabel": "Account",
+      "objectAPIName": "Account",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJBlOAAX",
+          "name": "Account",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "STRING",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Name"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "referenceId": "a0d5g000003fLC1AAM",
+          "objectAlias": "Contacts",
+          "name": "Contacts",
+          "childAPIName": "Contact",
+          "allowZeroLines": "Allow"
+        }
+      ],
+      "objectAPIName": "Account"
+    },
+    "objectAPIName": "Account",
+    "name": "ContactsfromAccount",
+    "lines": [
+      {
+        "sequence": 1,
+        "referenceId": "a0d5g000003fLC1AAM",
+        "objectAlias": "Contacts",
+        "name": "Contacts",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "STRING",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "FirstName"
+          },
+          {
+            "type": "STRING",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "LastName"
+          },
+          {
+            "type": "STRING",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "Title"
+          },
+          {
+            "type": "EMAIL",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "Email"
+          },
+          {
+            "type": "PHONE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "Phone"
+          }
+        ],
+        "childAPIName": "Contact",
+        "allowZeroLines": "Allow"
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter18/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Manage Contacts from Account",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "Manage_Contacts_from_Account",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjzKEAQ",
+      "parentColumnAPIName": "AccountId",
+      "objectLabel": "Contacts",
+      "objectAPIName": "Contact",
+      "nodeAPIName": "Account",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ]
+}

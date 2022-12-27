@@ -1,0 +1,13 @@
+{
+  "name": "Manage Overnight Stay Policy",
+  "developerName": "Manage_Overnight_Stay_Policy",
+  "description": "This SFM transaction is used to edit overnight stay.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__SM_Overnight_Stay_Policy__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

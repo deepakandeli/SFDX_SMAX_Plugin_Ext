@@ -1,0 +1,13 @@
+{
+  "name": "Service Diagnostics",
+  "developerName": "SR_Service_Diag",
+  "description": "http://services-useast.skytap.com:20298/Thingworx/Mashups/PTC.CSLM.SKD.SingleSolutionWrapper",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Request__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Completed Tasks",
+  "isStandard": false,
+  "developerName": "Completed_Tasks",
+  "objectAPIName": "Task",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "true",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "true",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "IsClosed"
+    }
+  ]
+}

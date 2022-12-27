@@ -1,0 +1,34 @@
+{
+  "name": "StockTransferToLocation",
+  "isStandard": false,
+  "developerName": "StockTransferToLocation",
+  "targetObject": "SVMXC__Stock_Transfer__c",
+  "sourceObject": "SVMXC__Site__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__IsPartnerRecord__c",
+      "sourceFieldAPIName": "SVMXC__IsPartnerRecord__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Partner_Account__c",
+      "sourceFieldAPIName": "SVMXC__Partner_Account__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Partner_Contact__c",
+      "sourceFieldAPIName": "SVMXC__Partner_Contact__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Source_Location__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    }
+  ]
+}

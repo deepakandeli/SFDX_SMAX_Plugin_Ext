@@ -1,0 +1,17 @@
+{
+  "name": "Pending Status",
+  "isStandard": false,
+  "developerName": "Pending_Status",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Pending",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Pending",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Estimate_Status__c",
+      "actionType": "Set Value"
+    }
+  ]
+}

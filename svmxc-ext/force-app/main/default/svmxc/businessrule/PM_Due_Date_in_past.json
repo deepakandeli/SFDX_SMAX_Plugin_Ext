@@ -1,0 +1,19 @@
+{
+  "name": "PM Due Date in past",
+  "isStandard": false,
+  "developerName": "PM_Due_Date_in_past",
+  "subType": "WARNING",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "message": "Please note that the next PM / Calibration Due Date of the tool is in the past.",
+  "expressionDetails": [
+    {
+      "value": "today",
+      "sequence": 1,
+      "operator": "lt",
+      "operandType": "Constant",
+      "operand": "today",
+      "fieldType": "DATE",
+      "fieldAPIName": "Next_PM_Due_Date__c"
+    }
+  ]
+}

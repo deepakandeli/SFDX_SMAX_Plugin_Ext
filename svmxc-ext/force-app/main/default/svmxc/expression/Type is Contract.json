@@ -1,0 +1,16 @@
+{
+  "objectAPIName": "SVMXC__Proforma_Invoice__c",
+  "name": "Type is Contract",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Contract",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Contract",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Type__c"
+    }
+  ],
+  "developerName": "Type is Contract"
+}

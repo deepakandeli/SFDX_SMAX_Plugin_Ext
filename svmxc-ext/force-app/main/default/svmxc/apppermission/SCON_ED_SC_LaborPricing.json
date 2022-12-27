@@ -1,0 +1,13 @@
+{
+  "name": "Edit Service Contract Labor Pricing",
+  "developerName": "SCON_ED_SC_LaborPricing",
+  "description": "Edit Service Contract Labor Pricing",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

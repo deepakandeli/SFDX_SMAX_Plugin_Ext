@@ -1,0 +1,13 @@
+{
+  "name": "Asset Data",
+  "developerName": "SR_Pump_Overview",
+  "description": "http://services-useast.skytap.com:20298/Thingworx/Mashups/PTC.CSLM.PS.Demo.PumpMashupWrapper",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Request__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

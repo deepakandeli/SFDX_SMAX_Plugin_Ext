@@ -1,0 +1,24 @@
+{
+  "name": "SMAX PS - Cycle Count Line",
+  "isStandard": false,
+  "developerName": "SMAX_PS_-_Cycle_Count_Line",
+  "targetObject": "Cycle_Count_Line__c",
+  "sourceObject": "SVMXC__Product_Stock__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Part__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Product_Stock__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "System_Qty__c",
+      "sourceFieldAPIName": "SVMXC__Available_Qty__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

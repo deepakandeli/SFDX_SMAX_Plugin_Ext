@@ -1,0 +1,13 @@
+{
+  "name": "Part Transfer from Depot Repair Order",
+  "developerName": "PTFDRO_001",
+  "description": "Part Transfer from Depot Repair Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

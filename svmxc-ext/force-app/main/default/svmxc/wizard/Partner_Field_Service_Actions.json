@@ -1,0 +1,137 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Accept_Work_Order",
+      "processDeveloperName": "Accept_Work_Order",
+      "name": "Accept",
+      "modeOfExecution": "Background",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Dispatch Response to Accept Assignment",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Log_Travel_Start___Mobile",
+      "processDeveloperName": "Log_Travel_Start___Mobile",
+      "name": "In Transit",
+      "modeOfExecution": "Background",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Log_Onsite_Arrival",
+      "processDeveloperName": "Log_Onsite_Arrival",
+      "name": "Onsite",
+      "modeOfExecution": "Background",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM will stamp the current time into the \"Onsite Response - Actual\" field on a work order.",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "SVMX_Partner_Estimate",
+      "processDeveloperName": "SVMX_Partner_Estimate",
+      "name": "Estimate",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "SFM transaction that allows a partner user to quickly create an estimate to submit for approval. To be completed prior to beginning work onsite",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "sequence": 5,
+      "selectTemplateAtRuntime": false,
+      "processId": "Partner_Work_Order_Debrief",
+      "processDeveloperName": "Partner_Work_Order_Debrief",
+      "name": "Debrief",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM transaction is used to enter parts, labor and expenses used in a work order. This is typically used at the end of the resolution, before the work order is closed.",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "sequence": 6,
+      "selectTemplateAtRuntime": false,
+      "processId": "WO_ServiceReport_001_Usage_external",
+      "processDeveloperName": "WO_ServiceReport_001_Usage_external",
+      "name": "Service Report",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Work Order Service Report\nCustomer and Technician Signature, No Parts Pricing",
+      "active": false,
+      "actionType": "OUTPUT_DOCUMENT"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "sequence": 7,
+      "selectTemplateAtRuntime": false,
+      "processId": "Close_WO",
+      "processDeveloperName": "Close_WO",
+      "name": "Close Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This transaction is used close open Work Order",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Partner_Field_Service_Actions",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order__c",
+  "name": "Partner Field Service Actions",
+  "isStandard": false,
+  "expressionDeveloperName": "Partner_Field_Service_Actions_Enable",
+  "expression": "Partner_Field_Service_Actions_Enable",
+  "developerName": "Partner_Field_Service_Actions",
+  "description": "Autumn 17\nWizard Steps: Accept, In Transit, On Site, Estimate, Debrief, Service Report, Close",
+  "active": true
+}

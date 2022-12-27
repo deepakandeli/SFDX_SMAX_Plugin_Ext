@@ -1,0 +1,13 @@
+{
+  "name": "Work Order Depot Repair - Start Calibration",
+  "developerName": "Work_Order_Depot_Repair___Start_Calibration",
+  "description": "Start Calibration, update Task Status, Task Type, Task Start Date",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

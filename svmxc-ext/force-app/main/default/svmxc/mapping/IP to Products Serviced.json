@@ -1,0 +1,33 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__Installed_Product__c",
+  "objectMappingDetails": [
+    {
+      "value": "Parts",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Products Serviced",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Serial_Number__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "IP to Products Serviced",
+  "isStandard": false,
+  "developerName": "IP to Products Serviced"
+}

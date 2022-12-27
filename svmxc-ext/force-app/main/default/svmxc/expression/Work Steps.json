@@ -1,0 +1,25 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Work Steps",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Onsite",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Onsite",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Dispatch_Response__c"
+    },
+    {
+      "value": "Resolved",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Resolved",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Dispatch_Response__c"
+    }
+  ],
+  "advancedExpression": "(1 or 2)",
+  "developerName": "Work Steps"
+}

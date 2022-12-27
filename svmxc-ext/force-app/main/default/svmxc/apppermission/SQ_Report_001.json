@@ -1,0 +1,13 @@
+{
+  "name": "Service Quote Report",
+  "developerName": "SQ_Report_001",
+  "description": "Service Quote Report",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Quote__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,1197 @@
+{
+  "validationRules": [],
+  "transactionType": "VIEW RECORD",
+  "tagKeys": "VIEW_WORK_ORDER_-_USAGE_LINES;VIEWWOUSAGELINES_DESC;VIEW_WO_DETAILS-DEMO_PAGEHELP;PARTS;LABOR;EXPENSES;TRAVEL;WORK_ORDER;DESCRIPTION;SLA_CLOCKS;",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjuYEAQ",
+      "objectLabel": "Work Order",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": true
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHelp": "Use this screen to view existing Work Order in read-only mode.",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJBSaAAP",
+          "name": "Work Order",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "referenceTo": "Account",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "SVMXSTD: Account Lookup",
+                "isStandard": true,
+                "description": "Pre-configured standard lookup for Account object",
+                "lookupObject": "Account",
+                "lookupFilter": {
+                  "sourceObject": "Account",
+                  "expressionsList": [
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "AccountNumber",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "SVMXSTD: Account Lookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Company__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Order_Status__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "row": 2,
+              "required": false,
+              "referenceTo": "Contact",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "SVMXSTD: Contact Lookup",
+                "isStandard": true,
+                "description": "Pre-configured standard lookup for Contact object",
+                "lookupObject": "Contact",
+                "lookupFilter": {
+                  "sourceObject": "Contact",
+                  "expressionsList": [
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "AccountId",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "MobilePhone",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Phone",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Email",
+                      "sequence": 4,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Email",
+                      "sequence": 4,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "SVMXSTD: Contact Lookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Contact__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 4,
+              "row": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Purpose_of_Visit__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 5,
+              "row": 3,
+              "required": false,
+              "referenceTo": "SVMXC__Installed_Product__c",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "SVMXSTD: IB Lookup",
+                "isStandard": true,
+                "description": "Pre-configured standard lookup for Installed Product object",
+                "lookupObject": "SVMXC__Installed_Product__c",
+                "lookupFilter": {
+                  "sourceObject": "SVMXC__Installed_Product__c",
+                  "expressionsList": [
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "SVMXC__Product__c",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "SVMXC__Product__c",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "SVMXC__Product__c",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceFldDtaType": "REFERENCE",
+                      "sourceField": "SVMXC__Company__c",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 4,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": []
+              },
+              "lookupConfigName": "SVMXSTD: IB Lookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Component__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 6,
+              "row": 3,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Priority__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 7,
+              "row": 4,
+              "required": false,
+              "referenceTo": "Product2",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {
+                "name": "SVMXSTD: Product Lookup",
+                "isStandard": true,
+                "description": "Pre-configured standard lookup for Product object",
+                "lookupObject": "Product2",
+                "lookupFilter": {
+                  "sourceObject": "Product2",
+                  "expressionsList": [
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Name",
+                      "sequence": 1,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "ProductCode",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "ProductCode",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "ProductCode",
+                      "sequence": 2,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Family",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Family",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "sourceField": "Family",
+                      "sequence": 3,
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": false
+                },
+                "lkpRecords": 10,
+                "isDefault": true,
+                "defaultColumn": "Name",
+                "advancedFilters": [
+                  {
+                    "sourceObject": "SVMXC__Product_Stock__c",
+                    "expressionsList": [
+                      {
+                        "value": "Available",
+                        "sourceField": "SVMXC__Status__c",
+                        "sequence": 1,
+                        "parameterType": "Value",
+                        "operator": "eq",
+                        "operand": "Available",
+                        "actionType": "Set Value"
+                      },
+                      {
+                        "value": "0",
+                        "sourceField": "SVMXC__Available_Qty__c",
+                        "sequence": 2,
+                        "parameterType": "Value",
+                        "operator": "gt",
+                        "operand": "0",
+                        "actionType": "Set Value"
+                      },
+                      {
+                        "value": "User Trunk",
+                        "sourceField": "SVMXC__Location__c",
+                        "sequence": 3,
+                        "parameterType": "Constant",
+                        "operator": "eq",
+                        "operand": "User Trunk",
+                        "actionType": "Set Value"
+                      }
+                    ],
+                    "defaultOn": false,
+                    "allowOverride": true
+                  }
+                ]
+              },
+              "lookupConfigName": "SVMXSTD: Product Lookup",
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Product__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 8,
+              "row": 4,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Billing_Type__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 9,
+              "row": 5,
+              "required": false,
+              "referenceTo": "SVMXC__Service_Contract__c",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Service_Contract__c"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 10,
+              "row": 5,
+              "required": false,
+              "referenceTo": "SVMXC__Warranty__c",
+              "referenceNameField": "Name",
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Warranty__c"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "referenceId": "a0c5g00000FJBSbAAP",
+          "name": "Description",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "TEXTAREA",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Problem_Description__c"
+            }
+          ],
+          "columns": 1
+        },
+        {
+          "type": "Section",
+          "sequence": 3,
+          "referenceId": "a0c5g00000FJBScAAP",
+          "name": "SLA Clocks",
+          "hideSectionTitle": false,
+          "elements": [],
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "referenceId": "a0d5g000003fLAhAAM",
+          "objectAlias": "Parts",
+          "name": "Parts",
+          "columns": 1,
+          "childAPIName": "SVMXC__Service_Order_Line__c",
+          "allowZeroLines": "Allow"
+        },
+        {
+          "type": "Detail",
+          "sequence": 2,
+          "referenceId": "a0d5g000003fLAiAAM",
+          "objectAlias": "Labor",
+          "name": "Labor",
+          "columns": 1,
+          "childAPIName": "SVMXC__Service_Order_Line__c",
+          "allowZeroLines": "Allow"
+        },
+        {
+          "type": "Detail",
+          "sequence": 3,
+          "referenceId": "a0d5g000003fLAjAAM",
+          "objectAlias": "Expenses",
+          "name": "Expenses",
+          "columns": 1,
+          "childAPIName": "SVMXC__Service_Order_Line__c",
+          "allowZeroLines": "Allow"
+        },
+        {
+          "type": "Detail",
+          "sequence": 4,
+          "referenceId": "a0d5g000003fLAkAAM",
+          "objectAlias": "Travel",
+          "name": "Travel",
+          "columns": 1,
+          "childAPIName": "SVMXC__Service_Order_Line__c",
+          "allowZeroLines": "Allow"
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Order__c"
+    },
+    "objectAPIName": "SVMXC__Service_Order__c",
+    "name": "View WO Details-Demo",
+    "lines": [
+      {
+        "sourceControllerReferenceField": "SVMXC__Service_Order__c",
+        "sequence": 1,
+        "referenceId": "a0d5g000003fLAhAAM",
+        "objectAlias": "Parts",
+        "name": "Parts",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "referenceTo": "Product2",
+            "referenceNameField": "Name",
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "SVMXSTD: Product Lookup",
+              "isStandard": true,
+              "description": "Pre-configured standard lookup for Product object",
+              "lookupObject": "Product2",
+              "lookupFilter": {
+                "sourceObject": "Product2",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 10,
+              "isDefault": true,
+              "defaultColumn": "Name",
+              "advancedFilters": [
+                {
+                  "sourceObject": "SVMXC__Product_Stock__c",
+                  "expressionsList": [
+                    {
+                      "value": "Available",
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 1,
+                      "parameterType": "Value",
+                      "operator": "eq",
+                      "operand": "Available",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "0",
+                      "sourceField": "SVMXC__Available_Qty__c",
+                      "sequence": 2,
+                      "parameterType": "Value",
+                      "operator": "gt",
+                      "operand": "0",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "User Trunk",
+                      "sourceField": "SVMXC__Location__c",
+                      "sequence": 3,
+                      "parameterType": "Constant",
+                      "operator": "eq",
+                      "operand": "User Trunk",
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": true
+                }
+              ]
+            },
+            "lookupConfigName": "SVMXSTD: Product Lookup",
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Product__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Actual_Quantity2__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__Actual_Price2__c"
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__Is_Billable__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "SVMXC__Total_Line_Price__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 6,
+            "apiName": "SVMXC__Billable_Quantity__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 7,
+            "apiName": "SVMXC__Billable_Line_Price__c"
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 8,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 8,
+            "apiName": "SVMXC__Posted_To_Inventory__c"
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 9,
+            "row": 0,
+            "required": false,
+            "referenceTo": "SVMXC__Site__c",
+            "referenceNameField": "Name",
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 9,
+            "apiName": "SVMXC__From_Location__c"
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 10,
+            "row": 0,
+            "required": false,
+            "referenceTo": "SVMXC__Site__c",
+            "referenceNameField": "Name",
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 10,
+            "apiName": "SVMXC__Requested_Location__c"
+          }
+        ],
+        "columns": 1,
+        "childAPIName": "SVMXC__Service_Order_Line__c",
+        "allowZeroLines": "Allow"
+      },
+      {
+        "sourceControllerReferenceField": "SVMXC__Service_Order__c",
+        "sequence": 2,
+        "referenceId": "a0d5g000003fLAiAAM",
+        "objectAlias": "Labor",
+        "name": "Labor",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Activity_Type__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Actual_Quantity2__c"
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__Start_Date_and_Time__c"
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__End_Date_and_Time__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "SVMXC__Actual_Price2__c"
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 6,
+            "apiName": "SVMXC__Is_Billable__c"
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 7,
+            "apiName": "SVMXC__Work_Description__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 8,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 8,
+            "apiName": "SVMXC__Total_Line_Price__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 9,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 9,
+            "apiName": "SVMXC__Billable_Quantity__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 10,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 10,
+            "apiName": "SVMXC__Billable_Line_Price__c"
+          }
+        ],
+        "columns": 1,
+        "childAPIName": "SVMXC__Service_Order_Line__c",
+        "allowZeroLines": "Allow"
+      },
+      {
+        "sourceControllerReferenceField": "SVMXC__Service_Order__c",
+        "sequence": 3,
+        "referenceId": "a0d5g000003fLAjAAM",
+        "objectAlias": "Expenses",
+        "name": "Expenses",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Expense_Type__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Actual_Price2__c"
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__Is_Billable__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__Billable_Quantity__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "SVMXC__Billable_Line_Price__c"
+          }
+        ],
+        "columns": 1,
+        "childAPIName": "SVMXC__Service_Order_Line__c",
+        "allowZeroLines": "Allow"
+      },
+      {
+        "sourceControllerReferenceField": "SVMXC__Service_Order__c",
+        "sequence": 4,
+        "referenceId": "a0d5g000003fLAkAAM",
+        "objectAlias": "Travel",
+        "name": "Travel",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "DATETIME",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Start_Date_and_Time__c"
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__End_Date_and_Time__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__Estimated_Quantity2__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__Estimated_Price2__c"
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "SVMXC__Covered__c"
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 6,
+            "apiName": "SVMXC__Work_Description__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 7,
+            "apiName": "SVMXC__Billable_Quantity__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 8,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 8,
+            "apiName": "SVMXC__Billable_Line_Price__c"
+          }
+        ],
+        "columns": 1,
+        "childAPIName": "SVMXC__Service_Order_Line__c",
+        "allowZeroLines": "Allow"
+      }
+    ],
+    "isStandard": false,
+    "hideSave": true,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Summer15/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "View Work Order - Usage Lines",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "ViewWOUsageLines",
+  "description": "This custom SFM transaction is used to View Work Order.\nParts, Labor, Expense, Travel",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjuZEAQ",
+      "qualificationCriteriaId": "EXPR018",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Parts",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 2,
+      "referenceId": "a0G5g000006qjuaEAA",
+      "qualificationCriteriaId": "EXPR019",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Labor",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 3,
+      "referenceId": "a0G5g000006qjubEAA",
+      "qualificationCriteriaId": "EXPR020",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Expenses",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 4,
+      "referenceId": "a0G5g000006qjucEAA",
+      "qualificationCriteriaId": "EXPR065",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Travel",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ]
+}

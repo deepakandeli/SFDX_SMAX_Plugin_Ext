@@ -1,0 +1,13 @@
+{
+  "name": "View SVMX Event",
+  "developerName": "SFM16014970438612212c787bbe0f5ee9cc4e29c5639d28a",
+  "description": "SFM transaction that allows a SVMX Event record to be viewed on mobile",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__SVMX_Event__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

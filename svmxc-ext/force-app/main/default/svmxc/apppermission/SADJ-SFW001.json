@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Management For Stock Adjustment",
+  "developerName": "SADJ-SFW001",
+  "description": "Inventory Management For Stock Adjustment",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Stock_Adjustment__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

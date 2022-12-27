@@ -1,0 +1,14 @@
+{
+  "targetObject": "SVMXC__Service_Request__c",
+  "objectMappingDetails": [
+    {
+      "value": "In Progress",
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "SR - In Progress",
+  "isStandard": false,
+  "developerName": "SR - In Progress"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Create Preventive Maintenance Plan From Location",
+  "developerName": "CR_PM_FromLocatin",
+  "description": "Create Preventive Maintenance Plan From Location",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

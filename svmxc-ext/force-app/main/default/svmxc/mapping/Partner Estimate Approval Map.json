@@ -1,0 +1,13 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Approved",
+      "targetFieldAPIName": "Estimate_Status__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Partner Estimate Approval Map",
+  "isStandard": false,
+  "developerName": "Partner Estimate Approval Map"
+}

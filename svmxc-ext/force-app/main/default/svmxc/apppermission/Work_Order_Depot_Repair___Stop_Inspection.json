@@ -1,0 +1,13 @@
+{
+  "name": "Work Order Depot Repair - Stop Inspection",
+  "developerName": "Work_Order_Depot_Repair___Stop_Inspection",
+  "description": "SFM transaction that allows a user to set the end time for inspection",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

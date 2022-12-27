@@ -1,0 +1,13 @@
+{
+  "name": "Inspection Checklist",
+  "developerName": "WO_PF_Checklist_URL",
+  "description": "Pronto Forms: Online, FSA",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": false
+}

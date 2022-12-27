@@ -1,0 +1,183 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "PART_TRANSFER_FROM_DEPOT_REPAIR_ORDER;PTFDRO_001_DESC;STOCK_TRANSFER_LINES;STOCK_TRANSFER;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qk6VEAQ",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Service_Order__c",
+      "referenceId": "a0G5g000006qk6lEAA",
+      "objectLabel": "Stock Transfer",
+      "objectAPIName": "SVMXC__Stock_Transfer__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Stock Transfer",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Stock Transfer Lines"
+        }
+      ],
+      "objectAPIName": "SVMXC__Stock_Transfer__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Source_Location__c",
+          "lookupMatchingField": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuOAAX",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Destination_Location__c",
+          "lookupMatchingField": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuPAAX",
+          "column": 2
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Additional_Information__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuQAAX",
+          "column": 1
+        }
+      ]
+    },
+    "name": "PTFDRO_004",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Stock Transfer Lines",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBuRAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity_Transferred2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBuSAAX",
+            "column": 2
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Additional_Information__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBuTAAX",
+            "column": 3
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Summer12/en_us/svmx_redirector.htm?uid=",
+    "dependencyExist": true
+  },
+  "name": "Part Transfer from Depot Repair Order",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "Part Transfer from Depot Repair Order",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "SVMXC__Service_Order__c",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk6HEAQ",
+      "parentColumnAPIName": "SVMXC__Stock_Transfer__c",
+      "objectLabel": "Stock Transfer Lines",
+      "objectAPIName": "SVMXC__Stock_Transfer_Line__c",
+      "nodeAPIName": "SVMXC__Stock_Transfer__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "SOURCECHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk6kEAA",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Part Transfer from Depot Repair Order"
+}

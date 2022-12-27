@@ -1,0 +1,26 @@
+{
+  "name": "ServiceWO",
+  "isStandard": false,
+  "developerName": "ServiceWO",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Service",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Service",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Purpose_of_Visit__c"
+    },
+    {
+      "value": "Closed",
+      "sequence": 2,
+      "operator": "ne",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Status__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

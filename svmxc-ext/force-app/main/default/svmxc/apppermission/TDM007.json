@@ -1,0 +1,13 @@
+{
+  "name": "Create Shipment From Work Order",
+  "developerName": "TDM007",
+  "description": "This SFM transaction is used to create a shipment order from work order parts request lines.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

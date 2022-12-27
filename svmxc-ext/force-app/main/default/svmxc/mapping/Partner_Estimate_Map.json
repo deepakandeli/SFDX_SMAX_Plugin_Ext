@@ -1,0 +1,14 @@
+{
+  "name": "Partner Estimate Map",
+  "isStandard": false,
+  "developerName": "Partner_Estimate_Map",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Pending",
+      "targetFieldAPIName": "Estimate_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Pending"
+    }
+  ]
+}

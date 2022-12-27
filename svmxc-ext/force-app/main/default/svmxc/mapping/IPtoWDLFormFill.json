@@ -1,0 +1,14 @@
+{
+  "name": "Form Fill: IPtoWDL",
+  "isStandard": false,
+  "developerName": "IPtoWDLFormFill",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__Installed_Product__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

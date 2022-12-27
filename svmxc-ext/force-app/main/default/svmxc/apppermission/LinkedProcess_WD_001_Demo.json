@@ -1,0 +1,12 @@
+{
+  "name": "Add / Edit Work Details",
+  "developerName": "LinkedProcess_WD_001_Demo",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order_Line__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

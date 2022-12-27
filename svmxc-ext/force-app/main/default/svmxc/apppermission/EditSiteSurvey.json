@@ -1,0 +1,13 @@
+{
+  "name": "Manage Site Survey",
+  "developerName": "EditSiteSurvey",
+  "description": "Manage Site Survey",
+  "windowsEnabled": true,
+  "sourceObjectName": "Site_Survey__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

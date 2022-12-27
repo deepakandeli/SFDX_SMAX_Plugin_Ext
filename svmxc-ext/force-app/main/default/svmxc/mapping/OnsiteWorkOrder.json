@@ -1,0 +1,15 @@
+{
+  "name": "OnsiteWorkOrder",
+  "isStandard": false,
+  "developerName": "OnsiteWorkOrder",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Onsite",
+      "targetFieldAPIName": "SVMXC__Dispatch_Response__c",
+      "mappingType": "Value",
+      "displayValue": "Onsite",
+      "actionType": "Set Value"
+    }
+  ]
+}

@@ -1,0 +1,1278 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "MANAGE_WORK_DETAIL_LINES_-_ESTIMATES;TDM017_CUSTOM_DESC;PAG016EST-CUSTOM_PAGEHELP;PARTS;LABOR;EXPENSES;WORK_ORDER;GET_PRICE;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjtWEAQ",
+      "objectLabel": "Work Order",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Quote",
+          "columns": 2
+        },
+        {
+          "type": "Button",
+          "sequence": 1,
+          "name": "Get Price"
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Parts",
+          "columns": 1
+        },
+        {
+          "type": "Detail",
+          "sequence": 2,
+          "name": "Labor",
+          "columns": 1
+        },
+        {
+          "type": "Detail",
+          "sequence": 3,
+          "name": "Expenses",
+          "columns": 1
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Company__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAdKAAX",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Contact__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAdLAAX",
+          "column": 2
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "Estimate_Status__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAdNAAX",
+          "column": 1
+        },
+        {
+          "type": "DATE",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Valid_Until__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAdMAAX",
+          "column": 2
+        },
+        {
+          "type": "CURRENCY",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Total_Estimate__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAdOAAX",
+          "column": 1
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 7,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Special_Instructions__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJAdJAAX",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Manage WO Est Lines",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Parts",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 1,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "SVMXSTD: Product Lookup",
+              "lookupObject": "Product2",
+              "lookupFilter": {
+                "sourceObject": "Product2",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 10,
+              "isStandard": true,
+              "isDefault": true,
+              "description": "Pre-configured standard lookup for Product object",
+              "defaultColumn": "Name",
+              "advancedFilters": [
+                {
+                  "sourceObject": "SVMXC__Product_Stock__c",
+                  "expressionsList": [
+                    {
+                      "value": "Available",
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 1,
+                      "parameterType": "Value",
+                      "operator": "eq",
+                      "operand": "Available",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "0",
+                      "sourceField": "SVMXC__Available_Qty__c",
+                      "sequence": 2,
+                      "parameterType": "Value",
+                      "operator": "gt",
+                      "operand": "0",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "User Trunk",
+                      "sourceField": "SVMXC__Location__c",
+                      "sequence": 3,
+                      "parameterType": "Constant",
+                      "operator": "eq",
+                      "operand": "User Trunk",
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": true
+                }
+              ]
+            },
+            "lookupConfigName": "SVMXSTD: Product Lookup",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdPAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdQAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdRAAX",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdSAAX",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdTAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdUAAX",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 1,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Activity_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdVAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdWAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdXAAX",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdYAAX",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdZAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdaAAH",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 1,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Expense_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdbAAH",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdcAAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAddAAH",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdeAAH",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdfAAH",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdgAAH",
+            "column": 1
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "name": "Labor",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 1,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "SVMXSTD: Product Lookup",
+              "lookupObject": "Product2",
+              "lookupFilter": {
+                "sourceObject": "Product2",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 10,
+              "isStandard": true,
+              "isDefault": true,
+              "description": "Pre-configured standard lookup for Product object",
+              "defaultColumn": "Name",
+              "advancedFilters": [
+                {
+                  "sourceObject": "SVMXC__Product_Stock__c",
+                  "expressionsList": [
+                    {
+                      "value": "Available",
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 1,
+                      "parameterType": "Value",
+                      "operator": "eq",
+                      "operand": "Available",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "0",
+                      "sourceField": "SVMXC__Available_Qty__c",
+                      "sequence": 2,
+                      "parameterType": "Value",
+                      "operator": "gt",
+                      "operand": "0",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "User Trunk",
+                      "sourceField": "SVMXC__Location__c",
+                      "sequence": 3,
+                      "parameterType": "Constant",
+                      "operator": "eq",
+                      "operand": "User Trunk",
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": true
+                }
+              ]
+            },
+            "lookupConfigName": "SVMXSTD: Product Lookup",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdPAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdQAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdRAAX",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdSAAX",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdTAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdUAAX",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 1,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Activity_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdVAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdWAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdXAAX",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdYAAX",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdZAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdaAAH",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 1,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Expense_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdbAAH",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdcAAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAddAAH",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdeAAH",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdfAAH",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdgAAH",
+            "column": 1
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "name": "Expenses",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 1,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "SVMXSTD: Product Lookup",
+              "lookupObject": "Product2",
+              "lookupFilter": {
+                "sourceObject": "Product2",
+                "expressionsList": [
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "ProductCode",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceField": "Family",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 10,
+              "isStandard": true,
+              "isDefault": true,
+              "description": "Pre-configured standard lookup for Product object",
+              "defaultColumn": "Name",
+              "advancedFilters": [
+                {
+                  "sourceObject": "SVMXC__Product_Stock__c",
+                  "expressionsList": [
+                    {
+                      "value": "Available",
+                      "sourceField": "SVMXC__Status__c",
+                      "sequence": 1,
+                      "parameterType": "Value",
+                      "operator": "eq",
+                      "operand": "Available",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "0",
+                      "sourceField": "SVMXC__Available_Qty__c",
+                      "sequence": 2,
+                      "parameterType": "Value",
+                      "operator": "gt",
+                      "operand": "0",
+                      "actionType": "Set Value"
+                    },
+                    {
+                      "value": "User Trunk",
+                      "sourceField": "SVMXC__Location__c",
+                      "sequence": 3,
+                      "parameterType": "Constant",
+                      "operator": "eq",
+                      "operand": "User Trunk",
+                      "actionType": "Set Value"
+                    }
+                  ],
+                  "defaultOn": false,
+                  "allowOverride": true
+                }
+              ]
+            },
+            "lookupConfigName": "SVMXSTD: Product Lookup",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdPAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdQAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdRAAX",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdSAAX",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdTAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdUAAX",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 1,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Activity_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdVAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdWAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdXAAX",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdYAAX",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdZAAX",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdaAAH",
+            "column": 1
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 1,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Expense_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdbAAH",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdcAAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 3,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Estimated_Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAddAAH",
+            "column": 1
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 4,
+            "row": 4,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdeAAH",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 6,
+            "row": 6,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Work_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdfAAH",
+            "column": 1
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 5,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Total_Estimated_Price__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJAdgAAH",
+            "column": 1
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter11/en_us/svmx_redirector.htm?uid=APP19_10",
+    "dependencyExist": true
+  },
+  "name": "Manage Work Detail Lines - Estimates",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "This custom SFM transaction is used to create or edit Estimate lines in a work order. Estimate line types can be of Parts, labor or expense",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjtXEAQ",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Parts",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 2,
+      "referenceId": "a0G5g000006qjtYEAQ",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Labor",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 3,
+      "referenceId": "a0G5g000006qjtZEAQ",
+      "parentColumnAPIName": "SVMXC__Service_Order__c",
+      "objectLabel": "Expenses",
+      "objectAPIName": "SVMXC__Service_Order_Line__c",
+      "nodeAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Manage Work Detail Lines - Estimates"
+}

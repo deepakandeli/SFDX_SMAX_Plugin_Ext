@@ -1,0 +1,14 @@
+{
+  "name": "LIROC-0004",
+  "isStandard": false,
+  "developerName": "LIROC-0004",
+  "targetObject": "Case",
+  "objectMappingDetails": [
+    {
+      "value": "Initial Response Logged",
+      "targetFieldAPIName": "Status",
+      "mappingType": "Value",
+      "displayValue": "Initial Response Logged"
+    }
+  ]
+}

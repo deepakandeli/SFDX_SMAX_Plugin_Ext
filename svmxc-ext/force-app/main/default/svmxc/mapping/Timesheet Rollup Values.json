@@ -1,0 +1,13 @@
+{
+  "targetObject": "SVMXC__Timesheet__c",
+  "objectMappingDetails": [
+    {
+      "value": "true",
+      "targetFieldAPIName": "Rollup_Timesheet_Values__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Timesheet Rollup Values",
+  "isStandard": false,
+  "developerName": "Timesheet Rollup Values"
+}

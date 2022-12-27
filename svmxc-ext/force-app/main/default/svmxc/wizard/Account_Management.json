@@ -1,0 +1,100 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Account_Management",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "CLFA_0001",
+      "processDeveloperName": "CLFA_0001",
+      "name": "Create Location",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create Location",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Account_Management",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "CreateIPfromAccount",
+      "processDeveloperName": "CreateIPfromAccount",
+      "name": "Create Installed Product",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create Installed Product",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Account_Management",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_Service_Contract_from_Account1",
+      "processDeveloperName": "Create_Service_Contract_from_Account1",
+      "name": "Create Service Contract",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Account_Management",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "CR_PM_FromAccount",
+      "processDeveloperName": "CR_PM_FromAccount",
+      "name": "Create PM Plan",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create Preventive Maintenance Plan From Account",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Account_Management",
+      "sequence": 5,
+      "selectTemplateAtRuntime": false,
+      "processId": "ACT_PredServiceDashboard",
+      "processDeveloperName": "ACT_PredServiceDashboard",
+      "name": "At Risk IBs",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Connected Assets Management Console",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Account_Management",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Account_Management",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "Account",
+  "name": "Account Management",
+  "isStandard": false,
+  "developerName": "Account_Management",
+  "description": "18.3\nWizard Steps: Create Location, Create Installed Product, Create Service Contract, Create PM Plan, Connected Asset Dashboard",
+  "active": true
+}

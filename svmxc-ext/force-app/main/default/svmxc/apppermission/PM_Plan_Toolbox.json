@@ -1,0 +1,12 @@
+{
+  "name": "PM Toolbox",
+  "developerName": "PM_Plan_Toolbox",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__PM_Plan__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

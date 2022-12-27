@@ -1,0 +1,13 @@
+{
+  "name": "Add/Edit Case Lines",
+  "developerName": "SVMXSTD_SFM_CASE_LINE_001",
+  "description": "This transaction is used to add / modfiy case lines.",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

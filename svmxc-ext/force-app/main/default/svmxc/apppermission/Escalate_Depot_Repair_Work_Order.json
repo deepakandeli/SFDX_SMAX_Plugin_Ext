@@ -1,0 +1,13 @@
+{
+  "name": "Escalate Depot Repair Work Order",
+  "developerName": "Escalate_Depot_Repair_Work_Order",
+  "description": "SFM transaction used to escalate a Depot Repair WO in the case that sevice was not able to be completed by Depot Responsible",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

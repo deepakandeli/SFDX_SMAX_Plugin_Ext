@@ -1,0 +1,14 @@
+{
+  "objectAPIName": "SVMXC__SVMX_Event__c",
+  "name": "SVMXEvents for Time",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Technician__c"
+    }
+  ],
+  "developerName": "SVMXEvents for Time"
+}

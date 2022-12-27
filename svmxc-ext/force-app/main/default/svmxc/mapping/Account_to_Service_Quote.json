@@ -1,0 +1,20 @@
+{
+  "name": "Account to Service Quote",
+  "isStandard": false,
+  "developerName": "Account_to_Service_Quote",
+  "targetObject": "SVMXC__Quote__c",
+  "sourceObject": "Account",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Draft",
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Value",
+      "displayValue": "Draft"
+    }
+  ]
+}

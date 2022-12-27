@@ -1,0 +1,133 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "TDM018",
+      "processDeveloperName": "TDM018",
+      "name": "Request Service Parts",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Request Service Parts",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH016JS",
+      "processDeveloperName": "OTH016JS",
+      "name": "Dispatch Technician",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Dispatch Technician (JS)",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Accept_Work_Order",
+      "processDeveloperName": "Accept_Work_Order",
+      "name": "Accept Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Dispatch Response to Accept Assignment",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "Work_Order_Debrief",
+      "processDeveloperName": "Work_Order_Debrief",
+      "name": "Work Order Debrief",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM transaction is used to enter parts, labor and expenses used in a work order. This is typically used at the end of the resolution, before the work order is closed.",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "sequence": 5,
+      "selectTemplateAtRuntime": true,
+      "name": "Manage Checklists",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Default Desc for Checklist",
+      "active": false,
+      "actionType": "CHECKLIST"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "sequence": 6,
+      "selectTemplateAtRuntime": false,
+      "processId": "WO_ServiceReport_001_Usage_external",
+      "processDeveloperName": "WO_ServiceReport_001_Usage_external",
+      "name": "Work Order Service Report",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Work Order Service Report\nCustomer and Technician Signature, No Parts Pricing",
+      "active": false,
+      "actionType": "OUTPUT_DOCUMENT"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "sequence": 7,
+      "selectTemplateAtRuntime": false,
+      "processId": "Checklist_Output_Doc",
+      "processDeveloperName": "Checklist_Output_Doc",
+      "name": "Checklist Report",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "custom output doc for checklists",
+      "active": false,
+      "actionType": "OUTPUT_DOCUMENT"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Management",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order__c",
+  "name": "Field Service Management",
+  "isStandard": false,
+  "expressionDeveloperName": "Field_Service_Enable_SFW",
+  "expression": "Field_Service_Enable_SFW",
+  "developerName": "Field_Service_Management",
+  "description": "Winter 14 SP\nWizard Steps: Accept/Reject WO, Request Service Parts, Create Service Quote, Products Serviced, Manage Estimates, Work Order Debrief, Service Report",
+  "active": false
+}

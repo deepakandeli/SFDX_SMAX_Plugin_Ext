@@ -1,0 +1,302 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "MANAGE_WORK_ORDER_DEPENDENCY;DEPENDENCY_GROUP;WORK_ORDER;DEPENDENCY_MANAGEMENT;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjsmEAA",
+      "objectLabel": "Dependency Management",
+      "objectAPIName": "SVMXC__Dependency_Management__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJBVuAAP",
+          "name": "Dependency Management",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "STRING",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Dependency_Group_Name__c"
+            },
+            {
+              "type": "STRING",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Description__c"
+            },
+            {
+              "type": "STRING",
+              "sequence": 3,
+              "row": 2,
+              "required": false,
+              "readOnly": true,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Name"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "referenceId": "a0d5g000003fLAMAA2",
+          "objectAlias": "Dependency Group",
+          "name": "Dependency Group",
+          "columns": 2,
+          "childAPIName": "SVMXC__Service_Order_Dependency__c",
+          "allowZeroLines": "Allow"
+        },
+        {
+          "type": "Detail",
+          "sequence": 2,
+          "referenceId": "a0d5g000003fLALAA2",
+          "objectAlias": "Work Order",
+          "name": "Work Order",
+          "columns": 2,
+          "childAPIName": "SVMXC__Service_Order__c",
+          "allowZeroLines": "Allow"
+        }
+      ],
+      "objectAPIName": "SVMXC__Dependency_Management__c"
+    },
+    "objectAPIName": "SVMXC__Dependency_Management__c",
+    "name": "EditWO Dependency",
+    "lines": [
+      {
+        "sourceControllerReferenceField": "SVMXC__Dependency_Group__c",
+        "sequence": 1,
+        "referenceId": "a0d5g000003fLAMAA2",
+        "objectAlias": "Dependency Group",
+        "name": "Dependency Group",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "referenceTo": "SVMXC__Service_Order__c",
+            "referenceNameField": "Name",
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Primary_Work_Order__c"
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "referenceTo": "SVMXC__Service_Order__c",
+            "referenceNameField": "Name",
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Secondary_Work_Order__c"
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__Time_Dependency__c"
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__Resource_Dependency__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "SVMXC__Minimum_Time_Deviation__c"
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 6,
+            "apiName": "SVMXC__Minimum_Time_Deviation_Units__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 7,
+            "apiName": "SVMXC__Maximum_Time_Deviation__c"
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 8,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 8,
+            "apiName": "SVMXC__Maximum_Time_Deviation_Units__c"
+          }
+        ],
+        "columns": 2,
+        "childAPIName": "SVMXC__Service_Order_Dependency__c",
+        "allowZeroLines": "Allow"
+      },
+      {
+        "sequence": 2,
+        "referenceId": "a0d5g000003fLALAA2",
+        "objectAlias": "Work Order",
+        "name": "Work Order",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "STRING",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "Name"
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "referenceTo": "SVMXC__Dependency_Management__c",
+            "referenceNameField": "Name",
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Dependency_Group__c"
+          }
+        ],
+        "columns": 2,
+        "childAPIName": "SVMXC__Service_Order__c",
+        "allowZeroLines": "Allow"
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Autumn17/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Manage Work Order Dependency",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "Manage_Work_Order_Dependency",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjsnEAA",
+      "parentColumnAPIName": "SVMXC__Dependency_Group__c",
+      "objectLabel": "Work Order",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "nodeAPIName": "SVMXC__Dependency_Management__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 2,
+      "referenceId": "a0G5g000006qjsoEAA",
+      "parentColumnAPIName": "SVMXC__Dependency_Group__c",
+      "objectLabel": "Dependency Group",
+      "objectAPIName": "SVMXC__Service_Order_Dependency__c",
+      "nodeAPIName": "SVMXC__Dependency_Management__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ]
+}

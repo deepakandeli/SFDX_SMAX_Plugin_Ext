@@ -1,0 +1,34 @@
+{
+  "name": "QA Test Labor Usage Lines Only",
+  "isStandard": false,
+  "developerName": "QA_Test_Labor_Usage_Lines_Only",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Labor",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Labor",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Line_Type__c"
+    },
+    {
+      "value": "Usage/Consumption",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Usage/Consumption",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Testing",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "Testing",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Activity_Type__c"
+    }
+  ],
+  "advancedExpression": "1 and 2 and 3"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Alexanderson",
+  "isStandard": false,
+  "developerName": "Alexanderson",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Alexanderson",
+      "sequence": 1,
+      "operator": "contains",
+      "operand": "Alexanderson",
+      "fieldType": "STRING",
+      "fieldAPIName": "Account_Name__c"
+    }
+  ]
+}

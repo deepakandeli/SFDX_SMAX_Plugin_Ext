@@ -1,0 +1,182 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "CREATE_STOCK_TRANSFER_FROM_LOCATION;CREATE_STOCK_TRANSFER_FROM_LOCATION_DESC;STOCK_TRANSFER_LINE_(STOCK_TRANSFER);STOCK_TRANSFER;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qjrgEAA",
+      "objectAPIName": "SVMXC__Site__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Site__c",
+      "referenceId": "a0G5g000006qjriEAA",
+      "objectLabel": "Stock Transfer",
+      "objectAPIName": "SVMXC__Stock_Transfer__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Stock Transfer",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Stock Transfer Line (Stock Transfer)",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Stock_Transfer__c",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBLhAAP",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Source_Location__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBLiAAP",
+          "column": 1
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Destination_Location__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBLjAAP",
+          "column": 2
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Additional_Information__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBLkAAP",
+          "column": 1
+        }
+      ]
+    },
+    "name": "StockTransferLocation",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Stock Transfer Line (Stock Transfer)",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBLlAAP",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity_Transferred2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBLmAAP",
+            "column": 2
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring15/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Create Stock Transfer from Location",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "Trunk Stock management",
+  "childProcessNodes": [
+    {
+      "type": "SOURCECHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjrhEAA",
+      "objectAPIName": "SVMXC__Site__c",
+      "nodeAPIName": "SVMXC__Site__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "SVMXC__Site__c",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjrjEAA",
+      "parentColumnAPIName": "SVMXC__Stock_Transfer__c",
+      "objectLabel": "Stock Transfer Line (Stock Transfer)",
+      "objectAPIName": "SVMXC__Stock_Transfer_Line__c",
+      "nodeAPIName": "SVMXC__Stock_Transfer__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Create Stock Transfer from Location"
+}

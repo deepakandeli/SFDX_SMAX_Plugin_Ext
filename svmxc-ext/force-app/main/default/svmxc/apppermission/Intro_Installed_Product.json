@@ -1,0 +1,12 @@
+{
+  "name": "Installed Product Management",
+  "developerName": "Intro_Installed_Product",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

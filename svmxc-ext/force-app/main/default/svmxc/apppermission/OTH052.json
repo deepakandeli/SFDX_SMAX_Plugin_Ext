@@ -1,0 +1,13 @@
+{
+  "name": "Edit Condition Based PM Plan created from Contract",
+  "developerName": "OTH052",
+  "description": "Custom action to edit Condition Based PM plan that was created from Service Contract",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__PM_Plan__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

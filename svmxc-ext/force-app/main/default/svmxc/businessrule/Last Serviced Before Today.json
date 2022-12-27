@@ -1,0 +1,17 @@
+{
+  "objectAPIName": "SVMXC__Checklist__c",
+  "name": "Last Serviced Before Today",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "today",
+      "sequence": 1,
+      "operator": "gt",
+      "operandType": "Constant",
+      "operand": "today",
+      "fieldType": "DATE",
+      "fieldAPIName": "QB000099"
+    }
+  ],
+  "developerName": "Last Serviced Before Today"
+}

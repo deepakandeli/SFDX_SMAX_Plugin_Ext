@@ -1,0 +1,13 @@
+{
+  "name": "View Work Order - Detailed",
+  "developerName": "ViewWODetailed",
+  "description": "This custom SFM transaction is used to View Work Order - Detailed.\nParts, Labor, Travel, Expense, Service Quote, Service Lead.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

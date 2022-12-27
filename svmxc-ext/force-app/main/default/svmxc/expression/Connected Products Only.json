@@ -1,0 +1,17 @@
+{
+  "name": "Connected Products Only",
+  "isStandard": false,
+  "developerName": "Connected Products Only",
+  "objectAPIName": "SVMXC__Installed_Product__c",
+  "expressionDetails": [
+    {
+      "value": "True",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "True",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Connected_Status__c",
+      "actionType": "Set Value"
+    }
+  ]
+}

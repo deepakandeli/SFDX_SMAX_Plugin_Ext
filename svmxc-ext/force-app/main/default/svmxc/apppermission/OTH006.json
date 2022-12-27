@@ -1,0 +1,13 @@
+{
+  "name": "Cancel Requisition",
+  "developerName": "OTH006",
+  "description": "Cancel Requisition",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Parts_Request__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

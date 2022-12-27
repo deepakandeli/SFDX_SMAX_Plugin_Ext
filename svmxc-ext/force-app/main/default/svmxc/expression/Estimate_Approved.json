@@ -1,0 +1,17 @@
+{
+  "name": "Estimate Approved",
+  "isStandard": false,
+  "developerName": "Estimate_Approved",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Approved",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Approved",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Estimate_Status__c",
+      "actionType": "Set Value"
+    }
+  ]
+}

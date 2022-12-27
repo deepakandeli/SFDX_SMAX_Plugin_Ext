@@ -1,0 +1,13 @@
+{
+  "name": "Print Shipment Note",
+  "developerName": "OTH030",
+  "description": "Print Shipment Note",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

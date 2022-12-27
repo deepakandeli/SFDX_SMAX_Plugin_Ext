@@ -1,0 +1,17 @@
+{
+  "objectAPIName": "SVMXC__Installed_Product__c",
+  "name": "Account Alexanderson",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Alexanderson",
+      "sequence": 1,
+      "operator": "contains",
+      "operand": "Alexanderson",
+      "fieldType": "STRING",
+      "fieldAPIName": "Account_Name__c"
+    }
+  ],
+  "advancedExpression": "1",
+  "developerName": "Account Alexanderson"
+}

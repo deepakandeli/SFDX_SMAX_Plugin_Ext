@@ -1,0 +1,13 @@
+{
+  "name": "Create RMA from Case",
+  "developerName": "TDM004",
+  "description": "This SFM transaction is used to create a new RMA from a Case. Key information such as Account, Contact etc. are automatically copied to the RMA",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

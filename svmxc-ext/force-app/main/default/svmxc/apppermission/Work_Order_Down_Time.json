@@ -1,0 +1,13 @@
+{
+  "name": "Work Order - Down Time",
+  "developerName": "Work_Order_Down_Time",
+  "description": "Used for Mean Time Between Failure, tracking down time of installed product via work order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

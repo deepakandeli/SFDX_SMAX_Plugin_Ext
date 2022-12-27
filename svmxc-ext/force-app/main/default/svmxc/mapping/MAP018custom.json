@@ -1,0 +1,62 @@
+{
+  "name": "SVMXSTD: WO Parts Request Lines To Shipment Lines",
+  "isStandard": false,
+  "developerName": "MAP018custom",
+  "targetObject": "SVMXC__RMA_Shipment_Line__c",
+  "sourceObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Delivery_Location__c",
+      "sourceFieldAPIName": "SVMXC__Requested_Location__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Expected_Quantity2__c",
+      "sourceFieldAPIName": "SVMXC__Requested_Quantity2__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Expected_Receipt_Date__c",
+      "sourceFieldAPIName": "SVMXC__Date_Requested__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Open"
+    },
+    {
+      "value": "Outbound (Shipment)",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Outbound (Shipment)"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Shipment",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Shipment"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Ship_Location__c",
+      "sourceFieldAPIName": "SVMXC__From_Location__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Order_Line__c",
+      "sourceFieldAPIName": "ID",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Order__c",
+      "sourceFieldAPIName": "SVMXC__Service_Order__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

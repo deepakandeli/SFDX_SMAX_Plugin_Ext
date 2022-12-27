@@ -1,0 +1,18 @@
+{
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "name": "Labor 8 Hours Max",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "8",
+      "sequence": 1,
+      "operator": "le",
+      "operandType": "Value",
+      "operand": "8",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "Hours_Worked__c"
+    }
+  ],
+  "description": "custom validation rule, Hours Worked <= 8 hrs",
+  "developerName": "Labor 8 Hours Max"
+}

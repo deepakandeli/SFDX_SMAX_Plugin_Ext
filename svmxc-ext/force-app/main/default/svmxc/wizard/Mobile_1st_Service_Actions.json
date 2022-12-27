@@ -1,0 +1,70 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Mobile_1st_Service_Actions",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH016JS",
+      "processDeveloperName": "OTH016JS",
+      "name": "Dispatch Console",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Dispatch Technician (JS)",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Mobile_1st_Service_Actions",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Work_Order_Debrief",
+      "processDeveloperName": "Work_Order_Debrief",
+      "name": "Work Order Review",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM transaction is used to enter parts, labor and expenses used in a work order. This is typically used at the end of the resolution, before the work order is closed.",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Mobile_1st_Service_Actions",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "WORD010",
+      "processDeveloperName": "WORD010",
+      "name": "Post to Inventory",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This functionality performs inventory updates for usage lines in a work order. Depending upon stock attributes of the location and product, serial number information is also captured.",
+      "active": false,
+      "actionType": "INVENTORY"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Mobile_1st_Service_Actions",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Mobile_1st_Service_Actions",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order__c",
+  "name": "Mobile 1st Service Actions",
+  "isStandard": false,
+  "expressionDeveloperName": "MobileFirst",
+  "expression": "MobileFirst",
+  "developerName": "Mobile_1st_Service_Actions",
+  "active": false
+}

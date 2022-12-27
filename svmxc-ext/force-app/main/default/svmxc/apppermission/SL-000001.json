@@ -1,0 +1,13 @@
+{
+  "name": "Stock Lookup",
+  "developerName": "SL-000001",
+  "description": "Stock Lookup",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order_Line__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

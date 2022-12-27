@@ -1,0 +1,12 @@
+{
+  "name": "Create Work Order Dependency",
+  "developerName": "Create_Work_Order_Dependency",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Dependency_Management__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

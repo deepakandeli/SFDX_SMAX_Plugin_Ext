@@ -1,0 +1,13 @@
+{
+  "name": "Manage Territory",
+  "developerName": "OTH005",
+  "description": "Manage Territory",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Territory__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

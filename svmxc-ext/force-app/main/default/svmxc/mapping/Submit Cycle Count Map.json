@@ -1,0 +1,13 @@
+{
+  "targetObject": "Cycle_Count__c",
+  "objectMappingDetails": [
+    {
+      "value": "Submitted",
+      "targetFieldAPIName": "Status__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Submit Cycle Count Map",
+  "isStandard": false,
+  "developerName": "Submit Cycle Count Map"
+}

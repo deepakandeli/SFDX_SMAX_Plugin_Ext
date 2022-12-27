@@ -1,0 +1,20 @@
+{
+  "name": "Stop Calibration Mapping",
+  "isStandard": false,
+  "developerName": "Stop_Calibration_Mapping",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Task_End_Date__c",
+      "mappingType": "Constant",
+      "displayValue": "Now"
+    },
+    {
+      "value": "Stop",
+      "targetFieldAPIName": "Task_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Stop"
+    }
+  ]
+}

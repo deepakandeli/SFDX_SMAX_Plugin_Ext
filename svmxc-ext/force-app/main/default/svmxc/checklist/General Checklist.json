@@ -1,0 +1,168 @@
+{
+  "transactionType": "CHECKLIST",
+  "tagKeys": "GENERAL_CHECKLIST;GENERAL_CHECKLIST_DESC;PRIMARY_CHECKS;WHEN_WAS_IT_LAST_SERVICED_(MUST_BE_EARLIER_THAN_TODAY);",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qk4WEAQ",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Service_Order__c",
+      "referenceId": "a0G5g000006qk4XEAQ",
+      "objectLabel": "Checklist",
+      "objectAPIName": "SVMXC__Checklist__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Primary Checks",
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBpeAAH"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBpfAAH"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBpgAAH"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 4,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBphAAH"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 5,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBpiAAH"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 6,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBpjAAH"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 7,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBpkAAH"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 8,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Date",
+                "showInSmartDoc": false,
+                "questionExtId": "QB000099",
+                "question": "When was it last serviced (Must be earlier than today)",
+                "helpUrl": "www.servicemax.com",
+                "expression": {
+                  "objectAPIName": "SVMXC__Checklist__c",
+                  "name": "Last Serviced Before Today",
+                  "isStandard": false,
+                  "expressionDetails": [
+                    {
+                      "value": "today",
+                      "sequence": 1,
+                      "operator": "gt",
+                      "operandType": "Constant",
+                      "operand": "today",
+                      "fieldType": "DATE",
+                      "fieldAPIName": "QB000099"
+                    }
+                  ]
+                },
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question",
+              "eltId": "a0c5g00000FJBplAAH"
+            }
+          ]
+        }
+      ],
+      "objectAPIName": "SVMXC__Checklist__c"
+    },
+    "name": "General Checklist CHK",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter17/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "General Checklist",
+  "isStandard": false,
+  "enableTargetedSync": false,
+  "description": "General Checklist of Items",
+  "childProcessNodes": [],
+  "developerName": "General Checklist"
+}

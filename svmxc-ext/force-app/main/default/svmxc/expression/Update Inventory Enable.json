@@ -1,0 +1,16 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Update Inventory Enable",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "true",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "true",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Parts_Required__c"
+    }
+  ],
+  "developerName": "Update Inventory Enable"
+}

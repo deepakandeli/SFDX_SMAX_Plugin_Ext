@@ -1,0 +1,39 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "Stark__Investigation_Part__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Investigation__c",
+      "sourceFieldAPIName": "Stark__Investigation__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Is_Remote_Triage__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Solution__c",
+      "sourceFieldAPIName": "Stark__Related_Solution__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Remote Triage - Part",
+  "isStandard": false,
+  "developerName": "Remote Triage - Part"
+}

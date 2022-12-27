@@ -1,0 +1,12 @@
+{
+  "name": "Create Work Order from Service Request",
+  "developerName": "Create_Work_Order_from_Service_Request",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Request__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

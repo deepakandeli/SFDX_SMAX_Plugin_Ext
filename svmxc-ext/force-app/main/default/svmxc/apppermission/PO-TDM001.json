@@ -1,0 +1,13 @@
+{
+  "name": "Create Depot Repair Work Order",
+  "developerName": "PO-TDM001",
+  "description": "This SFM transaction enables a technician to initiate a Depot repair process once the product is received.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

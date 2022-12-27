@@ -1,0 +1,292 @@
+{
+  "validationRules": [],
+  "transactionType": "SOURCE TO TARGET CHILD",
+  "tagKeys": "CREATE_FRUS;FRU;PRODUCT;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qk4JEAQ",
+      "objectAPIName": "Product2",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "Product2",
+      "referenceId": "a0G5g000006qk4LEAQ",
+      "objectLabel": "Product",
+      "objectAPIName": "Product2",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Product",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "FRU",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "Product2",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3mAAH",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Family",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3nAAH",
+          "column": 2
+        },
+        {
+          "type": "BOOLEAN",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "IsActive",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3oAAH",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Product_Line__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3pAAH",
+          "column": 2
+        },
+        {
+          "type": "ID",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "Id",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3qAAH",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Product FRU",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "FRU",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 1,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJC3rAAH",
+            "column": 1
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 2,
+            "row": 2,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Parent_FRU__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {
+              "name": "Lookup Parent FRU",
+              "lookupObject": "Product_FRU__c",
+              "lookupFilter": {
+                "sourceObject": "Product_FRU__c",
+                "expressionsList": [
+                  {
+                    "sourceFldDtaType": "STRING",
+                    "sourceField": "Name",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "value": "Current Record Header",
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "TopLevel_Product__c",
+                    "sequence": 1,
+                    "parameterType": "Constant",
+                    "operator": "eq",
+                    "operand": "Current Record Header",
+                    "literalValue": "Id",
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "Product__c",
+                    "sequence": 1,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceFldDtaType": "STRING",
+                    "sourceField": "Name",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "TopLevel_Product__c",
+                    "sequence": 2,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "Parent_FRU__c",
+                    "sequence": 3,
+                    "actionType": "Set Value"
+                  },
+                  {
+                    "sourceFldDtaType": "REFERENCE",
+                    "sourceField": "TopLevel_Product__c",
+                    "sequence": 4,
+                    "actionType": "Set Value"
+                  }
+                ],
+                "defaultOn": false,
+                "allowOverride": false
+              },
+              "lkpRecords": 50,
+              "isStandard": false,
+              "isDefault": false,
+              "description": "Lookup Parent FRU",
+              "defaultColumn": "Name",
+              "advancedFilters": []
+            },
+            "lookupConfigName": "Lookup Parent FRU",
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJC3sAAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 3,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Level__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJC3tAAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 4,
+            "row": 4,
+            "required": true,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Order_By__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJC3uAAH",
+            "column": 1
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/182/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Create FRUs",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [
+    {
+      "type": "SOURCECHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk4KEAQ",
+      "parentColumnAPIName": "TopLevel_Product__c",
+      "objectAPIName": "Product_FRU__c",
+      "nodeAPIName": "Product2",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sourceAPIName": "Product_FRU__c",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk4MEAQ",
+      "parentColumnAPIName": "TopLevel_Product__c",
+      "objectLabel": "FRU",
+      "objectAPIName": "Product_FRU__c",
+      "nodeAPIName": "Product2",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Create FRUs"
+}

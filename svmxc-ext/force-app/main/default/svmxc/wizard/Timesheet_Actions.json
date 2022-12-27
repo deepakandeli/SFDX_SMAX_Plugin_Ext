@@ -1,0 +1,43 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Timesheet_Actions",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "LinkedSFM_TimeSheet_DayEntry_Custom",
+      "processDeveloperName": "LinkedSFM_TimeSheet_DayEntry_Custom",
+      "name": "Timesheet Daily Summary",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Timesheet_Actions",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Submit_for_Approval",
+      "processDeveloperName": "Submit_for_Approval",
+      "name": "Submit for Approval",
+      "modeOfExecution": "Background",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Timesheet_submit_for_approval",
+      "expression": "Timesheet_submit_for_approval",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM is used for triggering an approval process to ask for approval from the users manager when submitting timesheets.",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Timesheet__c",
+  "name": "Timesheet Actions",
+  "isStandard": false,
+  "developerName": "Timesheet_Actions",
+  "active": true
+}

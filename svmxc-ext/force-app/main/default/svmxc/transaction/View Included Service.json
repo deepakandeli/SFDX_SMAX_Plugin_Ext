@@ -1,0 +1,124 @@
+{
+  "validationRules": [],
+  "transactionType": "VIEW RECORD",
+  "tagKeys": "VIEW_INCLUDED_SERVICE;SFM15817027928251119C5C22DF00CB57ACCD3C745D08571_DESC;INCLUDED_SERVICE_INFORMATION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk9lEAA",
+      "objectLabel": "Included Service",
+      "objectAPIName": "SVMXC__Service_Contract_Services__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Included Service Information",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Contract_Services__c",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Service_Name__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3RAAX",
+          "column": 1
+        },
+        {
+          "type": "PERCENT",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Parts_Discount_Covered__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3SAAX",
+          "column": 2
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Included_Units__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3TAAX",
+          "column": 1
+        },
+        {
+          "type": "PERCENT",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Labor_Discount_Covered__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3UAAX",
+          "column": 2
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Consumed_Units__c",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC3VAAX",
+          "column": 1
+        }
+      ]
+    },
+    "name": "View Included Service",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": true,
+    "hideQuickSave": true,
+    "dependencyExist": true
+  },
+  "name": "View Included Service",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [],
+  "developerName": "View Included Service"
+}

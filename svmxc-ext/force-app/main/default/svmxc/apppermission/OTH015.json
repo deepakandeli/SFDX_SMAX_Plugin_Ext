@@ -1,0 +1,13 @@
+{
+  "name": "Work Order Validate Address",
+  "developerName": "OTH015",
+  "description": "Work Order Validate Address",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

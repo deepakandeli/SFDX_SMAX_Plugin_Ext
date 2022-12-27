@@ -1,0 +1,13 @@
+{
+  "name": "RMA Management",
+  "developerName": "RMA_Order_Management",
+  "description": "Spring 13\nWizards Steps: Manage Part Lines, Process Receipt Lines, Print RMA Document, Cancel RMA Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

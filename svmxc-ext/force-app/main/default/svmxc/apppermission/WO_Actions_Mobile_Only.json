@@ -1,0 +1,13 @@
+{
+  "name": "Execute",
+  "developerName": "WO_Actions_Mobile_Only",
+  "description": "WO Actions on Mobile Only",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": false,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Enable Start Cleanings",
+  "isStandard": false,
+  "developerName": "Enable Start Cleanings",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Clean_Start_Time__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Clean_End_Time__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

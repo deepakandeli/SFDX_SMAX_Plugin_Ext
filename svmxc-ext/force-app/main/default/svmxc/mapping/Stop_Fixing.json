@@ -1,0 +1,32 @@
+{
+  "name": "Stop Fixing",
+  "isStandard": false,
+  "developerName": "Stop_Fixing",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "Fixing",
+      "targetFieldAPIName": "SVMXC__Activity_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Fixing"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "SVMXC__End_Date_and_Time__c",
+      "mappingType": "Constant",
+      "displayValue": "Now"
+    },
+    {
+      "value": "Labor",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Labor"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Usage/Consumption"
+    }
+  ]
+}

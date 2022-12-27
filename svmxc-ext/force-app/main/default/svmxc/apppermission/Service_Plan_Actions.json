@@ -1,0 +1,13 @@
+{
+  "name": "Service Plan Actions",
+  "developerName": "Service_Plan_Actions",
+  "description": "Wizard: Create Draft Contract",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Plan__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Start Job",
+  "developerName": "Start_Job",
+  "description": "SFM transaction that updates the Work Details Start Time",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

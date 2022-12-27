@@ -1,0 +1,13 @@
+{
+  "name": "Service Quote Actions",
+  "developerName": "ServiceQuoteActions",
+  "description": "Create WorkOrder",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Quote__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

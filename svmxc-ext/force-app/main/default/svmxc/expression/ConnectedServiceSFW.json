@@ -1,0 +1,25 @@
+{
+  "name": "Connected Service SFW",
+  "isStandard": false,
+  "developerName": "ConnectedServiceSFW",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Connected Service",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Connected Service",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Closed",
+      "sequence": 2,
+      "operator": "ne",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Status__c"
+    }
+  ],
+  "advancedExpression": "1 and 2"
+}

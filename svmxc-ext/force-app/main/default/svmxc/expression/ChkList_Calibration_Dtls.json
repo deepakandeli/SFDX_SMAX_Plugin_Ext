@@ -1,0 +1,17 @@
+{
+  "name": "ChkList_Calibration_Dtls",
+  "isStandard": false,
+  "developerName": "ChkList_Calibration_Dtls",
+  "objectAPIName": "Checklist_Template_Item__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Calibration",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Calibration",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Category__c"
+    }
+  ]
+}

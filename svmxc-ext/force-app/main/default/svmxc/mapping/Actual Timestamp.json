@@ -1,0 +1,18 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Onsite",
+      "targetFieldAPIName": "SVMXC__Dispatch_Response__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "SVMXC__Actual_Onsite_Response__c",
+      "mappingType": "Constant"
+    }
+  ],
+  "name": "Actual Timestamp",
+  "isStandard": false,
+  "developerName": "Actual Timestamp"
+}

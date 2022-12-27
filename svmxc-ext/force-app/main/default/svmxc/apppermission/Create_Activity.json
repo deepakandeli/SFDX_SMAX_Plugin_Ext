@@ -1,0 +1,13 @@
+{
+  "name": "Add/Edit Activity",
+  "developerName": "Create_Activity",
+  "description": "This SFM transaction is used to create or edit Activity (Labor) lines in Case.",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

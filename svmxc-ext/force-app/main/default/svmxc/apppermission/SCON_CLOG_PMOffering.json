@@ -1,0 +1,13 @@
+{
+  "name": "Edit PM Offering",
+  "developerName": "SCON_CLOG_PMOffering",
+  "description": "Edit PM Offering",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Plan__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

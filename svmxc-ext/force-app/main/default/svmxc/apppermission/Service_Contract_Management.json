@@ -1,0 +1,13 @@
+{
+  "name": "Service Contract Management",
+  "developerName": "Service_Contract_Management",
+  "description": "Winter 14\nWizard Steps: Coverages, Pricing Rules, Parts Pricing, Labor Pricing, Expenses Pricing, Travel Policy, Create PM Plan, Setup Counters",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

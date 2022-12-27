@@ -1,0 +1,15 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "All WO Included",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "ID",
+      "fieldAPIName": "Id"
+    }
+  ],
+  "advancedExpression": "1",
+  "developerName": "All WO Included"
+}

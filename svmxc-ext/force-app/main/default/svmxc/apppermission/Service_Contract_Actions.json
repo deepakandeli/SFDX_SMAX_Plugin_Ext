@@ -1,0 +1,13 @@
+{
+  "name": "Service Contract Actions",
+  "developerName": "Service_Contract_Actions",
+  "description": "Winter 14\nWizard Steps: Activate Contract, Renew Contract, Cancel Contract, Print Contract",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

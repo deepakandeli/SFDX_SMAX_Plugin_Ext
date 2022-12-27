@@ -1,0 +1,12 @@
+{
+  "name": "Create Service Quote from Case",
+  "developerName": "Create_Service_Quote_from_Case",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

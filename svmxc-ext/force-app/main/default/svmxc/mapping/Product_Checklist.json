@@ -1,0 +1,31 @@
+{
+  "name": "Product Checklist",
+  "isStandard": false,
+  "developerName": "Product_Checklist",
+  "targetObject": "Checklist_Template__c",
+  "sourceObject": "Product2",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Name__c",
+      "sourceFieldAPIName": "Name",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Product__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Active",
+      "targetFieldAPIName": "Status__c",
+      "mappingType": "Value",
+      "displayValue": "Active"
+    },
+    {
+      "value": "Repair",
+      "targetFieldAPIName": "Type__c",
+      "mappingType": "Value",
+      "displayValue": "Repair"
+    }
+  ]
+}

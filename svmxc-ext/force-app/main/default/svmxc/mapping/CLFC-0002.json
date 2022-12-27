@@ -1,0 +1,61 @@
+{
+  "name": "CLFC-0002",
+  "isStandard": false,
+  "developerName": "CLFC-0002",
+  "targetObject": "SVMXC__Site__c",
+  "sourceObject": "Contact",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Account__c",
+      "sourceFieldAPIName": "AccountId",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__City__c",
+      "sourceFieldAPIName": "MailingCity",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "United States",
+      "targetFieldAPIName": "SVMXC__Country__c",
+      "mappingType": "Value",
+      "displayValue": "United States"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Email__c",
+      "sourceFieldAPIName": "Email",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Customer",
+      "targetFieldAPIName": "SVMXC__Location_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Customer"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Site_Fax__c",
+      "sourceFieldAPIName": "Fax",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Site_Phone__c",
+      "sourceFieldAPIName": "Phone",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__State__c",
+      "sourceFieldAPIName": "MailingState",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Street__c",
+      "sourceFieldAPIName": "MailingStreet",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Zip__c",
+      "sourceFieldAPIName": "MailingPostalCode",
+      "mappingType": "Field Value"
+    }
+  ]
+}

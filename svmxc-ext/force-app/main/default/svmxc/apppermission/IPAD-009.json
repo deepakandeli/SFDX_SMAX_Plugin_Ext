@@ -1,0 +1,13 @@
+{
+  "name": "Create New RMA",
+  "developerName": "IPAD-009",
+  "description": "This SFM transaction is used to create an authorization to return a product (RMA).",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

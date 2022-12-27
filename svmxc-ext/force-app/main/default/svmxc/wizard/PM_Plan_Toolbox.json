@@ -1,0 +1,26 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "PM_Plan_Toolbox",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "InvokePMfromWS",
+      "processDeveloperName": "InvokePMfromWS",
+      "name": "Invoke PM Process",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Run PM Processes",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__PM_Plan__c",
+  "name": "PM Toolbox",
+  "isStandard": false,
+  "developerName": "PM_Plan_Toolbox",
+  "active": true
+}

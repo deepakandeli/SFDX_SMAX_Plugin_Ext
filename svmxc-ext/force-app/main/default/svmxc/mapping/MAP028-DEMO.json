@@ -1,0 +1,31 @@
+{
+  "name": "Case To RMA Line",
+  "isStandard": false,
+  "developerName": "MAP028-DEMO",
+  "targetObject": "SVMXC__RMA_Shipment_Line__c",
+  "sourceObject": "Case",
+  "objectMappingDetails": [
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Expected_Quantity2__c",
+      "mappingType": "Value",
+      "displayValue": "1"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Serial_Number__c",
+      "sourceFieldAPIName": "SVMXC__Component__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "RMA",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "RMA"
+    }
+  ]
+}

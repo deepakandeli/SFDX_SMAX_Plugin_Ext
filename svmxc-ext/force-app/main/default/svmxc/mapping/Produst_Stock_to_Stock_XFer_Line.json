@@ -1,0 +1,30 @@
+{
+  "name": "Produst_Stock_to_Stock_XFer_Line",
+  "isStandard": false,
+  "developerName": "Produst_Stock_to_Stock_XFer_Line",
+  "targetObject": "SVMXC__Stock_Transfer_Line__c",
+  "sourceObject": "SVMXC__Product_Stock__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Quantity_Transferred2__c",
+      "mappingType": "Value",
+      "displayValue": "1"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_ID__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_ID__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_Number__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_Number__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

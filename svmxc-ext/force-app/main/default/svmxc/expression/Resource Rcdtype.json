@@ -1,0 +1,17 @@
+{
+  "objectAPIName": "Project_Detail__c",
+  "name": "Resource Rcdtype",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Resource Forecast",
+      "sequence": 1,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Resource Forecast",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    }
+  ],
+  "developerName": "Resource Rcdtype"
+}

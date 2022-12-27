@@ -1,0 +1,13 @@
+{
+  "name": "Create Work Order Estimates from Case",
+  "developerName": "CS-TDM001",
+  "description": "This SFM transaction is used to create Work Order Estimates from Case.",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

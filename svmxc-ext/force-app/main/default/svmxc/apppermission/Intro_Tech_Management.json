@@ -1,0 +1,12 @@
+{
+  "name": "Technician Management",
+  "developerName": "Intro_Tech_Management",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Group_Members__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

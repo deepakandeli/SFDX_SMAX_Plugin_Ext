@@ -1,0 +1,42 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "SFDC-Event-Actions",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "EVT_003",
+      "processDeveloperName": "EVT_003",
+      "name": "Create New Event",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM transaction is used to create the Event record",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "SFDC-Event-Actions",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "WO_EVT_002",
+      "processDeveloperName": "WO_EVT_002",
+      "name": "Edit Work Order Event",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM transaction is used to edit the Event record  realated to Work Order",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "Event",
+  "name": "Salesforce Events Actions",
+  "isStandard": false,
+  "developerName": "SFDC-Event-Actions",
+  "active": true
+}

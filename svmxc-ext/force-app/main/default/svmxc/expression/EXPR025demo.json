@@ -1,0 +1,41 @@
+{
+  "name": "SVMXSTD: Shipped, Installed, Loaned, Or Leased IBs",
+  "isStandard": false,
+  "developerName": "EXPR025demo",
+  "objectAPIName": "SVMXC__Installed_Product__c",
+  "expressionDetails": [
+    {
+      "value": "Shipped",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Shipped",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c"
+    },
+    {
+      "value": "Installed",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Installed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c"
+    },
+    {
+      "value": "In-Transit",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "In-Transit",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c"
+    },
+    {
+      "value": "Loaner",
+      "sequence": 4,
+      "operator": "eq",
+      "operand": "Loaner",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c"
+    }
+  ],
+  "advancedExpression": "1 or 2 or 3 or 4"
+}

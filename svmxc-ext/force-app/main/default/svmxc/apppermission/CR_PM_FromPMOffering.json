@@ -1,0 +1,13 @@
+{
+  "name": "Create Preventive Maintenance Plan From PM Offerings",
+  "developerName": "CR_PM_FromPMOffering",
+  "description": "Create Preventive Maintenance Plan From PM Offerings",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__PM_Offering__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

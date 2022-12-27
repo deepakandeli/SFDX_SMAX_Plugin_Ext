@@ -1,0 +1,12 @@
+{
+  "name": "Manage Service Lead",
+  "developerName": "Manage_Service_Lead",
+  "windowsEnabled": true,
+  "sourceObjectName": "Service_Lead__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

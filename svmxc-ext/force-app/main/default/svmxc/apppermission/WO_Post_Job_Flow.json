@@ -1,0 +1,13 @@
+{
+  "name": "Wrap-Up",
+  "developerName": "WO_Post_Job_Flow",
+  "description": "Wizard for WO Actions that are common to both Admin & Technician",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

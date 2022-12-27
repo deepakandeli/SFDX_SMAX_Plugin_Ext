@@ -1,0 +1,13 @@
+{
+  "name": "Generate Site Survey Report",
+  "developerName": "Site_Survey_Report",
+  "description": "Site Survey Report",
+  "windowsEnabled": true,
+  "sourceObjectName": "Site_Survey__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

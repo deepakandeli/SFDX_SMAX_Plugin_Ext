@@ -1,0 +1,13 @@
+{
+  "name": "Site Centric Installed Base Tree View",
+  "developerName": "OTH050",
+  "description": "Visual tree view of installed base hierarchy for a location or installed product record.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

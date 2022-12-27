@@ -1,0 +1,973 @@
+{
+  "status": 0,
+  "result": {
+    "success": true,
+    "data": [
+      {
+        "name": "View Installed Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Installed Product.json"
+      },
+      {
+        "name": "View Work Order - FS - Connected",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order - FS - Connected.json"
+      },
+      {
+        "name": "Partner Estimate",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Partner Estimate.json"
+      },
+      {
+        "name": "Create Follow-Up Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Follow-Up Work Order.json"
+      },
+      {
+        "name": "View Work Order And Tasks",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order And Tasks.json"
+      },
+      {
+        "name": "View Work Order and Estimate lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order and Estimate lines.json"
+      },
+      {
+        "name": "View Work Order - Detailed",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order - Detailed.json"
+      },
+      {
+        "name": "Create New Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create New Work Order.json"
+      },
+      {
+        "name": "View Site Survey",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Site Survey.json"
+      },
+      {
+        "name": "Create Work Order from Service Quote",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Service Quote.json"
+      },
+      {
+        "name": "View Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Location.json"
+      },
+      {
+        "name": "View Service Quote",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Service Quote.json"
+      },
+      {
+        "name": "View Work Order - Usage Lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order - Usage Lines.json"
+      },
+      {
+        "name": "View Service Contract",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Service Contract.json"
+      },
+      {
+        "name": "View Product Stock (iPad)",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Product Stock (iPad).json"
+      },
+      {
+        "name": "View Service Lead",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Service Lead.json"
+      },
+      {
+        "name": "View Service Contract",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Service Contract.json"
+      },
+      {
+        "name": "View Work Order Tasks",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order Tasks.json"
+      },
+      {
+        "name": "View Work Order, Lines, and Salesforce Tasks",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order, Lines, and Salesforce Tasks.json"
+      },
+      {
+        "name": "View Event",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Event.json"
+      },
+      {
+        "name": "View Work Details",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Details.json"
+      },
+      {
+        "name": "Create Project Follow-Up Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Project Follow-Up Work Order.json"
+      },
+      {
+        "name": "View Account - Intro",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Account - Intro.json"
+      },
+      {
+        "name": "View Account - 360",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Account - 360.json"
+      },
+      {
+        "name": "View Work Order - Service",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order - Service.json"
+      },
+      {
+        "name": "View Technician Profile",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Technician Profile.json"
+      },
+      {
+        "name": "View Work Order - Intro",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order - Intro.json"
+      },
+      {
+        "name": "View Installed Product - Intro",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Installed Product - Intro.json"
+      },
+      {
+        "name": "View RMA",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View RMA.json"
+      },
+      {
+        "name": "View Product Warranty",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Product Warranty.json"
+      },
+      {
+        "name": "View Service Team",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Service Team.json"
+      },
+      {
+        "name": "View Timesheet and Entries",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Timesheet and Entries.json"
+      },
+      {
+        "name": "View Part Swap",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Part Swap.json"
+      },
+      {
+        "name": "View Service Territory",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Service Territory.json"
+      },
+      {
+        "name": "View Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Product.json"
+      },
+      {
+        "name": "View Location - Intro",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Location - Intro.json"
+      },
+      {
+        "name": "View Location with Cycle Count",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Location with Cycle Count.json"
+      },
+      {
+        "name": "View Cycle Count Lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Cycle Count Lines.json"
+      },
+      {
+        "name": "View Cycle Count",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Cycle Count.json"
+      },
+      {
+        "name": "Start Job DNU",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Start Job DNU.json"
+      },
+      {
+        "name": "Create Work Order Dependency",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order Dependency.json"
+      },
+      {
+        "name": "Create Work Order Survey",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order Survey.json"
+      },
+      {
+        "name": "Create Work Template",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Template.json"
+      },
+      {
+        "name": "Create Usage/RMA from Part Swap",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Usage/RMA from Part Swap.json"
+      },
+      {
+        "name": "View Work Order - Knowledge",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Work Order - Knowledge.json"
+      },
+      {
+        "name": "Create Service Request",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Request.json"
+      },
+      {
+        "name": "View Covered Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Covered Product.json"
+      },
+      {
+        "name": "View Covered Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Covered Location.json"
+      },
+      {
+        "name": "View Included Service",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Included Service.json"
+      },
+      {
+        "name": "View Labor Pricing",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Labor Pricing.json"
+      },
+      {
+        "name": "Approve Work Order Quote",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Approve Work Order Quote.json"
+      },
+      {
+        "name": "Create Work Order Quote",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order Quote.json"
+      },
+      {
+        "name": "Customer Approve Work Order Quote",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Customer Approve Work Order Quote.json"
+      },
+      {
+        "name": "Review Work Order Quote",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Review Work Order Quote.json"
+      },
+      {
+        "name": "Generate Nintex Report",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Generate Nintex Report.json"
+      },
+      {
+        "name": "Create Work Order from Installed Product - SVMX",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Installed Product - SVMX.json"
+      },
+      {
+        "name": "Create RMA from Work Order DE",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create RMA from Work Order DE.json"
+      },
+      {
+        "name": "Create RMA from Case",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create RMA from Case.json"
+      },
+      {
+        "name": "Manage Work Detail Lines - Estimates",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Work Detail Lines - Estimates.json"
+      },
+      {
+        "name": "Create Case from Installed Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Case from Installed Product.json"
+      },
+      {
+        "name": "Create Case from Account",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Case from Account.json"
+      },
+      {
+        "name": "Create Installed Product from Account",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Installed Product from Account.json"
+      },
+      {
+        "name": "Create Work Order from Location (with estimates)",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Location (with estimates).json"
+      },
+      {
+        "name": "Create Work Order From Case",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order From Case.json"
+      },
+      {
+        "name": "Create Installed Product From Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Installed Product From Location.json"
+      },
+      {
+        "name": "Create Work Order From Account",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order From Account.json"
+      },
+      {
+        "name": "Create Site Survey from Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Site Survey from Work Order.json"
+      },
+      {
+        "name": "Manage Site Survey",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Site Survey.json"
+      },
+      {
+        "name": "Create Work Order From Contact",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order From Contact.json"
+      },
+      {
+        "name": "Part Transfer from Depot Repair Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Part Transfer from Depot Repair Order.json"
+      },
+      {
+        "name": "Manage Case Lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Case Lines.json"
+      },
+      {
+        "name": "Product Stock Transfer",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Product Stock Transfer.json"
+      },
+      {
+        "name": "Manage Quote Lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Quote Lines.json"
+      },
+      {
+        "name": "Create Work Order Tasks from Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order Tasks from Work Order.json"
+      },
+      {
+        "name": "Create Part Swap from Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Part Swap from Work Order.json"
+      },
+      {
+        "name": "Create Location from Account",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Location from Account.json"
+      },
+      {
+        "name": "Create Location from Contact",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Location from Contact.json"
+      },
+      {
+        "name": "Create Case from Contact",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Case from Contact.json"
+      },
+      {
+        "name": "Create Case from Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Case from Location.json"
+      },
+      {
+        "name": "Log Initial Response on Case",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Log Initial Response on Case.json"
+      },
+      {
+        "name": "Create Shipment Order from Work Detail Line",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Shipment Order from Work Detail Line.json"
+      },
+      {
+        "name": "Update Installed Product Configuration",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Update Installed Product Configuration.json"
+      },
+      {
+        "name": "SLA Timestamps on Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\SLA Timestamps on Work Order.json"
+      },
+      {
+        "name": "Work Order Stamp Onsite Arrival",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Stamp Onsite Arrival.json"
+      },
+      {
+        "name": "Work Order Debrief",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Debrief.json"
+      },
+      {
+        "name": "Create Child Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Child Location.json"
+      },
+      {
+        "name": "Manage Work Order Dependency",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Work Order Dependency.json"
+      },
+      {
+        "name": "Create Depot Repair Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Depot Repair Order.json"
+      },
+      {
+        "name": "Manage Work Order Usage and SFDC Tasks",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Work Order Usage and SFDC Tasks.json"
+      },
+      {
+        "name": "Manage Service Contracts - with Pricings",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Service Contracts - with Pricings.json"
+      },
+      {
+        "name": "Self Dispatch",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Self Dispatch.json"
+      },
+      {
+        "name": "Create Stock Transfer from Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Stock Transfer from Location.json"
+      },
+      {
+        "name": "Create Shipment From RMA",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Shipment From RMA.json"
+      },
+      {
+        "name": "Review & Complete Job",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Review & Complete Job.json"
+      },
+      {
+        "name": "Log Travel Start - Mobile",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Log Travel Start - Mobile.json"
+      },
+      {
+        "name": "Tech Out of Office",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Tech Out of Office.json"
+      },
+      {
+        "name": "Notify My Manager",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Notify My Manager.json"
+      },
+      {
+        "name": "Create Service Quote from Case",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Quote from Case.json"
+      },
+      {
+        "name": "Log Onsite Arrival - Mobile",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Log Onsite Arrival - Mobile.json"
+      },
+      {
+        "name": "Create Service Quote from Account",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Quote from Account.json"
+      },
+      {
+        "name": "Manage Service Lead",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Service Lead.json"
+      },
+      {
+        "name": "Create Work Order from Service Lead",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Service Lead.json"
+      },
+      {
+        "name": "Create Service Quote from Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Quote from Work Order.json"
+      },
+      {
+        "name": "Create SVMX Event from Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create SVMX Event from Work Order.json"
+      },
+      {
+        "name": "Part Swap Debrief",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Part Swap Debrief.json"
+      },
+      {
+        "name": "Create Project Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Project Work Order.json"
+      },
+      {
+        "name": "Manage Preventive Maintenance - custom",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Preventive Maintenance - custom.json"
+      },
+      {
+        "name": "Create PM Plan from PM Template",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create PM Plan from PM Template.json"
+      },
+      {
+        "name": "Create Project From Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Project From Location.json"
+      },
+      {
+        "name": "Edit Installed Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Edit Installed Product.json"
+      },
+      {
+        "name": "Create Work Order from Service Request",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Service Request.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start Inspection",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start Inspection.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start Testing",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start Testing.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start Calibration",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start Calibration.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Stop Inspection",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Stop Inspection.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Stop Testing",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Stop Testing.json"
+      },
+      {
+        "name": "Timesheet - Rollup Values",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Timesheet - Rollup Values.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start Fixing",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start Fixing.json"
+      },
+      {
+        "name": "Manage Products Serviced",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Products Serviced.json"
+      },
+      {
+        "name": "Add / Edit Work Details",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Add / Edit Work Details.json"
+      },
+      {
+        "name": "IoT Service Request",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\IoT Service Request.json"
+      },
+      {
+        "name": "Edit Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Edit Location.json"
+      },
+      {
+        "name": "Update Technician Profile",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Update Technician Profile.json"
+      },
+      {
+        "name": "Edit Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Edit Product.json"
+      },
+      {
+        "name": "Accept/Reject Work",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Accept/Reject Work.json"
+      },
+      {
+        "name": "Create Work Order from Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Location.json"
+      },
+      {
+        "name": "Reject Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Reject Work Order.json"
+      },
+      {
+        "name": "Manage Event",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Event.json"
+      },
+      {
+        "name": "Renew Contract",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Renew Contract.json"
+      },
+      {
+        "name": "Submit for Approval",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Submit for Approval.json"
+      },
+      {
+        "name": "Manage Work Details",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Work Details.json"
+      },
+      {
+        "name": "Create Depot Repair Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Depot Repair Work Order.json"
+      },
+      {
+        "name": "Manage Work Details",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Work Details.json"
+      },
+      {
+        "name": "Create Service Quote from Installed Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Quote from Installed Product.json"
+      },
+      {
+        "name": "Work Order Debrief CFS",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Debrief CFS.json"
+      },
+      {
+        "name": "Manage RMA Parts Lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage RMA Parts Lines.json"
+      },
+      {
+        "name": "Create Service Contract (from Account)",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Contract (from Account).json"
+      },
+      {
+        "name": "Add/Edit Time",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Add/Edit Time.json"
+      },
+      {
+        "name": "Create Service Contract from Service Contract",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Contract from Service Contract.json"
+      },
+      {
+        "name": "Create Service Lead from Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Lead from Work Order.json"
+      },
+      {
+        "name": "Service Contract Renewal Notification",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Service Contract Renewal Notification.json"
+      },
+      {
+        "name": "Service WO Debrief",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Service WO Debrief.json"
+      },
+      {
+        "name": "Create Work Details for Request and Receipt",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Details for Request and Receipt.json"
+      },
+      {
+        "name": "Partner Estimate Approval",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Partner Estimate Approval.json"
+      },
+      {
+        "name": "Partner Work Order Debrief",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Partner Work Order Debrief.json"
+      },
+      {
+        "name": "Work Order Debrief - Log Usage against Estimates",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Debrief - Log Usage against Estimates.json"
+      },
+      {
+        "name": "Create Parts Transfer to HQ Depot",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Parts Transfer to HQ Depot.json"
+      },
+      {
+        "name": "Create Service Quote from Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Quote from Location.json"
+      },
+      {
+        "name": "Create Installed Product from Product",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Installed Product from Product.json"
+      },
+      {
+        "name": "Manage Contacts from Account",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Contacts from Account.json"
+      },
+      {
+        "name": "Create Work Order from Installed Product - Intro",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Installed Product - Intro.json"
+      },
+      {
+        "name": "Work Order Debrief - Intro",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Debrief - Intro.json"
+      },
+      {
+        "name": "Create Parts Request from Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Parts Request from Location.json"
+      },
+      {
+        "name": "Work Order - Down Time",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order - Down Time.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start Cleaning",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start Cleaning.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Stop Cleaning",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Stop Cleaning.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start QA Test",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start QA Test.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Stop QA Test",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Stop QA Test.json"
+      },
+      {
+        "name": "Manage Service Request",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Service Request.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start Packaging",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start Packaging.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Stop Packaging",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Stop Packaging.json"
+      },
+      {
+        "name": "Escalate Depot Repair Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Escalate Depot Repair Work Order.json"
+      },
+      {
+        "name": "Manage Work Template",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Work Template.json"
+      },
+      {
+        "name": "Reset Depot Repair Sequence",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Reset Depot Repair Sequence.json"
+      },
+      {
+        "name": "Create Product Service Template",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Product Service Template.json"
+      },
+      {
+        "name": "SFA - Accept Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\SFA - Accept Work Order.json"
+      },
+      {
+        "name": "Take Caliper Readings",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Take Caliper Readings.json"
+      },
+      {
+        "name": "Create RMA from Service Request",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create RMA from Service Request.json"
+      },
+      {
+        "name": "SFA - Reject Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\SFA - Reject Work Order.json"
+      },
+      {
+        "name": "Create Parts Request from Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Parts Request from Work Order.json"
+      },
+      {
+        "name": "Start Job",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Start Job.json"
+      },
+      {
+        "name": "Create Event on Mobile",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Event on Mobile.json"
+      },
+      {
+        "name": "Create SVMX Event on Mobile",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create SVMX Event on Mobile.json"
+      },
+      {
+        "name": "View SVMX Event",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View SVMX Event.json"
+      },
+      {
+        "name": "Close Work Order",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Close Work Order.json"
+      },
+      {
+        "name": "Create Service Request from IP",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Service Request from IP.json"
+      },
+      {
+        "name": "Complete Cycle Count",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Complete Cycle Count.json"
+      },
+      {
+        "name": "Create Cycle Count from Location",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Cycle Count from Location.json"
+      },
+      {
+        "name": "Submit Cycle Count",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Submit Cycle Count.json"
+      },
+      {
+        "name": "Create Work Order from Project",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Project.json"
+      },
+      {
+        "name": "Manage Resource Request",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Manage Resource Request.json"
+      },
+      {
+        "name": "Notify Customer Care",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Notify Customer Care.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Start Problem Analysis",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Start Problem Analysis.json"
+      },
+      {
+        "name": "Work Order Depot Repair - Stop Problem Analysis",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Work Order Depot Repair - Stop Problem Analysis.json"
+      },
+      {
+        "name": "Create Quote",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Quote.json"
+      },
+      {
+        "name": "Create FRUs",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create FRUs.json"
+      },
+      {
+        "name": "Create FRU Alt",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create FRU Alt.json"
+      },
+      {
+        "name": "Create Work Order from Location with Products Serviced",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Work Order from Location with Products Serviced.json"
+      },
+      {
+        "name": "Update Parts Request Lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Update Parts Request Lines.json"
+      },
+      {
+        "name": "Create Timesheet Entries Custom",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Create Timesheet Entries Custom.json"
+      },
+      {
+        "name": "Edit Parts Request Lines",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Edit Parts Request Lines.json"
+      },
+      {
+        "name": "View Parts Request",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\View Parts Request.json"
+      },
+      {
+        "name": "Timesheet Daily Summary Custom",
+        "type": "Transaction",
+        "file": "svmxc_2\\svmxc\\transaction\\Timesheet Daily Summary Custom.json"
+      }
+    ]
+  }
+}

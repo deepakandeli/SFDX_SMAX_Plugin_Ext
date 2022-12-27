@@ -1,0 +1,13 @@
+{
+  "name": "Create Usage/RMA from Part Swap",
+  "developerName": "Create_Usage_RMA_from_Part_Swap",
+  "description": "SFM Display to create usage/consumption work details and RMA record from associated Part Swap records",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

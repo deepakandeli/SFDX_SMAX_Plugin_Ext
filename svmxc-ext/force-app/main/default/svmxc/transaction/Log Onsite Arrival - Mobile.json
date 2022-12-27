@@ -1,0 +1,79 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "LOG_ONSITE_ARRIVAL_-_MOBILE;LOG_ONSITE_ARRIVAL_DESC;WORK_ORDER;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjx9EAA",
+      "objectLabel": "Work Order",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Work Order",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "elements": [
+        {
+          "type": "DATETIME",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Actual_Onsite_Response__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBekAAH",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Dispatch_Response__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBelAAH",
+          "column": 2
+        }
+      ]
+    },
+    "name": "Actual Onsite Response NOW()",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring14/en_us/svmx_redirector.htm?uid=",
+    "dependencyExist": true
+  },
+  "name": "Log Onsite Arrival - Mobile",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "This SFM will stamp the current time into the \"Onsite Response - Actual\" field on a work order.",
+  "childProcessNodes": [],
+  "developerName": "Log Onsite Arrival - Mobile"
+}

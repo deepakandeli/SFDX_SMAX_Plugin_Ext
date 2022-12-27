@@ -1,0 +1,36 @@
+{
+  "name": "Open IoT Alert",
+  "isStandard": false,
+  "developerName": "Open_IoT_Alert",
+  "objectAPIName": "SVMXC__Service_Request__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Open",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Open",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Field Service",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Field Service",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Type__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "IoT",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "IoT",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Service_Request_Source__c",
+      "actionType": "Set Value"
+    }
+  ]
+}

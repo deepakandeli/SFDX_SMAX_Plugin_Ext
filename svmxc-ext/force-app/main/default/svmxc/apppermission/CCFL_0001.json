@@ -1,0 +1,13 @@
+{
+  "name": "Create Case from Location",
+  "developerName": "CCFL_0001",
+  "description": "Create Case",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

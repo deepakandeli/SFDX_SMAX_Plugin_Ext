@@ -1,0 +1,16 @@
+{
+  "name": "WO: Order Type Onsite Service",
+  "isStandard": false,
+  "developerName": "WO_OnsiteService",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Onsite Service",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Onsite Service",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Type__c"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Accounts",
+  "isStandard": false,
+  "developerName": "Accounts",
+  "objectAPIName": "Account",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "ne",
+      "fieldType": "ID",
+      "fieldAPIName": "Id"
+    }
+  ],
+  "advancedExpression": "1"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Ultrasound Products",
+  "isStandard": false,
+  "developerName": "Ultrasound_Products",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Ultrasound Logiq 500 MD",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Ultrasound Logiq 500 MD",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Product__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Logiq 500 MD - Pulsed Wave Wand",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Logiq 500 MD - Pulsed Wave Wand",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Product__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Logiq 500 MD - Continuous Wave Wand",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "Logiq 500 MD - Continuous Wave Wand",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Product__c",
+      "actionType": "Set Value"
+    }
+  ],
+  "advancedExpression": "1 OR 2 OR 3"
+}

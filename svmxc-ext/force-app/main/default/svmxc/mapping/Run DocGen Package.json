@@ -1,0 +1,15 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "true",
+      "targetFieldAPIName": "Run_DocGen_Package_Mobile__c",
+      "sourceFldDtaType": "BOOLEAN",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Run DocGen Package",
+  "isStandard": false,
+  "developerName": "Run DocGen Package"
+}

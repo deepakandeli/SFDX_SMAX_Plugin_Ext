@@ -1,0 +1,22 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Mobile 1st",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Mobile 1st",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Mobile 1st",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Page_Style__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnotnull",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Page_Style__c"
+    }
+  ],
+  "developerName": "Mobile 1st"
+}

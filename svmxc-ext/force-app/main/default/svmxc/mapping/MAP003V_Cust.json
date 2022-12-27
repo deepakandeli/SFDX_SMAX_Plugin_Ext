@@ -1,0 +1,20 @@
+{
+  "name": "Create RMA line",
+  "isStandard": false,
+  "developerName": "MAP003V_Cust",
+  "targetObject": "SVMXC__RMA_Shipment_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Expected_Quantity2__c",
+      "mappingType": "Value",
+      "displayValue": "1"
+    },
+    {
+      "value": "RMA",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "RMA"
+    }
+  ]
+}

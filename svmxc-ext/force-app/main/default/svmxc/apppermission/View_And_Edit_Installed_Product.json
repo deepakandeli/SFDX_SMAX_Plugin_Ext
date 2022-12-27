@@ -1,0 +1,13 @@
+{
+  "name": "View And Edit Installed Product",
+  "developerName": "View_And_Edit_Installed_Product",
+  "description": "This SFM transaction is used to view and edit installed product record.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

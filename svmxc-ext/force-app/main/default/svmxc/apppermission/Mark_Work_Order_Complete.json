@@ -1,0 +1,13 @@
+{
+  "name": "Mark Work Order Complete",
+  "developerName": "Mark_Work_Order_Complete",
+  "description": "This SFM is used by technicians to update work/job completion details",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

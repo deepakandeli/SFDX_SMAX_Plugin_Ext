@@ -1,0 +1,33 @@
+{
+  "name": "Service Only WO",
+  "isStandard": false,
+  "developerName": "Service Only WO",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Closed",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Status__c"
+    },
+    {
+      "value": "Service",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Service",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Purpose_of_Visit__c"
+    },
+    {
+      "value": "Lite",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "Lite",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Page_Style__c"
+    }
+  ],
+  "advancedExpression": "1 AND (2 OR 3)"
+}

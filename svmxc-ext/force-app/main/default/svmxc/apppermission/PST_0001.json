@@ -1,0 +1,13 @@
+{
+  "name": "Product Stock Transfer",
+  "developerName": "PST_0001",
+  "description": "Product Stock Transfer",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Product_Stock__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

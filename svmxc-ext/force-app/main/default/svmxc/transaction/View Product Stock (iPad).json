@@ -1,0 +1,231 @@
+{
+  "validationRules": [],
+  "transactionType": "VIEW RECORD",
+  "tagKeys": "VIEW_PRODUCT_STOCK_(IPAD);SERIALS;PRODUCT_STOCK;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjzxEAA",
+      "objectLabel": "Product Stock",
+      "objectAPIName": "SVMXC__Product_Stock__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Product Stock",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Serials",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Product_Stock__c",
+      "elements": [
+        {
+          "type": "STRING",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "Name",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBg9AAH",
+          "column": 1
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Available_Qty__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBgAAAX",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 3,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Location__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBgBAAX",
+          "column": 1
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Reorder_Level2__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBgCAAX",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 5,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Product__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBgDAAX",
+          "column": 1
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Reorder_Quantity2__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBgEAAX",
+          "column": 2
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 7,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Status__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBgFAAX",
+          "column": 1
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 8,
+          "row": 4,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Required_Quantity2__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBgGAAX",
+          "column": 2
+        }
+      ]
+    },
+    "name": "ViewProductStock",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Serials",
+        "elements": [
+          {
+            "type": "STRING",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "Name",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBgHAAX",
+            "column": 1
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Active__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBgIAAX",
+            "column": 2
+          },
+          {
+            "type": "REFERENCE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBgJAAX",
+            "column": 3
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": true,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter15/en_us/svmx_redirector.htm?uid=",
+    "dependencyExist": true
+  },
+  "name": "View Product Stock (iPad)",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjzzEAA",
+      "parentColumnAPIName": "SVMXC__Product_Stock__c",
+      "objectLabel": "Serials",
+      "objectAPIName": "SVMXC__Product_Serial__c",
+      "nodeAPIName": "SVMXC__Product_Stock__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "View Product Stock (iPad)"
+}

@@ -1,0 +1,119 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Manage_Installed_Product",
+      "processDeveloperName": "Manage_Installed_Product",
+      "name": "Manage Installed Product",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "TDM001",
+      "processDeveloperName": "TDM001",
+      "name": "Create Child Installed Product",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Update Configuration",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH021",
+      "processDeveloperName": "OTH021",
+      "name": "Add Warranty",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create and add Product Warranty to Installed Product",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "IB_Asset_Overview",
+      "processDeveloperName": "IB_Asset_Overview",
+      "name": "Asset Overview",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Connected Products Only",
+      "expression": "Connected Products Only",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "sequence": 5,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH051",
+      "processDeveloperName": "OTH051",
+      "name": "Technical Attributes",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "View and update technical attributes related to the installed product record.",
+      "criteriaAction": "Hide Step",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "sequence": 6,
+      "selectTemplateAtRuntime": false,
+      "name": "Asset Inspection",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Technician's assessment on asset's health & condition",
+      "criteriaAction": "Hide Step",
+      "active": false,
+      "actionType": "DataGuide_Form"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Installed_Product_Management",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Installed_Product__c",
+  "name": "Installed Product Management",
+  "isStandard": false,
+  "expressionDeveloperName": "isNOTCustomerUserIP",
+  "expression": "isNOTCustomerUserIP",
+  "developerName": "Installed_Product_Management",
+  "description": "Winter 15 SP\nWizard Steps: Validate Address, Add Warranty, Update Configuration, Update Counters",
+  "active": true
+}

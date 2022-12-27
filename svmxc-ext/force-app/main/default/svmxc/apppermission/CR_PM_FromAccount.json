@@ -1,0 +1,13 @@
+{
+  "name": "Create Preventive Maintenance Plan From Account",
+  "developerName": "CR_PM_FromAccount",
+  "description": "Create Preventive Maintenance Plan From Account",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

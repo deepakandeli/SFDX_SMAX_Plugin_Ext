@@ -1,0 +1,34 @@
+{
+  "name": "SC_To_ProformaInvoice",
+  "isStandard": false,
+  "developerName": "SC_To_ProformaInvoice",
+  "targetObject": "SVMXC__Proforma_Invoice__c",
+  "sourceObject": "SVMXC__Service_Contract__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Account__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Cancelation_Notes__c",
+      "sourceFieldAPIName": "SVMXC__Cancelation_Notes__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Canceled_By__c",
+      "sourceFieldAPIName": "SVMXC__Canceled_By__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Canceled_On__c",
+      "sourceFieldAPIName": "SVMXC__Canceled_On__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    }
+  ]
+}

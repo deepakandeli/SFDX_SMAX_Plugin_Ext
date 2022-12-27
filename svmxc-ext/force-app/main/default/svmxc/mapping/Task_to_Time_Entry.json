@@ -1,0 +1,52 @@
+{
+  "name": "Time Entry from Task",
+  "isStandard": false,
+  "developerName": "Task_to_Time_Entry",
+  "targetObject": "SVMXC__Timesheet_Entry__c",
+  "sourceObject": "Task",
+  "objectMappingDetails": [
+    {
+      "value": "Task",
+      "targetFieldAPIName": "SVMXC__Activity__c",
+      "sourceFldDtaType": "PICKLIST",
+      "mappingType": "Value",
+      "displayValue": "Task",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFldDtaType": "PICKLIST",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Comments__c",
+      "sourceFldDtaType": "TEXTAREA",
+      "sourceFieldAPIName": "Description",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__End_Time__c",
+      "sourceFldDtaType": "DATETIME",
+      "sourceFieldAPIName": "Task_End_Time__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Start_Time__c",
+      "sourceFldDtaType": "DATETIME",
+      "sourceFieldAPIName": "Task_Start_Time__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__SM_Type__c",
+      "sourceFldDtaType": "PICKLIST",
+      "sourceFieldAPIName": "CallType",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ]
+}

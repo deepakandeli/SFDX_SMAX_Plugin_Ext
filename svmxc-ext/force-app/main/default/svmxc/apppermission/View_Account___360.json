@@ -1,0 +1,12 @@
+{
+  "name": "View Account - 360",
+  "developerName": "View_Account___360",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

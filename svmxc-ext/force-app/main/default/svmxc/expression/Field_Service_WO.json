@@ -1,0 +1,16 @@
+{
+  "name": "Field Service WO",
+  "isStandard": false,
+  "developerName": "Field_Service_WO",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Depot Repair",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Depot Repair",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    }
+  ]
+}

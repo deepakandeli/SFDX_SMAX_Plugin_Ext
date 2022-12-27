@@ -1,0 +1,13 @@
+{
+  "name": "Manage Service Teams",
+  "developerName": "OTH022",
+  "description": "Manage Team",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Group__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

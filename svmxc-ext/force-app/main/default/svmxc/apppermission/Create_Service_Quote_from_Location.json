@@ -1,0 +1,12 @@
+{
+  "name": "Create Service Quote from Location",
+  "developerName": "Create_Service_Quote_from_Location",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

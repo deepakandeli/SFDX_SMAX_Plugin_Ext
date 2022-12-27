@@ -1,0 +1,266 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "ADD/EDIT_TIME;CREATE_CASE_TIME_TRACKER_ENTRY_DESC;CASE_TIME_TRACKER_PAGEHELP;ACTIVITY;CASE;GET_PRICE;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjp0EAA",
+      "objectLabel": "Case",
+      "objectAPIName": "Case",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHelp": "This SFM transaction is used to create or edit Activity (Labor) lines in Case.",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Button",
+          "referenceId": "a0c5g00000FJB9rAAH",
+          "name": "Get Price",
+          "hideSectionTitle": false,
+          "events": [
+            {
+              "type": "Button Click",
+              "actionType": "JAVASCRIPT",
+              "actionTarget": "a1t5g0000009kgiAAA"
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJB9oAAH",
+          "name": "Case",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "PICKLIST",
+              "sequence": 1,
+              "row": 1,
+              "required": true,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Status"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Billing_Type__c"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "referenceId": "a0d5g000003fL9CAAU",
+          "objectAlias": "Activity",
+          "name": "Activity",
+          "childAPIName": "SVMXC__Time_Tracker__c",
+          "allowZeroLines": "Allow"
+        }
+      ],
+      "objectAPIName": "Case"
+    },
+    "objectAPIName": "Case",
+    "name": "Add/Edit Time",
+    "lines": [
+      {
+        "sequence": 1,
+        "referenceId": "a0d5g000003fL9CAAU",
+        "objectAlias": "Activity",
+        "name": "Activity",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Activity_Type__c"
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Start_Date_and_Time__c"
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__End_Date_and_Time__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__Line_Qty__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "SVMXC__Line_Price__c"
+          },
+          {
+            "type": "PERCENT",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 6,
+            "apiName": "SVMXC__Covered__c"
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 7,
+            "apiName": "SVMXC__Description__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 8,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 8,
+            "apiName": "SVMXC__Billable_Qty__c"
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 9,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 9,
+            "apiName": "SVMXC__Is_Billable__c"
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 10,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 10,
+            "apiName": "SVMXC__Billable_Line_Price__c"
+          }
+        ],
+        "childAPIName": "SVMXC__Time_Tracker__c",
+        "allowZeroLines": "Allow"
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Spring13/en_us/svmx_redirector.htm?uid=",
+    "events": [
+      {
+        "type": "Before Save/Update",
+        "actionType": "JAVASCRIPT",
+        "actionTarget": "a1t5g0000009kgiAAA"
+      }
+    ],
+    "dependencyExist": true
+  },
+  "name": "Add/Edit Time",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "Create_Case_Time_Tracker_Entry",
+  "description": "Create Case Time Tracker Entry",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qjp1EAA",
+      "qualificationCriteriaId": "EXPR070",
+      "parentColumnAPIName": "SVMXC__Case__c",
+      "objectLabel": "Activity",
+      "objectAPIName": "SVMXC__Time_Tracker__c",
+      "nodeAPIName": "Case",
+      "mappingId": "Case_VMap001",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ]
+}

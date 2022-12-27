@@ -1,0 +1,14 @@
+{
+  "name": "SLA Timestamp Enable",
+  "isStandard": false,
+  "developerName": "SLA_Timestamp_Enable",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "SVMXC__Scheduled_Date_Time__c"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Packaging_End_Time__c",
+      "mappingType": "Constant"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Task_End_Date__c",
+      "mappingType": "Constant"
+    },
+    {
+      "value": "Stop",
+      "targetFieldAPIName": "Task_Status__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Stop Packaging Map",
+  "isStandard": false,
+  "developerName": "Stop Packaging Map"
+}

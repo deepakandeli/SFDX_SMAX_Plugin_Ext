@@ -1,0 +1,13 @@
+{
+  "name": "Log Initial Response on Case",
+  "developerName": "LIROC_0001",
+  "description": "Log Initial Response on Case",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Edit Service",
+  "developerName": "SCON_SFW003",
+  "description": "Edit Service",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

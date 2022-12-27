@@ -1,0 +1,29 @@
+{
+  "name": "CreateQuotefromIP",
+  "isStandard": false,
+  "developerName": "CreateQuotefromIP",
+  "targetObject": "SVMXC__Quote__c",
+  "sourceObject": "SVMXC__Installed_Product__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Contact__c",
+      "sourceFieldAPIName": "SVMXC__Contact__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "sourceFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "IpadWorkDetails",
+  "isStandard": false,
+  "developerName": "IpadWorkDetails",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "mappingType": "Value",
+      "displayValue": "1"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Usage/Consumption"
+    }
+  ]
+}

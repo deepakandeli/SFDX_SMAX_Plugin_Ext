@@ -1,0 +1,25 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Preventive Maintenance Enable SFW",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Closed",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Status__c"
+    },
+    {
+      "value": "Preventive Maintenance",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Preventive Maintenance",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    }
+  ],
+  "advancedExpression": "1 AND 2",
+  "developerName": "Preventive Maintenance Enable SFW"
+}

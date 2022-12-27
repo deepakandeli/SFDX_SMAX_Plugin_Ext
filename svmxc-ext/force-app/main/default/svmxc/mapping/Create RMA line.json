@@ -1,0 +1,40 @@
+{
+  "targetObject": "SVMXC__RMA_Shipment_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Expected_Quantity2__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "RMA",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Create RMA line",
+  "isStandard": false,
+  "developerName": "Create RMA line"
+}Quantity2__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Inbound (RMA)",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "RMA",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Create RMA line",
+  "isStandard": false,
+  "developerName": "Create RMA line"
+}

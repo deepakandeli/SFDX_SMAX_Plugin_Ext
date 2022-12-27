@@ -1,0 +1,17 @@
+{
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "name": "PM Due Date in past",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "today",
+      "sequence": 1,
+      "operator": "lt",
+      "operandType": "Constant",
+      "operand": "today",
+      "fieldType": "DATE",
+      "fieldAPIName": "Next_PM_Due_Date__c"
+    }
+  ],
+  "developerName": "PM Due Date in past"
+}

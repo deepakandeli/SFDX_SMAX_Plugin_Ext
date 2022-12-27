@@ -1,0 +1,13 @@
+{
+  "name": "Cancel Work Order",
+  "developerName": "WO-TDM001",
+  "description": "This SFM transaction is used to allow users to cancel a work order.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Log Onsite Arrival - Mobile",
+  "developerName": "Log_Onsite_Arrival",
+  "description": "This SFM will stamp the current time into the \"Onsite Response - Actual\" field on a work order.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

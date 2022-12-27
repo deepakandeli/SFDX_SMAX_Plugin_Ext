@@ -1,0 +1,13 @@
+{
+  "name": "Manage Custom Coverage",
+  "developerName": "ED_Custom_Coverage",
+  "description": "This SFM allows users to configure custom coverages on parts for included services for a given service contract.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

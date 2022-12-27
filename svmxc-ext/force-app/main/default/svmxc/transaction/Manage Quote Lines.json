@@ -1,0 +1,1265 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "MANAGE_QUOTE_LINES;TDM019_MANAGEQUOTELINES_DESC;PARTS;LABOR;EXPENSE;SERVICE_QUOTE;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk54EAA",
+      "objectLabel": "Service Quote",
+      "objectAPIName": "SVMXC__Quote__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Service Quote",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "name": "Parts",
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 2,
+          "name": "Labor"
+        },
+        {
+          "type": "Detail",
+          "sequence": 3,
+          "name": "Expense"
+        }
+      ],
+      "objectAPIName": "SVMXC__Quote__c",
+      "elements": [
+        {
+          "type": "REFERENCE",
+          "sequence": 1,
+          "row": 1,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Company__c",
+          "lookupConfiguration": {
+            "name": "SVMXSTD: Account Lookup",
+            "lookupObject": "Account",
+            "lookupFilter": {
+              "sourceObject": "Account",
+              "expressionsList": [
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "AccountNumber",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                }
+              ],
+              "defaultOn": false,
+              "allowOverride": false
+            },
+            "lkpRecords": 10,
+            "isStandard": true,
+            "isDefault": true,
+            "description": "Pre-configured standard lookup for Account object",
+            "defaultColumn": "Name",
+            "advancedFilters": []
+          },
+          "lookupConfigName": "SVMXSTD: Account Lookup",
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJButAAH",
+          "column": 1
+        },
+        {
+          "type": "CURRENCY",
+          "sequence": 2,
+          "row": 1,
+          "required": false,
+          "readOnly": true,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Total_Line_Price2__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuuAAH",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 3,
+          "row": 2,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Service_Order__c",
+          "lookupConfiguration": {
+            "name": "SVMXSTD: Work Order Lookup",
+            "lookupObject": "SVMXC__Service_Order__c",
+            "lookupFilter": {
+              "sourceObject": "SVMXC__Service_Order__c",
+              "expressionsList": [
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceFldDtaType": "REFERENCE",
+                  "sourceField": "SVMXC__Company__c",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "SVMXC__Priority__c",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceFldDtaType": "REFERENCE",
+                  "sourceField": "SVMXC__Company__c",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceFldDtaType": "REFERENCE",
+                  "sourceField": "SVMXC__Component__c",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "SVMXC__Order_Type__c",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "SVMXC__Priority__c",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "SVMXC__Order_Type__c",
+                  "sequence": 4,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "SVMXC__Billing_Type__c",
+                  "sequence": 4,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "SVMXC__Billing_Type__c",
+                  "sequence": 5,
+                  "actionType": "Set Value"
+                }
+              ],
+              "defaultOn": false,
+              "allowOverride": false
+            },
+            "lkpRecords": 10,
+            "isStandard": true,
+            "isDefault": true,
+            "description": "Pre-configured standard lookup for Work Order object",
+            "defaultColumn": "Name",
+            "advancedFilters": []
+          },
+          "lookupConfigName": "SVMXSTD: Work Order Lookup",
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuvAAH",
+          "column": 1
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 4,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Discount_Type__c",
+          "lookupConfiguration": {},
+          "events": [
+            {
+              "type": "Field Change",
+              "id": "a0e5g000005TLPJAA4",
+              "actionType": "WEBSERVICE",
+              "actionTarget": "SVMXC__INTF_WebServicesDef.INTF_Quote_Calc_WS"
+            }
+          ],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuwAAH",
+          "column": 2
+        },
+        {
+          "type": "REFERENCE",
+          "sequence": 5,
+          "row": 3,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": true,
+          "name": "SVMXC__Contact__c",
+          "lookupContext": "SVMXC__Company__c",
+          "lookupConfiguration": {
+            "name": "SVMXSTD: Contact Lookup",
+            "lookupObject": "Contact",
+            "lookupFilter": {
+              "sourceObject": "Contact",
+              "expressionsList": [
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Name",
+                  "sequence": 1,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceFldDtaType": "REFERENCE",
+                  "sourceField": "AccountId",
+                  "sequence": 2,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "MobilePhone",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Phone",
+                  "sequence": 3,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Email",
+                  "sequence": 4,
+                  "actionType": "Set Value"
+                },
+                {
+                  "sourceField": "Email",
+                  "sequence": 4,
+                  "actionType": "Set Value"
+                }
+              ],
+              "defaultOn": false,
+              "allowOverride": false
+            },
+            "lkpRecords": 10,
+            "isStandard": true,
+            "isDefault": true,
+            "description": "Pre-configured standard lookup for Contact object",
+            "defaultColumn": "Name",
+            "advancedFilters": []
+          },
+          "lookupConfigName": "SVMXSTD: Contact Lookup",
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuxAAH",
+          "column": 1
+        },
+        {
+          "type": "DOUBLE",
+          "sequence": 6,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Discount__c",
+          "lookupConfiguration": {},
+          "events": [
+            {
+              "type": "Field Exit",
+              "id": "a0e5g000005TLPKAA4",
+              "actionType": "WEBSERVICE",
+              "actionTarget": "SVMXC__INTF_WebServicesDef.INTF_Quote_Calc_WS"
+            }
+          ],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuyAAH",
+          "column": 2
+        },
+        {
+          "type": "PICKLIST",
+          "sequence": 7,
+          "row": 4,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Status__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBuzAAH",
+          "column": 1
+        },
+        {
+          "type": "CURRENCY",
+          "sequence": 8,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Quote_Amount2__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBv0AAH",
+          "column": 2
+        },
+        {
+          "type": "DATE",
+          "sequence": 9,
+          "row": 5,
+          "required": true,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "SVMXC__Valid_Until__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBv1AAH",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Manage Quote Line-custom",
+    "lines": [
+      {
+        "sequence": 1,
+        "name": "Parts",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv2AAH",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv3AAH",
+            "column": 2
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv4AAH",
+            "column": 3
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv5AAH",
+            "column": 4
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv6AAH",
+            "column": 5
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv7AAH",
+            "column": 6
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv8AAH",
+            "column": 7
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv9AAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvAAAX",
+            "column": 2
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvBAAX",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvCAAX",
+            "column": 4
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvDAAX",
+            "column": 5
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvEAAX",
+            "column": 6
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvFAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvGAAX",
+            "column": 2
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvHAAX",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvIAAX",
+            "column": 4
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvJAAX",
+            "column": 5
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvKAAX",
+            "column": 6
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "name": "Labor",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv2AAH",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv3AAH",
+            "column": 2
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv4AAH",
+            "column": 3
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv5AAH",
+            "column": 4
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv6AAH",
+            "column": 5
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv7AAH",
+            "column": 6
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv8AAH",
+            "column": 7
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv9AAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvAAAX",
+            "column": 2
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvBAAX",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvCAAX",
+            "column": 4
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvDAAX",
+            "column": 5
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvEAAX",
+            "column": 6
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvFAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvGAAX",
+            "column": 2
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvHAAX",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvIAAX",
+            "column": 4
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvJAAX",
+            "column": 5
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvKAAX",
+            "column": 6
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "name": "Expense",
+        "elements": [
+          {
+            "type": "REFERENCE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Product__c",
+            "lookupContextSource": "CURRENT_RECORD",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv2AAH",
+            "column": 1
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv3AAH",
+            "column": 2
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv4AAH",
+            "column": 3
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv5AAH",
+            "column": 4
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv6AAH",
+            "column": 5
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv7AAH",
+            "column": 6
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 7,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv8AAH",
+            "column": 7
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBv9AAH",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvAAAX",
+            "column": 2
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvBAAX",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvCAAX",
+            "column": 4
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvDAAX",
+            "column": 5
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvEAAX",
+            "column": 6
+          },
+          {
+            "type": "TEXTAREA",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Description__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvFAAX",
+            "column": 1
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Quantity2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvGAAX",
+            "column": 2
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Unit_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvHAAX",
+            "column": 3
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount_Type__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvIAAX",
+            "column": 4
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Discount__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvJAAX",
+            "column": 5
+          },
+          {
+            "type": "CURRENCY",
+            "sequence": 6,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "name": "SVMXC__Line_Price2__c",
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "eltId": "a0c5g00000FJBvKAAX",
+            "column": 6
+          }
+        ]
+      }
+    ],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Summer11/en_us/svmx_redirector.htm?uid=",
+    "dependencyExist": true
+  },
+  "name": "Manage Quote Lines",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "This SFM transaction is used to create or edit lines in an existing Service Quote.",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk55EAA",
+      "parentColumnAPIName": "SVMXC__Quote__c",
+      "objectLabel": "Parts",
+      "objectAPIName": "SVMXC__Quote_Line__c",
+      "nodeAPIName": "SVMXC__Quote__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 2,
+      "referenceId": "a0G5g000006qk56EAA",
+      "parentColumnAPIName": "SVMXC__Quote__c",
+      "objectLabel": "Labor",
+      "objectAPIName": "SVMXC__Quote_Line__c",
+      "nodeAPIName": "SVMXC__Quote__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 3,
+      "referenceId": "a0G5g000006qk57EAA",
+      "parentColumnAPIName": "SVMXC__Quote__c",
+      "objectLabel": "Expense",
+      "objectAPIName": "SVMXC__Quote_Line__c",
+      "nodeAPIName": "SVMXC__Quote__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "developerName": "Manage Quote Lines"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Create Work details of request/receipt from Work Order",
+  "isStandard": false,
+  "developerName": "MAP016-DEMO",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Open",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Parts",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Parts",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Request/Receipt",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Request/Receipt",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Requested_Location__c",
+      "sourceFieldAPIName": "SVMXC__Site__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Order__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ]
+}

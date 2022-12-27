@@ -1,0 +1,21 @@
+{
+  "name": "PMSchedule",
+  "isStandard": false,
+  "developerName": "PMSchedule",
+  "targetObject": "SVMXC__PM_Schedule__c",
+  "sourceObject": "SVMXC__PM_Plan_Template__c",
+  "objectMappingDetails": [
+    {
+      "value": "yesterday",
+      "targetFieldAPIName": "SVMXC__Last_Run_Date__c",
+      "mappingType": "Constant",
+      "displayValue": "Yesterday"
+    },
+    {
+      "value": "today",
+      "targetFieldAPIName": "SVMXC__Scheduled_On__c",
+      "mappingType": "Constant",
+      "displayValue": "Today"
+    }
+  ]
+}

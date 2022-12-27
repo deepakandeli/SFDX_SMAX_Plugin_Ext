@@ -1,0 +1,13 @@
+{
+  "name": "View And Edit Location",
+  "developerName": "View_And_Edit_Location",
+  "description": "This SFM transaction is used view and edit location record.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

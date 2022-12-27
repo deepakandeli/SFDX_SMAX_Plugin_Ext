@@ -1,0 +1,13 @@
+{
+  "name": "Partner Field Service Actions",
+  "developerName": "Partner_Field_Service_Actions",
+  "description": "Autumn 17\nWizard Steps: Accept, In Transit, On Site, Estimate, Debrief, Service Report, Close",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

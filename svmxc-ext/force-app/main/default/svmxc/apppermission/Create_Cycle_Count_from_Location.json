@@ -1,0 +1,13 @@
+{
+  "name": "Create Cycle Count from Location",
+  "developerName": "Create_Cycle_Count_from_Location",
+  "description": "Creates cycle count and cycle count lines from storage location and product stock",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

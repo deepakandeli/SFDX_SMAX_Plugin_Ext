@@ -1,0 +1,22 @@
+{
+  "name": "WO to PR",
+  "isStandard": false,
+  "developerName": "WO_to_PR",
+  "targetObject": "SVMXC__Parts_Request__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Value",
+      "displayValue": "Open",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ]
+}

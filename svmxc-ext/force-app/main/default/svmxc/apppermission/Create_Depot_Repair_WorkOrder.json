@@ -1,0 +1,13 @@
+{
+  "name": "Create Depot Repair Work Order",
+  "developerName": "Create_Depot_Repair_WorkOrder",
+  "description": "Create Depot Repair Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

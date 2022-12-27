@@ -1,0 +1,13 @@
+{
+  "name": "Edit Activity Master",
+  "developerName": "SCON_ED_ActivityMaster",
+  "description": "Edit Activity Master",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Activity_Master__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

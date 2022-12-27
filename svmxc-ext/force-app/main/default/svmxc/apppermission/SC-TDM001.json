@@ -1,0 +1,13 @@
+{
+  "name": "Edit Coverage",
+  "developerName": "SC-TDM001",
+  "description": "This SFM transaction is used to edit coverage records on Service Contract.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

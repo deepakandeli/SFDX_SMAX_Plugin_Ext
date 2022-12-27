@@ -1,0 +1,77 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Intro_Location_Actions",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "CreateIPfromLocation",
+      "processDeveloperName": "CreateIPfromLocation",
+      "name": "Create Installed Product",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Intro_Location_Actions",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "LOC_TDM001",
+      "processDeveloperName": "LOC_TDM001",
+      "name": "Create Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This custom SFM transaction enables a new work order to be initiated from a Location.",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Intro_Location_Actions",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_Parts_Request_from_Location",
+      "processDeveloperName": "Create_Parts_Request_from_Location",
+      "name": "Request Parts",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Intro_Location_Actions",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_Service_Quote_from_Location",
+      "processDeveloperName": "Create_Service_Quote_from_Location",
+      "name": "Create Service Quote",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Intro_Location_Actions",
+      "accessConfigurationProfile": "Intro Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Site__c",
+  "name": "Location Actions",
+  "isStandard": false,
+  "developerName": "Intro_Location_Actions",
+  "active": true
+}

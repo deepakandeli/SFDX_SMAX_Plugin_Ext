@@ -1,0 +1,16 @@
+{
+  "name": "OpenCaseLines",
+  "isStandard": false,
+  "developerName": "EXPR0052-demo",
+  "objectAPIName": "SVMXC__Case_Line__c",
+  "expressionDetails": [
+    {
+      "value": "Closed",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Line_Status__c"
+    }
+  ]
+}

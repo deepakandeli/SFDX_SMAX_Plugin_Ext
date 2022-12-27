@@ -1,0 +1,14 @@
+{
+  "name": "Booking Window is not nul",
+  "isStandard": false,
+  "developerName": "Booking_Window_is_not_null",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "Booking_Window__c"
+    }
+  ]
+}

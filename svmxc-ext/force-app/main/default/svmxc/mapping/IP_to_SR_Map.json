@@ -1,0 +1,57 @@
+{
+  "name": "IP to SR Map",
+  "isStandard": false,
+  "developerName": "IP_to_SR_Map",
+  "targetObject": "SVMXC__Service_Request__c",
+  "sourceObject": "SVMXC__Installed_Product__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Account__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Contact__c",
+      "sourceFieldAPIName": "SVMXC__Contact__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Location__c",
+      "sourceFieldAPIName": "SVMXC__Site__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Medium",
+      "targetFieldAPIName": "SVMXC__Priority__c",
+      "mappingType": "Value",
+      "displayValue": "Medium"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Serial_Number__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Web",
+      "targetFieldAPIName": "SVMXC__Service_Request_Source__c",
+      "mappingType": "Value",
+      "displayValue": "Web"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "sourceFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Field Service",
+      "targetFieldAPIName": "SVMXC__Type__c",
+      "mappingType": "Value",
+      "displayValue": "Field Service"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Work Order Header To Quote Header",
+  "isStandard": false,
+  "developerName": "WOtoQuote",
+  "targetObject": "SVMXC__Quote__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Contact__c",
+      "sourceFieldAPIName": "SVMXC__Contact__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Percent",
+      "targetFieldAPIName": "SVMXC__Discount_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Percent"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Quote_Amount2__c",
+      "sourceFieldAPIName": "SVMXC__Total_Estimate__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Draft",
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Value",
+      "displayValue": "Draft"
+    },
+    {
+      "value": "tomorrow",
+      "targetFieldAPIName": "SVMXC__Valid_Until__c",
+      "mappingType": "Constant",
+      "displayValue": "Tomorrow"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Order__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    }
+  ]
+}

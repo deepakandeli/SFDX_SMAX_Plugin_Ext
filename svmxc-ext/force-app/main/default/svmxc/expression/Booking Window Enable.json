@@ -1,0 +1,14 @@
+{
+  "objectAPIName": "Case",
+  "name": "Booking Window Enable",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Booking_Window__c"
+    }
+  ],
+  "developerName": "Booking Window Enable"
+}

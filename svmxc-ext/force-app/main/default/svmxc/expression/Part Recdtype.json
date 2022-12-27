@@ -1,0 +1,17 @@
+{
+  "objectAPIName": "Project_Detail__c",
+  "name": "Part Recdtype",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Parts Forecast",
+      "sequence": 1,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Parts Forecast",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    }
+  ],
+  "developerName": "Part Recdtype"
+}

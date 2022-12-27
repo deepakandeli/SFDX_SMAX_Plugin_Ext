@@ -1,0 +1,27 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Case_Setup",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH033",
+      "processDeveloperName": "OTH033",
+      "name": "Check Entitlement",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Check Entitlement",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "Case",
+  "name": "Case Setup",
+  "isStandard": false,
+  "developerName": "Case_Setup",
+  "description": "Summer15\nWizard Steps: Check Entitlement",
+  "active": true
+}

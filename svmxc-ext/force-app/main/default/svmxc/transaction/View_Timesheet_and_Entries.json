@@ -1,0 +1,305 @@
+{
+  "validationRules": [],
+  "transactionType": "VIEW RECORD",
+  "tagKeys": "VIEW_TIMESHEET_AND_ENTRIES;TIMESHEET_DAILY_SUMMARY;TIME_ENTRY;TIMESHEET;",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qk09EAA",
+      "objectLabel": "Timesheet",
+      "objectAPIName": "SVMXC__Timesheet__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJBh2AAH",
+          "name": "Timesheet",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "STRING",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": true,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Title__c"
+            },
+            {
+              "type": "DOUBLE",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "readOnly": true,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__Total_Hours__c"
+            },
+            {
+              "type": "DATE",
+              "sequence": 3,
+              "row": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Start_Date__c"
+            },
+            {
+              "type": "DATE",
+              "sequence": 4,
+              "row": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "SVMXC__End_Date__c"
+            },
+            {
+              "type": "PICKLIST",
+              "sequence": 5,
+              "row": 3,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "SVMXC__Status__c"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Detail",
+          "sequence": 1,
+          "referenceId": "a0d5g000003fLANAA2",
+          "objectAlias": "Timesheet Daily Summary",
+          "name": "Timesheet Daily Summary",
+          "columns": 1,
+          "childAPIName": "SVMXC__Timesheet_Day_Entry__c",
+          "allowZeroLines": "Allow"
+        },
+        {
+          "type": "Detail",
+          "sequence": 2,
+          "referenceId": "a0d5g000003fLAOAA2",
+          "objectAlias": "Time Entry",
+          "name": "Time Entry",
+          "columns": 2,
+          "childAPIName": "SVMXC__Timesheet_Entry__c",
+          "allowZeroLines": "Allow"
+        }
+      ],
+      "objectAPIName": "SVMXC__Timesheet__c"
+    },
+    "objectAPIName": "SVMXC__Timesheet__c",
+    "name": "TimesheetAndEntries",
+    "lines": [
+      {
+        "sequence": 1,
+        "referenceId": "a0d5g000003fLANAA2",
+        "objectAlias": "Timesheet Daily Summary",
+        "name": "Timesheet Daily Summary",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "DATE",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Timsheet_Day__c"
+          },
+          {
+            "type": "STRING",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Day_of_the_Week__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": true,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__Total_Hours__c"
+          },
+          {
+            "type": "BOOLEAN",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__IsHoliday__c"
+          }
+        ],
+        "columns": 1,
+        "childAPIName": "SVMXC__Timesheet_Day_Entry__c",
+        "allowZeroLines": "Allow"
+      },
+      {
+        "sourceControllerReferenceField": "SVMXC__Timesheet__c",
+        "sequence": 2,
+        "referenceId": "a0d5g000003fLAOAA2",
+        "objectAlias": "Time Entry",
+        "name": "Time Entry",
+        "hideEmptySection": false,
+        "elements": [
+          {
+            "type": "PICKLIST",
+            "sequence": 1,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 1,
+            "apiName": "SVMXC__Activity__c"
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 2,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 2,
+            "apiName": "SVMXC__Start_Time__c"
+          },
+          {
+            "type": "DATETIME",
+            "sequence": 3,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 3,
+            "apiName": "SVMXC__End_Time__c"
+          },
+          {
+            "type": "DOUBLE",
+            "sequence": 4,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 4,
+            "apiName": "SVMXC__Duration__c"
+          },
+          {
+            "type": "PICKLIST",
+            "sequence": 5,
+            "row": 0,
+            "required": false,
+            "readOnly": false,
+            "overrideLookupContext": false,
+            "lookupConfiguration": {},
+            "events": [],
+            "eltType": "Field",
+            "column": 5,
+            "apiName": "SVMXC__SM_Type__c"
+          }
+        ],
+        "columns": 2,
+        "childAPIName": "SVMXC__Timesheet_Entry__c",
+        "allowZeroLines": "Allow"
+      }
+    ],
+    "isStandard": false,
+    "hideSave": true,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Autumn17/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "View Timesheet and Entries",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "View_Timesheet_and_Entries",
+  "childProcessNodes": [
+    {
+      "type": "TARGETCHILD",
+      "sequence": 1,
+      "referenceId": "a0G5g000006qk0AEAQ",
+      "parentColumnAPIName": "SVMXC__Timesheet__c",
+      "objectLabel": "Timesheet Daily Summary",
+      "objectAPIName": "SVMXC__Timesheet_Day_Entry__c",
+      "nodeAPIName": "SVMXC__Timesheet__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGETCHILD",
+      "sequence": 2,
+      "referenceId": "a0G5g000006qk0BEAQ",
+      "parentColumnAPIName": "SVMXC__Timesheet__c",
+      "objectLabel": "Time Entry",
+      "objectAPIName": "SVMXC__Timesheet_Entry__c",
+      "nodeAPIName": "SVMXC__Timesheet__c",
+      "enableOnlineSearch": true,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ]
+}

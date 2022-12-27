@@ -1,0 +1,59 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Manage_PM_Template",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "ED_PMPlanTemplate",
+      "processDeveloperName": "ED_PMPlanTemplate",
+      "name": "Edit PM Template",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Edit PM Template",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Manage_PM_Template",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_PMPlan_from_PM_Template",
+      "processDeveloperName": "Create_PMPlan_from_PM_Template",
+      "name": "Create PM Plan",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Manage_PM_Template",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH054",
+      "processDeveloperName": "OTH054",
+      "name": "Edit Condition Based Template",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Is Condition Based Template",
+      "expression": "Is Condition Based Template",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__PM_Plan_Template__c",
+  "name": "Manage PM Template",
+  "isStandard": false,
+  "developerName": "Manage_PM_Template",
+  "description": "Manage PM Template",
+  "active": true
+}

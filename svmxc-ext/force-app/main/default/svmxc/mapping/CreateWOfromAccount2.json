@@ -1,0 +1,49 @@
+{
+  "name": "CreateWOfromAccount2",
+  "isStandard": false,
+  "developerName": "CreateWOfromAccount2",
+  "targetObject": "SVMXC__Service_Order__c",
+  "sourceObject": "Account",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__City__c",
+      "sourceFieldAPIName": "ShippingCity",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Country_text__c",
+      "sourceFieldAPIName": "ShippingCountry",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Preferred_Technician__c",
+      "sourceFieldAPIName": "SVMXC__Preferred_Technician__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__State__c",
+      "sourceFieldAPIName": "ShippingState",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Street__c",
+      "sourceFieldAPIName": "ShippingStreet",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Group_Member__c",
+      "sourceFieldAPIName": "SVMXC__Preferred_Technician__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Zip__c",
+      "sourceFieldAPIName": "ShippingPostalCode",
+      "mappingType": "Field Value"
+    }
+  ]
+}

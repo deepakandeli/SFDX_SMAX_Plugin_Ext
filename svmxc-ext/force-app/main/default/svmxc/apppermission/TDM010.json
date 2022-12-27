@@ -1,0 +1,13 @@
+{
+  "name": "Manage RMA Lines",
+  "developerName": "TDM010",
+  "description": "This SFM transaction is used to create or edit lines in an existing RMA.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

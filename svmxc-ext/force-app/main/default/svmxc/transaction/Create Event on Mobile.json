@@ -1,0 +1,128 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE CREATE",
+  "tagsList": [
+    "Create Event"
+  ],
+  "tagKeys": "CREATE_EVENT_ON_MOBILE;SFM160140000266914285301329BB7B6C569812A18A67D7B_DESC;EVENT_DETAILS;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qkB2EAI",
+      "objectLabel": "Event",
+      "objectAPIName": "Event",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Event Details",
+          "columns": 1
+        }
+      ],
+      "objectAPIName": "Event",
+      "elements": [
+        {
+          "type": "PICKLIST",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Type",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC5oAAH",
+          "column": 1
+        },
+        {
+          "type": "DATETIME",
+          "sequence": 2,
+          "row": 2,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "StartDateTime",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC5pAAH",
+          "column": 1
+        },
+        {
+          "type": "DATETIME",
+          "sequence": 3,
+          "row": 3,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "EndDateTime",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC5qAAH",
+          "column": 1
+        },
+        {
+          "type": "COMBOBOX",
+          "sequence": 4,
+          "row": 4,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Subject",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC5rAAH",
+          "column": 1
+        },
+        {
+          "type": "TEXTAREA",
+          "sequence": 5,
+          "row": 5,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Description",
+          "lookupContextSource": "CURRENT_RECORD",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJC5sAAH",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Create Event on Mobile",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "dependencyExist": true
+  },
+  "name": "Create Event on Mobile",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "description": "Creates a new event record on Mobile",
+  "childProcessNodes": [],
+  "developerName": "Create Event on Mobile"
+}

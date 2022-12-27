@@ -1,0 +1,13 @@
+{
+  "name": "Connected Assets Dashboard",
+  "developerName": "ACT_PredServiceDashboard",
+  "description": "Connected Assets Management Console",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

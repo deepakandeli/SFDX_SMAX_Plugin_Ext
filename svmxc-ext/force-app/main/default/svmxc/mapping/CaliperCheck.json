@@ -1,0 +1,14 @@
+{
+  "name": "CaliperCheck",
+  "isStandard": false,
+  "developerName": "CaliperCheck",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "true",
+      "targetFieldAPIName": "Caliper_Check__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    }
+  ]
+}

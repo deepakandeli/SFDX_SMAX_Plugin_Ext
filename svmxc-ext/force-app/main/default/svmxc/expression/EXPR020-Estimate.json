@@ -1,0 +1,28 @@
+{
+  "name": "Expense Estimate Lines Only",
+  "isStandard": false,
+  "developerName": "EXPR020-Estimate",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Estimate",
+      "sequence": 1,
+      "operator": "contains",
+      "operand": "Estimate",
+      "fieldType": "STRING",
+      "fieldAPIName": "Record_Type_Text__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Expenses",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Expenses",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Line_Type__c",
+      "actionType": "Set Value"
+    }
+  ],
+  "advancedExpression": "1 and 2"
+}

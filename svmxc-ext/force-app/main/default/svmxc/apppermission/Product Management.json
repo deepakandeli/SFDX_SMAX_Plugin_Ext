@@ -1,0 +1,12 @@
+{
+  "name": "Product Management",
+  "developerName": "Product Management",
+  "windowsEnabled": true,
+  "sourceObjectName": "Product2",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,33 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Stop Fixing Enable",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Fixing",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Fixing",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Task_Type__c"
+    },
+    {
+      "value": "Start",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Start",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Task_Status__c"
+    },
+    {
+      "value": "false",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "false",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Enforce_Process__c"
+    }
+  ],
+  "advancedExpression": "(1 and 2) or 3",
+  "developerName": "Stop Fixing Enable"
+}

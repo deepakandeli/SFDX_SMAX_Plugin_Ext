@@ -1,0 +1,13 @@
+{
+  "targetObject": "SVMXC__Quote_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Quantity2__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "IP to Quote Item1",
+  "isStandard": false,
+  "developerName": "IP to Quote Item1"
+}

@@ -1,0 +1,59 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Contract_Management_Enterprise_MM",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "SC-TDM001",
+      "processDeveloperName": "SC-TDM001",
+      "name": "Manage Coverage Items",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Manage Coverage Items",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Contract_Management_Enterprise_MM",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH010",
+      "processDeveloperName": "OTH010",
+      "name": "Manage Counters",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Coverage By Counters",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Contract_Management_Enterprise_MM",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH011",
+      "processDeveloperName": "OTH011",
+      "name": "Manage PM Plans",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Preventive Maintenance",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Contract__c",
+  "name": "Contract Management",
+  "isStandard": false,
+  "developerName": "Contract_Management_Enterprise_MM",
+  "description": "Spring 13\nWizard Steps: Manage Coverage Items, Manage Counters, Manage PM Plans",
+  "active": false
+}

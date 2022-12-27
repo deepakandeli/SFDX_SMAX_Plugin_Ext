@@ -1,0 +1,14 @@
+{
+  "name": "SCONService Contract Renewal",
+  "isStandard": false,
+  "developerName": "SCONService_Contract_Renewal",
+  "targetObject": "SVMXC__Service_Contract__c",
+  "objectMappingDetails": [
+    {
+      "value": "true",
+      "targetFieldAPIName": "Renewal_Email_Trigger__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    }
+  ]
+}

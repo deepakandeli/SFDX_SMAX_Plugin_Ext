@@ -1,0 +1,12 @@
+{
+  "name": "View Product Warranty",
+  "developerName": "View_Product_Warranty_Mobile",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Warranty__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

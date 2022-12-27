@@ -1,0 +1,13 @@
+{
+  "name": "View Work Order and Estimate lines",
+  "developerName": "IPAD_012_custom_WO_Estimates",
+  "description": "This SFM transaction is used to View Work Order Estimates.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,15 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Rejected",
+      "targetFieldAPIName": "SVMXC__Dispatch_Response__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Reject Work Order",
+  "isStandard": false,
+  "description": "Reject Work Order",
+  "developerName": "Reject Work Order"
+}

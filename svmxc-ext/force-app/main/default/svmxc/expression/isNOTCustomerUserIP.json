@@ -1,0 +1,16 @@
+{
+  "name": "isNOTCustomerUserIP",
+  "isStandard": false,
+  "developerName": "isNOTCustomerUserIP",
+  "objectAPIName": "SVMXC__Installed_Product__c",
+  "expressionDetails": [
+    {
+      "value": "0",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "0",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "isCustomerUser__c"
+    }
+  ]
+}

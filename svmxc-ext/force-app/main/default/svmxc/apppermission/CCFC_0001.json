@@ -1,0 +1,13 @@
+{
+  "name": "Create Case from Contact",
+  "developerName": "CCFC_0001",
+  "description": "Create Case",
+  "windowsEnabled": true,
+  "sourceObjectName": "Contact",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

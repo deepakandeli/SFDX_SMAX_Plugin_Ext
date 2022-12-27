@@ -1,0 +1,13 @@
+{
+  "name": "Case Setup",
+  "developerName": "Case_Setup",
+  "description": "Summer15\nWizard Steps: Check Entitlement",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

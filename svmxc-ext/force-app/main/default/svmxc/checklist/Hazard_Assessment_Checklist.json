@@ -1,0 +1,161 @@
+{
+  "transactionType": "CHECKLIST",
+  "tagKeys": "HAZARD_ASSESSMENT_CHECKLIST;HAZARD_ASSESSMENT;DETAILED_DESCRIPTION_OF_THE_JOB;WHAT_COULD_GO_WRONG?__DESCRIBE_THE_HAZARDS_THAT_MAY_BE_PRESENT_AT_THE_JOB_LOCATION.;WHAT_CONDITION_OR_ACTION_BY_OTHERS_OR_ME_CAN_CAUSE_IT_TO_GO_WRONG?__DESCRIBE_DANGEROUS_CONDITIONS/ACTIONS_THAT_YOU_OR_OTHERS_MAY_BRING_TO_THE_JOB.;WHAT_CAN_I_DO_TO_PREVENT_IT_FROM_GOING_WRONG?;ATTACH_AN_IMAGE_OF_THE_PRODUCT;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qk4aEAA",
+      "objectAPIName": "SVMXC__Service_Order__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Service_Order__c",
+      "referenceId": "a0G5g000006qk4bEAA",
+      "qualificationCriteriaId": "Field_Service_WO",
+      "objectLabel": "Checklist",
+      "objectAPIName": "SVMXC__Checklist__c",
+      "mappingId": "Map_WO_TO_CHKLST",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": false,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJBpmAAH",
+          "name": "Hazard Assessment",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "REFERENCE",
+              "sequence": 1,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Text",
+                "tagsList": [
+                  "Safety"
+                ],
+                "showInSmartDoc": false,
+                "questionExtId": "QB000062",
+                "question": "Detailed description of the job",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 2,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Text",
+                "tagsList": [
+                  "Safety"
+                ],
+                "showInSmartDoc": false,
+                "questionExtId": "QB000063",
+                "question": "What could go wrong?  Describe the hazards that may be present at the job location.",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 3,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Text",
+                "tagsList": [
+                  "Safety"
+                ],
+                "showInSmartDoc": false,
+                "questionExtId": "QB000064",
+                "question": "What condition or action by others or me can cause it to go wrong?  Describe dangerous conditions/actions that you or others may bring to the job.",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 4,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Text",
+                "tagsList": [
+                  "Safety"
+                ],
+                "showInSmartDoc": false,
+                "questionExtId": "QB000065",
+                "question": "What can I do to prevent it from going wrong?",
+                "descriptionRequired": false
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            },
+            {
+              "type": "REFERENCE",
+              "sequence": 5,
+              "required": false,
+              "readOnly": false,
+              "questionDetails": {
+                "type": "Attachment",
+                "tagsList": [
+                  "attachment",
+                  "image"
+                ],
+                "showInSmartDoc": true,
+                "questionExtId": "QB000116",
+                "question": "Attach an image of the product",
+                "descriptionRequired": true
+              },
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Question"
+            }
+          ]
+        }
+      ],
+      "objectAPIName": "SVMXC__Checklist__c"
+    },
+    "objectAPIName": "SVMXC__Checklist__c",
+    "name": "Hazard Assessment Checklist CHK",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter18/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Hazard Assessment Checklist",
+  "isStandard": false,
+  "enableTargetedSync": false,
+  "developerName": "Hazard_Assessment_Checklist",
+  "childProcessNodes": []
+}

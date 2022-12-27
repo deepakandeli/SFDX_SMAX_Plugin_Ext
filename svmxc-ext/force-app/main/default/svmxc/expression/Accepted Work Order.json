@@ -1,0 +1,37 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Accepted Work Order",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Assigned",
+      "sequence": 1,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Assigned",
+      "fieldType": "STRING",
+      "fieldAPIName": "SVMXC__Dispatch_Status__c"
+    },
+    {
+      "value": "Accepted",
+      "sequence": 2,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Accepted",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Dispatch_Response__c"
+    },
+    {
+      "value": "Closed",
+      "sequence": 3,
+      "operator": "ne",
+      "operandType": "Value",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Status__c"
+    }
+  ],
+  "description": "WO has been accepted by technician",
+  "advancedExpression": "1 AND 2 AND 3",
+  "developerName": "Accepted Work Order"
+}

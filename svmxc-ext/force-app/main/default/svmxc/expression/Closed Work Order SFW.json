@@ -1,0 +1,17 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Closed Work Order SFW",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Closed",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Closed",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Order_Status__c"
+    }
+  ],
+  "advancedExpression": "1",
+  "developerName": "Closed Work Order SFW"
+}

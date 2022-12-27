@@ -1,0 +1,19 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "sourceObject": "SVMXC__Installed_Product__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Component__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    }
+  ],
+  "name": "Form Fill for IP to WO",
+  "isStandard": false,
+  "developerName": "Form Fill for IP to WO"
+}

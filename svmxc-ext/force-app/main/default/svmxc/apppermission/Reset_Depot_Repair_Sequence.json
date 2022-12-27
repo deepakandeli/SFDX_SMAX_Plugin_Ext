@@ -1,0 +1,13 @@
+{
+  "name": "Reset Depot Repair Sequence",
+  "developerName": "Reset_Depot_Repair_Sequence",
+  "description": "SFM transaction that allows a user to break the Depot Repair Sequence in the case that a piece of equipment requires different routing",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

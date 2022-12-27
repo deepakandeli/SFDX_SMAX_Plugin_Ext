@@ -1,0 +1,25 @@
+{
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "name": "Labor Estimate Lines Only",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Estimate",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Estimate",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Labor",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Labor",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Line_Type__c"
+    }
+  ],
+  "advancedExpression": "1 and 2",
+  "developerName": "Labor Estimate Lines Only"
+}

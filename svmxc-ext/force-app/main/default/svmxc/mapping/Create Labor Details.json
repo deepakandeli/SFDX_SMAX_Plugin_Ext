@@ -1,0 +1,69 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Repair",
+      "targetFieldAPIName": "SVMXC__Activity_Type__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "250",
+      "targetFieldAPIName": "SVMXC__Billable_Line_Price__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Billable_Quantity__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "0",
+      "targetFieldAPIName": "SVMXC__Covered__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Is_Billable__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "150",
+      "targetFieldAPIName": "SVMXC__Actual_Price2__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Labor",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "SVMXC__Start_Date_and_Time__c",
+      "mappingType": "Constant"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Order__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    }
+  ],
+  "name": "Create Labor Details",
+  "isStandard": false,
+  "developerName": "Create Labor Details"
+}

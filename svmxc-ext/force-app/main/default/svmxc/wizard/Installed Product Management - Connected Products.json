@@ -1,0 +1,85 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Installed Product Management - Connected Products",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "IB_Asset_Overview",
+      "processDeveloperName": "IB_Asset_Overview",
+      "name": "Asset Overview",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "from Shared Documents",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Installed Product Management - Connected Products",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH051",
+      "processDeveloperName": "OTH051",
+      "name": "Manage Sensor Readings",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "View and update technical attributes related to the installed product record.",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Installed Product Management - Connected Products",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "IB_PredServiceDash",
+      "processDeveloperName": "IB_PredServiceDash",
+      "name": "At Risk IBs",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Installed Product Management - Connected Products",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "IoT_Service_Request",
+      "processDeveloperName": "IoT_Service_Request",
+      "name": "IoT Service Request",
+      "modeOfExecution": "Background",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Installed Product Management - Connected Products",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Installed Product Management - Connected Products",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Installed_Product__c",
+  "name": "Installed Product Management",
+  "isStandard": false,
+  "expressionDeveloperName": "Connected Products Only",
+  "expression": "Connected Products Only",
+  "developerName": "Installed Product Management - Connected Products",
+  "description": "Only for Connected Products",
+  "active": false
+}

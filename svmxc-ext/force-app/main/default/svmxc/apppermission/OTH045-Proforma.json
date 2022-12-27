@@ -1,0 +1,13 @@
+{
+  "name": "Generate Proforma",
+  "developerName": "OTH045-Proforma",
+  "description": "Used Service Contract Proforma Invoice SP_Proc_001",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

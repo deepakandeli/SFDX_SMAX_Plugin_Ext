@@ -1,0 +1,65 @@
+{
+  "name": "Create Usage Lines (Labor)",
+  "isStandard": false,
+  "developerName": "MAP032V-custom",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "Now",
+      "targetFieldAPIName": "SVMXC__End_Date_and_Time__c",
+      "mappingType": "Constant",
+      "displayValue": "Now",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Is_Billable__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "mappingType": "Value",
+      "displayValue": "1",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Labor",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Labor",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Usage/Consumption",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "SVMXC__Start_Date_and_Time__c",
+      "mappingType": "Constant",
+      "displayValue": "Now",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Use_Price_From_Pricebook__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Current Record Header",
+      "targetFieldAPIName": "SVMXC__Service_Order__c",
+      "mappingType": "Constant",
+      "literalValue": "Id",
+      "displayValue": "SVMX.CURRENTRECORDHEADER.Id",
+      "actionType": "Set Value"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Set Estimate Status to Pending",
+  "isStandard": false,
+  "developerName": "MAP165775136072366f085cf4db4a50134f96b9066ee4b74",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Pending",
+      "targetFieldAPIName": "Estimate_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Pending",
+      "actionType": "Set Value"
+    }
+  ]
+}

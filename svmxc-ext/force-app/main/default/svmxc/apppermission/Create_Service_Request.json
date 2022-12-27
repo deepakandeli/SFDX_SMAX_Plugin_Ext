@@ -1,0 +1,13 @@
+{
+  "name": "Create Service Request",
+  "developerName": "Create_Service_Request",
+  "description": "SFM transaction that creates a new Service Request record from the Customer Community",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Request__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

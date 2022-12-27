@@ -1,0 +1,24 @@
+{
+  "name": "IP_to_Work_Detail",
+  "isStandard": false,
+  "developerName": "IP_to_Work_Detail",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__Installed_Product__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Next_PM_Due_Date__c",
+      "sourceFieldAPIName": "Next_PM_Due_Date__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

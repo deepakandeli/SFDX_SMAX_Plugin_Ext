@@ -1,0 +1,14 @@
+{
+  "name": "Proforma_Invoice_ValueMap",
+  "isStandard": false,
+  "developerName": "Proforma_Invoice_ValueMap",
+  "targetObject": "SVMXC__Proforma_Invoice__c",
+  "objectMappingDetails": [
+    {
+      "value": "Account",
+      "targetFieldAPIName": "SVMXC__Account__c",
+      "mappingType": "Value",
+      "displayValue": "Account"
+    }
+  ]
+}

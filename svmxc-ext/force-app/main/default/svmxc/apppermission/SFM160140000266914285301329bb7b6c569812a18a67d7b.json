@@ -1,0 +1,13 @@
+{
+  "name": "Create Event on Mobile",
+  "developerName": "SFM160140000266914285301329bb7b6c569812a18a67d7b",
+  "description": "Creates a new event record on Mobile",
+  "windowsEnabled": true,
+  "sourceObjectName": "Event",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

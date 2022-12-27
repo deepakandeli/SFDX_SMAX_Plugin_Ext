@@ -1,0 +1,20 @@
+{
+  "name": "Labor 8 Hours Max",
+  "isStandard": false,
+  "developerName": "Labor_8_Hours_Max",
+  "description": "custom validation rule, Hours Worked <= 8 hrs",
+  "subType": "Error",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "message": "Hours between Start and End DateTime should not be greater than 8.",
+  "expressionDetails": [
+    {
+      "value": "8",
+      "sequence": 1,
+      "operator": "le",
+      "operandType": "Value",
+      "operand": "8",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "Hours_Worked__c"
+    }
+  ]
+}

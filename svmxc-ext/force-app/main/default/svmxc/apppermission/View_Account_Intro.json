@@ -1,0 +1,12 @@
+{
+  "name": "View Account - Intro",
+  "developerName": "View_Account_Intro",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

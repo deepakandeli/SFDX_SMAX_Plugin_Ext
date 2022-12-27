@@ -1,0 +1,25 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "APM Asset Health",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Health Check",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Health Check",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Purpose_of_Visit__c"
+    },
+    {
+      "value": "Inspection",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Inspection",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Purpose_of_Visit__c"
+    }
+  ],
+  "advancedExpression": "1 or 2",
+  "developerName": "APM Asset Health"
+}

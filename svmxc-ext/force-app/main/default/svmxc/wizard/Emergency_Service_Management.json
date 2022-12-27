@@ -1,0 +1,87 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Emergency_Service_Management",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Accept_Work_Order",
+      "processDeveloperName": "Accept_Work_Order",
+      "name": "Accept Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Dispatch Response to Accept Assignment",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Emergency_Service_Management",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "RejectWorkOrder",
+      "processDeveloperName": "RejectWorkOrder",
+      "name": "Reject Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Dispatch Status to Reject Assignment",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Emergency_Service_Management",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Work_Order_Debrief",
+      "processDeveloperName": "Work_Order_Debrief",
+      "name": "Work Order Debrief",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM transaction is used to enter parts, labor and expenses used in a work order. This is typically used at the end of the resolution, before the work order is closed.",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Emergency_Service_Management",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "WO_ServiceReport_001_Usage_external",
+      "processDeveloperName": "WO_ServiceReport_001_Usage_external",
+      "name": "Generate Service Report",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Work Order Service Report\nCustomer and Technician Signature, No Parts Pricing",
+      "active": false,
+      "actionType": "OUTPUT_DOCUMENT"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Emergency_Service_Management",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Emergency_Service_Management",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order__c",
+  "name": "Emergency Service Management",
+  "isStandard": false,
+  "expressionDeveloperName": "EmergencyServiceSFW",
+  "expression": "EmergencyServiceSFW",
+  "developerName": "Emergency_Service_Management",
+  "description": "Summer 15 SP\nWizard Steps: Work Order Debrief, Accept Work Order, Reject Work Order, Print Service Report",
+  "active": false
+}

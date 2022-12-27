@@ -1,0 +1,31 @@
+{
+  "name": "PM Scheduling Def to Work Order",
+  "isStandard": false,
+  "developerName": "PMScheduling_Def_to_Work_Order",
+  "targetObject": "SVMXC__Service_Order__c",
+  "sourceObject": "SVMXC__PM_Schedule_Definition__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Order_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Open"
+    },
+    {
+      "value": "Scheduled Service",
+      "targetFieldAPIName": "SVMXC__Order_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Scheduled Service"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__PM_Plan__c",
+      "sourceFieldAPIName": "SVMXC__PM_Plan__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

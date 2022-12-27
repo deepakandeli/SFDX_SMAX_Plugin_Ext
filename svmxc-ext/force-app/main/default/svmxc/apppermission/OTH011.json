@@ -1,0 +1,13 @@
+{
+  "name": "Define PM Plans",
+  "developerName": "OTH011",
+  "description": "Preventive Maintenance",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

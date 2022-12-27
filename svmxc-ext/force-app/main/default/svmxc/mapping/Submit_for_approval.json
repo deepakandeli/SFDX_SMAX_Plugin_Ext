@@ -1,0 +1,20 @@
+{
+  "name": "Submit for approval",
+  "isStandard": false,
+  "developerName": "Submit_for_approval",
+  "targetObject": "SVMXC__Timesheet__c",
+  "objectMappingDetails": [
+    {
+      "value": "Submitted",
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Value",
+      "displayValue": "Submitted"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "SVMXC__Submitted_On__c",
+      "mappingType": "Constant",
+      "displayValue": "Now"
+    }
+  ]
+}

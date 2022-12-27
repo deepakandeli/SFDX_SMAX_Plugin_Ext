@@ -1,0 +1,16 @@
+{
+  "name": "No Initial Response DE",
+  "isStandard": false,
+  "developerName": "EXP1655725502588a8c766cd99b2ef8f758ae9189107a2d5",
+  "objectAPIName": "Case",
+  "expressionDetails": [
+    {
+      "targetField": "SVMXC__Actual_Initial_Response__c",
+      "sequence": 1,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "SVMXC__Actual_Initial_Response__c",
+      "actionType": "Set Value"
+    }
+  ]
+}

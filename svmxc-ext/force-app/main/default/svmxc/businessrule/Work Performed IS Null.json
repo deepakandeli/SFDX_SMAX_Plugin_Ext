@@ -1,0 +1,17 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Work Performed IS Null",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "operandType": "Value",
+      "fieldType": "TEXTAREA",
+      "fieldAPIName": "SVMXC__Work_Performed__c"
+    }
+  ],
+  "description": "Work performed must be filled out.",
+  "advancedExpression": "1",
+  "developerName": "Work Performed IS Null"
+}

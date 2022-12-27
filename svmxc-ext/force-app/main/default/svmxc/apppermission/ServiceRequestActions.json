@@ -1,0 +1,12 @@
+{
+  "name": "Service Request Actions",
+  "developerName": "ServiceRequestActions",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Request__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

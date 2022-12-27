@@ -1,0 +1,20 @@
+{
+  "name": "Enable Stop Packaging",
+  "isStandard": false,
+  "developerName": "Enable Stop Packaging",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [],
+  "advancedExpression": "1 AND 2"
+}rator": "isnotnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Packaging_Start_Time__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Packaging_End_Time__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

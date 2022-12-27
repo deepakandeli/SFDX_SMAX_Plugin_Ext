@@ -1,0 +1,13 @@
+{
+  "name": "View Installed Product",
+  "developerName": "View_Installed_Product_Mobile",
+  "description": "This SFM transaction is used to view installed product details.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

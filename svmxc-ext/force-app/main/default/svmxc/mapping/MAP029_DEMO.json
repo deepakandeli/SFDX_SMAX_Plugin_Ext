@@ -1,0 +1,114 @@
+{
+  "name": "SVMXSTD: Labor Estimate To Labor Used",
+  "isStandard": false,
+  "developerName": "MAP029_DEMO",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "sourceObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Activity_Type__c",
+      "sourceFieldAPIName": "SVMXC__Activity_Type__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Cost_Category__c",
+      "sourceFieldAPIName": "SVMXC__Cost_Category__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Discount__c",
+      "sourceFieldAPIName": "SVMXC__Discount__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__End_Date_and_Time__c",
+      "sourceFieldAPIName": "SVMXC__End_Date_and_Time__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Serial_Number__c",
+      "sourceFieldAPIName": "SVMXC__Serial_Number__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Include_in_Quote__c",
+      "sourceFieldAPIName": "SVMXC__Include_in_Quote__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Is_Billable__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Actual_Price2__c",
+      "sourceFieldAPIName": "SVMXC__Estimated_Price2__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "sourceFieldAPIName": "SVMXC__Estimated_Quantity2__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "sourceFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Usage/Consumption",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Reference_Information__c",
+      "sourceFieldAPIName": "SVMXC__Reference_Information__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Start_Date_and_Time__c",
+      "sourceFieldAPIName": "SVMXC__Start_Date_and_Time__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Use_Price_From_Pricebook__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Work_Description__c",
+      "sourceFieldAPIName": "SVMXC__Work_Description__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Order__c",
+      "sourceFieldAPIName": "SVMXC__Service_Order__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ]
+}

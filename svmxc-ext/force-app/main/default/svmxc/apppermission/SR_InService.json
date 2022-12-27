@@ -1,0 +1,13 @@
+{
+  "name": "Repair Docs",
+  "developerName": "SR_InService",
+  "description": "PTC InService",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Request__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

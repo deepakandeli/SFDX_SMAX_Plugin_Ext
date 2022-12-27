@@ -1,0 +1,52 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Contact_Actions_with_Cases",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "CCFC_0001",
+      "processDeveloperName": "CCFC_0001",
+      "name": "Create Support Case",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create Support Case",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Contact_Actions_with_Cases",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "CreateWOfromContact",
+      "processDeveloperName": "CreateWOfromContact",
+      "name": "Create Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create Work Order",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Contact_Actions_with_Cases",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Contact_Actions_with_Cases"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "Contact",
+  "name": "Contact Actions with Cases",
+  "isStandard": false,
+  "developerName": "Contact_Actions_with_Cases",
+  "description": "Winter 15 SP\nWizard Steps: Create Support Case, Create Work Order",
+  "active": true
+}

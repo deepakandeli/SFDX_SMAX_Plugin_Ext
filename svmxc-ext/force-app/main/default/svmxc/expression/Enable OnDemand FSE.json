@@ -1,0 +1,16 @@
+{
+  "objectAPIName": "SVMXC__Site__c",
+  "name": "Enable OnDemand FSE",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Depot",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Depot",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    }
+  ],
+  "developerName": "Enable OnDemand FSE"
+}

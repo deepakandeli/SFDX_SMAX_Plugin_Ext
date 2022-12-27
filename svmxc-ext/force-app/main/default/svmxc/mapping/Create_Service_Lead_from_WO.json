@@ -1,0 +1,25 @@
+{
+  "name": "Create Service Lead from WO",
+  "isStandard": false,
+  "developerName": "Create_Service_Lead_from_WO",
+  "targetObject": "Service_Lead__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Associated_Work_Order__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "New",
+      "targetFieldAPIName": "Status__c",
+      "mappingType": "Value",
+      "displayValue": "New"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Create RMA from Service Request",
+  "developerName": "Create_RMA_from_Service_Request",
+  "description": "SFM transaction that creates a RMA from a Service Request record",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Request__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

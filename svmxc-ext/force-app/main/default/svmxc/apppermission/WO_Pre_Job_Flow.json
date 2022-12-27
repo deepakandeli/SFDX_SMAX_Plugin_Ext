@@ -1,0 +1,13 @@
+{
+  "name": "Prepare",
+  "developerName": "WO_Pre_Job_Flow",
+  "description": "Wizard for WO Actions only on Browser",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

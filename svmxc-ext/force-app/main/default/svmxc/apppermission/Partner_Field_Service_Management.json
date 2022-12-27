@@ -1,0 +1,13 @@
+{
+  "name": "Partner Field Service Management",
+  "developerName": "Partner_Field_Service_Management",
+  "description": "Autumn 17\nWizard Steps: Approve Estimate",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

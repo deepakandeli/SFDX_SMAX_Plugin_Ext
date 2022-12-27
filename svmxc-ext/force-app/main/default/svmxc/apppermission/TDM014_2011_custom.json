@@ -1,0 +1,13 @@
+{
+  "name": "Create Work Order From Case",
+  "developerName": "TDM014_2011_custom",
+  "description": "This SFM transaction is used to create a new Work Order from a Case. Key information such as Account, Contact etc. are automatically copied to the Work Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

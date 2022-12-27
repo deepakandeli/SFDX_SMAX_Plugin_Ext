@@ -1,0 +1,35 @@
+{
+  "name": "Per LT Plan",
+  "isStandard": false,
+  "developerName": "Per LT Plan",
+  "objectAPIName": "SVMXC__PM_Plan__c",
+  "expressionDetails": [
+    {
+      "value": "Product",
+      "sequence": 1,
+      "operator": "starts",
+      "operand": "Product",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Coverage_Type__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "LT",
+      "sequence": 2,
+      "operator": "starts",
+      "operand": "LT",
+      "fieldType": "STRING",
+      "fieldAPIName": "Name",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Active",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "Active",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Status__c",
+      "actionType": "Set Value"
+    }
+  ]
+}

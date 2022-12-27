@@ -1,0 +1,19 @@
+{
+  "name": "PST From Product",
+  "isStandard": false,
+  "developerName": "PST_From_Product",
+  "targetObject": "Product_Service_Template__c",
+  "sourceObject": "Product2",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Product__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    }
+  ]
+}

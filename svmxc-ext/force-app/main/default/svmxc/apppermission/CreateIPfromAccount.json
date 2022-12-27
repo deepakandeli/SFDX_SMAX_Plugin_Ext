@@ -1,0 +1,12 @@
+{
+  "name": "Create Installed Product from Account",
+  "developerName": "CreateIPfromAccount",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

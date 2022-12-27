@@ -1,0 +1,69 @@
+{
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "Repair",
+      "targetFieldAPIName": "SVMXC__Activity_Type__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Billable_Quantity__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Is_Billable__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Labor",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "SVMXC__Start_Date_and_Time__c",
+      "mappingType": "Constant",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Current Record Header",
+      "targetFieldAPIName": "SVMXC__Group_Member__c",
+      "mappingType": "Constant",
+      "literalValue": "SVMXC__Group_Member__c",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Use_Price_From_Pricebook__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Create Start Job Labor",
+  "isStandard": false,
+  "developerName": "Create Start Job Labor"
+}

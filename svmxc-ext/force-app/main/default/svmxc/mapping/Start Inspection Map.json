@@ -1,0 +1,33 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Inspection_Start_Time__c",
+      "mappingType": "Constant"
+    },
+    {
+      "value": "false",
+      "targetFieldAPIName": "Reset_Depot_Process__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Task_Start_Date__c",
+      "mappingType": "Constant"
+    },
+    {
+      "value": "Start",
+      "targetFieldAPIName": "Task_Status__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Inspection",
+      "targetFieldAPIName": "Task_Type__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "Start Inspection Map",
+  "isStandard": false,
+  "developerName": "Start Inspection Map"
+}

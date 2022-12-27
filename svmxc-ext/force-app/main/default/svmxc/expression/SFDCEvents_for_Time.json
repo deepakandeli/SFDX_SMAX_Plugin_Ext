@@ -1,0 +1,44 @@
+{
+  "name": "SFDC Events for Time - Call, Email, Meeting",
+  "isStandard": false,
+  "developerName": "SFDCEvents_for_Time",
+  "description": "Call, Email, Meeting",
+  "objectAPIName": "Event",
+  "message": "Call, Email, Meeting",
+  "expressionDetails": [
+    {
+      "value": "Call",
+      "targetField": "Type",
+      "sequence": 1,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Call",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Type",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Email",
+      "targetField": "Type",
+      "sequence": 2,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Email",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Type",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Meeting",
+      "targetField": "Type",
+      "sequence": 3,
+      "operator": "eq",
+      "operandType": "Value",
+      "operand": "Meeting",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Type",
+      "actionType": "Set Value"
+    }
+  ],
+  "advancedExpression": "1 OR 2 OR 3"
+}

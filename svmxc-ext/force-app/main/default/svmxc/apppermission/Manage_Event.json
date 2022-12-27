@@ -1,0 +1,12 @@
+{
+  "name": "Manage Event",
+  "developerName": "Manage_Event",
+  "windowsEnabled": true,
+  "sourceObjectName": "Event",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

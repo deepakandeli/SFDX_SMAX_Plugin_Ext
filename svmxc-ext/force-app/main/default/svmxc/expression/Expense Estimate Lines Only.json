@@ -1,0 +1,25 @@
+{
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "name": "Expense Estimate Lines Only",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Estimate",
+      "sequence": 1,
+      "operator": "contains",
+      "operand": "Estimate",
+      "fieldType": "STRING",
+      "fieldAPIName": "Record_Type_Text__c"
+    },
+    {
+      "value": "Expenses",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Expenses",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Line_Type__c"
+    }
+  ],
+  "advancedExpression": "1 and 2",
+  "developerName": "Expense Estimate Lines Only"
+}

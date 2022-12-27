@@ -1,0 +1,14 @@
+{
+  "name": "ChkList_Compliance_Dtls",
+  "isStandard": false,
+  "developerName": "ChkList_Compliance_Dtls",
+  "targetObject": "Checklist_Template_Item__c",
+  "objectMappingDetails": [
+    {
+      "value": "Compliance",
+      "targetFieldAPIName": "Category__c",
+      "mappingType": "Value",
+      "displayValue": "Compliance"
+    }
+  ]
+}

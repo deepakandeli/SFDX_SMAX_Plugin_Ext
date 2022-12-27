@@ -1,0 +1,13 @@
+{
+  "name": "Check Entitlement PS",
+  "developerName": "OTH049",
+  "description": "To Perform Entitlement on Product Serviced(PS) Lines",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

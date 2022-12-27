@@ -1,0 +1,13 @@
+{
+  "name": "Update Counter Readings",
+  "developerName": "ED_Counter_Readings",
+  "description": "This SFM allows users to enter values for counter readings for an installed product.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

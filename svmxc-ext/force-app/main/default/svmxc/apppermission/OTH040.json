@@ -1,0 +1,13 @@
+{
+  "name": "Issue Resolved",
+  "developerName": "OTH040",
+  "description": "Issue Resolved",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

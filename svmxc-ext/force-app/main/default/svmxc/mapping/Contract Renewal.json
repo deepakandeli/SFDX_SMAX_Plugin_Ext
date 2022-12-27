@@ -1,0 +1,109 @@
+{
+  "targetObject": "SVMXC__Service_Contract__c",
+  "sourceObject": "SVMXC__Service_Contract__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__All_Contacts_Covered__c",
+      "sourceFieldAPIName": "SVMXC__All_Contacts_Covered__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__All_Products_Covered__c",
+      "sourceFieldAPIName": "SVMXC__All_Products_Covered__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__All_Services_Covered__c",
+      "sourceFieldAPIName": "SVMXC__All_Services_Covered__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__All_Sites_Covered__c",
+      "sourceFieldAPIName": "SVMXC__All_Sites_Covered__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Billing_Schedule__c",
+      "sourceFieldAPIName": "SVMXC__Billing_Schedule__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Cancelation_Notes__c",
+      "sourceFieldAPIName": "SVMXC__Cancelation_Notes__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Contact__c",
+      "sourceFieldAPIName": "SVMXC__Contact__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Name",
+      "sourceFieldAPIName": "Name",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Contract_Price2__c",
+      "sourceFieldAPIName": "SVMXC__Contract_Price2__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Discount__c",
+      "sourceFieldAPIName": "SVMXC__Discount__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "tomorrow",
+      "targetFieldAPIName": "SVMXC__End_Date__c",
+      "mappingType": "Constant"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Renewal_Date__c",
+      "sourceFieldAPIName": "SVMXC__Renewal_Date__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Renew the contract to provide continued good service and functionality.",
+      "targetFieldAPIName": "SVMXC__Renewal_Notes__c",
+      "mappingType": "Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Renewal_Number__c",
+      "sourceFieldAPIName": "SVMXC__Renewal_Number__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Renewed_From__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Sales_Rep__c",
+      "sourceFieldAPIName": "SVMXC__Sales_Rep__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Contract_Notes__c",
+      "sourceFieldAPIName": "SVMXC__Service_Contract_Notes__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Level__c",
+      "sourceFieldAPIName": "SVMXC__Service_Level__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "today",
+      "targetFieldAPIName": "SVMXC__Start_Date__c",
+      "mappingType": "Constant"
+    }
+  ],
+  "name": "Contract Renewal",
+  "isStandard": false,
+  "developerName": "Contract Renewal"
+}

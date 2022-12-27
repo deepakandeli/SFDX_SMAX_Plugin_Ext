@@ -1,0 +1,26 @@
+{
+  "name": "ScheduledDef-custom",
+  "isStandard": false,
+  "developerName": "ScheduledDef-custom",
+  "targetObject": "SVMXC__PM_Schedule_Definition__c",
+  "objectMappingDetails": [
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Frequency__c",
+      "mappingType": "Value",
+      "displayValue": "1"
+    },
+    {
+      "value": "Months",
+      "targetFieldAPIName": "SVMXC__Frequency_Unit__c",
+      "mappingType": "Value",
+      "displayValue": "Months"
+    },
+    {
+      "value": "Time Based",
+      "targetFieldAPIName": "SVMXC__Schedule_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Time Based"
+    }
+  ]
+}

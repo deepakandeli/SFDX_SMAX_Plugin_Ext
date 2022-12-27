@@ -1,0 +1,49 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Depot_Repair_Calibration",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Work_Order_Depot_Repair___Start_Calibration",
+      "processDeveloperName": "Work_Order_Depot_Repair___Start_Calibration",
+      "name": "Start Calibration",
+      "modeOfExecution": "Background",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Start_Calibration_Enable",
+      "expression": "Start_Calibration_Enable",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Start Calibration, update Task Status, Task Type, Task Start Date",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Depot_Repair_Calibration",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "Work_Order_Depot_Repair___Stop_Calibration",
+      "processDeveloperName": "Work_Order_Depot_Repair___Stop_Calibration",
+      "name": "Stop Calibration",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Stop_Calibration_Enable",
+      "expression": "Stop_Calibration_Enable",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Depot Repair - Task Status, Task End Date",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order__c",
+  "name": "Depot Repair : Calibration",
+  "isStandard": false,
+  "expressionDeveloperName": "Depot_Repair_Enable_SFW",
+  "expression": "Depot_Repair_Enable_SFW",
+  "developerName": "Depot_Repair_Calibration",
+  "description": "Depot Repair Process",
+  "active": false
+}

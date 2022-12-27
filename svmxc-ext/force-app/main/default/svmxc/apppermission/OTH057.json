@@ -1,0 +1,13 @@
+{
+  "name": "New Condition Based PM Plan from Location",
+  "developerName": "OTH057",
+  "description": "Custom action to create new Condition Based PM Plan from Location",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

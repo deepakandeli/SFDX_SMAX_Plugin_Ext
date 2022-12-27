@@ -1,0 +1,13 @@
+{
+  "name": "Activate Contract",
+  "developerName": "OTH008",
+  "description": "Activate Contract",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

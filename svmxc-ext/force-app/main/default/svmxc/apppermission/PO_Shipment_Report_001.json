@@ -1,0 +1,13 @@
+{
+  "name": "Shipment Order",
+  "developerName": "PO_Shipment_Report_001",
+  "description": "Shipment Order",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

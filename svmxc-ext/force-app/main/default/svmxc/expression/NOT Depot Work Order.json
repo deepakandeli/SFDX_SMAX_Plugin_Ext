@@ -1,0 +1,24 @@
+{
+  "name": "NOT Depot Work Order",
+  "isStandard": false,
+  "developerName": "NOT Depot Work Order",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "value": "Depot Repair",
+      "sequence": 1,
+      "operator": "ne",
+      "operand": "Depot Repair",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "0",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "0",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "isCustomerUser__c"
+    }
+  ]
+}

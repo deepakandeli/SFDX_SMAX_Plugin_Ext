@@ -1,0 +1,13 @@
+{
+  "name": "Cancel Service Contract",
+  "developerName": "SCON_SC_Cancelation",
+  "description": "Cancel Service Contract",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

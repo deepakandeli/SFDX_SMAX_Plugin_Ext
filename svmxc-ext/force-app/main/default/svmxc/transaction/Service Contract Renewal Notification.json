@@ -1,0 +1,64 @@
+{
+  "validationRules": [],
+  "transactionType": "STANDALONE EDIT",
+  "tagKeys": "SERVICE_CONTRACT_RENEWAL_NOTIFICATION;SERVICE_CONTRACT;",
+  "status": "Complete",
+  "sourceUpdateRules": {
+    "expressionDetails": []
+  },
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "TARGET",
+      "referenceId": "a0G5g000006qjt4EAA",
+      "objectLabel": "Service Contract",
+      "objectAPIName": "SVMXC__Service_Contract__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "name": "Service Contract",
+          "columns": 2
+        }
+      ],
+      "objectAPIName": "SVMXC__Service_Contract__c",
+      "elements": [
+        {
+          "type": "BOOLEAN",
+          "sequence": 1,
+          "row": 1,
+          "required": false,
+          "readOnly": false,
+          "overrideLookupContext": false,
+          "name": "Renewal_Email_Trigger__c",
+          "lookupConfiguration": {},
+          "events": [],
+          "eltType": "Field",
+          "eltId": "a0c5g00000FJBRdAAP",
+          "column": 1
+        }
+      ]
+    },
+    "name": "Service Contract Renewal Page",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": false,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Summer15/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "dependencyExist": true
+  },
+  "name": "Service Contract Renewal Notification",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "childProcessNodes": [],
+  "developerName": "Service Contract Renewal Notification"
+}

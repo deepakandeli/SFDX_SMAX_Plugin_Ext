@@ -1,0 +1,13 @@
+{
+  "name": "Create Preventive Maintenance Plan From Installed Product",
+  "developerName": "CR_PM_FromIB",
+  "description": "Create Preventive Maintenance Plan From Installed Product",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

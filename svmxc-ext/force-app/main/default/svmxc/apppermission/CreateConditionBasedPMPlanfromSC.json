@@ -1,0 +1,13 @@
+{
+  "name": "Create Condition Based PM Plan from Service Contract",
+  "developerName": "CreateConditionBasedPMPlanfromSC",
+  "description": "Custom action to create a new Condition Based PM Plan from Service Contract",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Generate Document Package",
+  "developerName": "Generate_Document_Package_WO",
+  "description": "Custom action button that will generate Drawloop document",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

@@ -1,0 +1,69 @@
+{
+  "name": "CreateProjectWOfromAccount",
+  "isStandard": false,
+  "developerName": "CreateProjectWOfromAccount",
+  "targetObject": "SVMXC__Service_Order__c",
+  "sourceObject": "Account",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Contract",
+      "targetFieldAPIName": "SVMXC__Billing_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Contract"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__City__c",
+      "sourceFieldAPIName": "ShippingCity",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Country_text__c",
+      "sourceFieldAPIName": "ShippingCountry",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Project",
+      "targetFieldAPIName": "SVMXC__Order_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Project"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Project_Master_WO__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    },
+    {
+      "value": "Installation",
+      "targetFieldAPIName": "SVMXC__Purpose_of_Visit__c",
+      "mappingType": "Value",
+      "displayValue": "Installation"
+    },
+    {
+      "value": "Project",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Project"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__State__c",
+      "sourceFieldAPIName": "ShippingState",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Street__c",
+      "sourceFieldAPIName": "ShippingStreet",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Zip__c",
+      "sourceFieldAPIName": "ShippingPostalCode",
+      "mappingType": "Field Value"
+    }
+  ]
+}

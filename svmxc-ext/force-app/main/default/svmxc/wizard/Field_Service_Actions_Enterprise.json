@@ -1,0 +1,72 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Field_Service_Actions_Enterprise",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH016",
+      "processDeveloperName": "OTH016",
+      "name": "Dispatch Console",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expressionDeveloperName": "Dispatch_Console_Enable",
+      "expression": "Dispatch_Console_Enable",
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Dispatch Console",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Actions_Enterprise",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "TDM003_custom",
+      "processDeveloperName": "TDM003_custom",
+      "name": "Create RMA Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Create RMA Order",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Actions_Enterprise",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_Site_Survey_from_Work_Order",
+      "processDeveloperName": "Create_Site_Survey_from_Work_Order",
+      "name": "Perform Site Survey",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Perform Site Survey",
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Field_Service_Actions_Enterprise",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Field_Service_Actions_Enterprise"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order__c",
+  "name": "Field Service Actions",
+  "isStandard": false,
+  "expressionDeveloperName": "Field_Service_Enable_SFW",
+  "expression": "Field_Service_Enable_SFW",
+  "developerName": "Field_Service_Actions_Enterprise",
+  "description": "Spring 13\nWizard Steps: Dispatch Console, Create RMA, Perform Site Survey",
+  "active": false
+}

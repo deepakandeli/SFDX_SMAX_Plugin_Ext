@@ -1,0 +1,13 @@
+{
+  "name": "Edit Service Pricebook",
+  "developerName": "SCON_ED_LaborPricebook",
+  "description": "Edit Service Pricebook",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Pricebook__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

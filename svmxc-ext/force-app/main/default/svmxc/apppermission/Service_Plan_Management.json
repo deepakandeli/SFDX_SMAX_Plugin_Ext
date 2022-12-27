@@ -1,0 +1,13 @@
+{
+  "name": "Service Plan Management",
+  "developerName": "Service_Plan_Management",
+  "description": "Service Plan Management; Service Offerings, Maintenance Offerings, Pricing Rules, Parts Pricing, Labor Pricing, Expenses Pricing, Travel Pricing",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Plan__c",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

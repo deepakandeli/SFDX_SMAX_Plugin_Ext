@@ -1,0 +1,59 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "sourceObject": "SVMXC__SM_Change_Order__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFldDtaType": "PICKLIST",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__SM_Is_Change_Order__c",
+      "sourceFldDtaType": "BOOLEAN",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Pending Approval",
+      "targetFieldAPIName": "SVMXC__Order_Status__c",
+      "sourceFldDtaType": "PICKLIST",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Field Service",
+      "targetFieldAPIName": "SVMXC__Order_Type__c",
+      "sourceFldDtaType": "PICKLIST",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFldDtaType": "REFERENCE",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Priority__c",
+      "sourceFldDtaType": "PICKLIST",
+      "sourceFieldAPIName": "SVMXC__SM_Priority__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Problem_Description__c",
+      "sourceFldDtaType": "TEXTAREA",
+      "sourceFieldAPIName": "SVMXC__SM_Description__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "DEMO Change Order to FCO Work Order",
+  "isStandard": false,
+  "description": "DEMO Mapping for Change Order to FCO Work Orders",
+  "developerName": "DEMO Change Order to FCO Work Order"
+}

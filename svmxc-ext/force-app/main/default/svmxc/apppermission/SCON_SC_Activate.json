@@ -1,0 +1,13 @@
+{
+  "name": "Activate Contract",
+  "developerName": "SCON_SC_Activate",
+  "description": "Contract Activation",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

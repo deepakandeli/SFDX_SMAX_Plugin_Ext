@@ -1,0 +1,12 @@
+{
+  "name": "Manage Service Contracts - with Pricings",
+  "developerName": "Manage_Service_Contracts___with_Pricings",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Edit Service Plan Expense Pricing",
+  "developerName": "SCON_ED_CLOG_ExpensePricing",
+  "description": "Edit Service Plan Expense Pricing",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Plan__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,18 @@
+{
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Travel Start",
+      "targetFieldAPIName": "SVMXC__Dispatch_Response__c",
+      "mappingType": "Value"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Travel_Start_Actual__c",
+      "mappingType": "Constant"
+    }
+  ],
+  "name": "Start Travel - Mobile",
+  "isStandard": false,
+  "developerName": "Start Travel - Mobile"
+}

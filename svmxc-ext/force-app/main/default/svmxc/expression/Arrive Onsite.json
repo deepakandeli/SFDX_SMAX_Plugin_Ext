@@ -1,0 +1,23 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Arrive Onsite",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "SVMXC__Actual_Onsite_Response__c"
+    },
+    {
+      "value": "Travel Start",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Travel Start",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Dispatch_Response__c"
+    }
+  ],
+  "advancedExpression": "1 and 2",
+  "developerName": "Arrive Onsite"
+}

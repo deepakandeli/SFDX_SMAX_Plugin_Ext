@@ -1,0 +1,21 @@
+{
+  "name": "Validate Address Enable",
+  "isStandard": false,
+  "developerName": "Validate_Address_Enable",
+  "objectAPIName": "Case",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "Latitude__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnull",
+      "fieldType": "DOUBLE",
+      "fieldAPIName": "Longitude__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

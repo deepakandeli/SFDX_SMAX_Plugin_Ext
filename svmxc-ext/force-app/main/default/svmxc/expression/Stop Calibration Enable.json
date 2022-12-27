@@ -1,0 +1,33 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Stop Calibration Enable",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Calibration",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Calibration",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Task_Type__c"
+    },
+    {
+      "value": "Start",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Start",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Task_Status__c"
+    },
+    {
+      "value": "False",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "False",
+      "fieldType": "BOOLEAN",
+      "fieldAPIName": "Enforce_Process__c"
+    }
+  ],
+  "advancedExpression": "(1 and 2) or 3",
+  "developerName": "Stop Calibration Enable"
+}

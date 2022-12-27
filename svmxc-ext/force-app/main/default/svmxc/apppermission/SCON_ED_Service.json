@@ -1,0 +1,13 @@
+{
+  "name": "Edit Service",
+  "developerName": "SCON_ED_Service",
+  "description": "Edit Service",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

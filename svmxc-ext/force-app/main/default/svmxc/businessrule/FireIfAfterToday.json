@@ -1,0 +1,19 @@
+{
+  "name": "Last Serviced Before Today",
+  "isStandard": false,
+  "developerName": "FireIfAfterToday",
+  "subType": "Error",
+  "objectAPIName": "SVMXC__Checklist__c",
+  "message": "Date should be before today.",
+  "expressionDetails": [
+    {
+      "value": "today",
+      "sequence": 1,
+      "operator": "gt",
+      "operandType": "Constant",
+      "operand": "today",
+      "fieldType": "DATE",
+      "fieldAPIName": "QB000099"
+    }
+  ]
+}

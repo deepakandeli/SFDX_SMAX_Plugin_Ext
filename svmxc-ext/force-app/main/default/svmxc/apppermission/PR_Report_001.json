@@ -1,0 +1,13 @@
+{
+  "name": "Parts Request Report",
+  "developerName": "PR_Report_001",
+  "description": "Parts Request Report",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Parts_Request__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

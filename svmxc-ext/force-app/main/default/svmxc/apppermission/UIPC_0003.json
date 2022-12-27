@@ -1,0 +1,13 @@
+{
+  "name": "Update Installed Product Configuration",
+  "developerName": "UIPC_0003",
+  "description": "Update Installed Product Configuration",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

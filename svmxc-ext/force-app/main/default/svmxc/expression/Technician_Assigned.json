@@ -1,0 +1,16 @@
+{
+  "name": "Technician_Assigned",
+  "isStandard": false,
+  "developerName": "Technician_Assigned",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "SVMXC__Group_Member__c",
+      "actionType": "Set Value"
+    }
+  ],
+  "advancedExpression": "1"
+}

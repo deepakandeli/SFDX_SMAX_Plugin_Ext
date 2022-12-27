@@ -1,0 +1,35 @@
+{
+  "name": "CreateQuotefromLocation",
+  "isStandard": false,
+  "developerName": "CreateQuotefromLocation",
+  "targetObject": "SVMXC__Quote__c",
+  "sourceObject": "SVMXC__Site__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "SVMXC__Account__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Location__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Draft",
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Value",
+      "displayValue": "Draft"
+    }
+  ]
+}

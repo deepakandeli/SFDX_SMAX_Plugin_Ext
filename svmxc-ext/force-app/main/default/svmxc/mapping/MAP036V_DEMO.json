@@ -1,0 +1,14 @@
+{
+  "name": "SVMXSTD: Create Stock Transfer Line",
+  "isStandard": false,
+  "developerName": "MAP036V_DEMO",
+  "targetObject": "SVMXC__Stock_Transfer_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Use_Price_From_Pricebook__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    }
+  ]
+}

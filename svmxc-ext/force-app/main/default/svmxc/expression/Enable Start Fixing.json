@@ -1,0 +1,21 @@
+{
+  "name": "Enable Start Fixing",
+  "isStandard": false,
+  "developerName": "Enable Start Fixing",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Fixing_Start_Time__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnull",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "Fixing_End_Time__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

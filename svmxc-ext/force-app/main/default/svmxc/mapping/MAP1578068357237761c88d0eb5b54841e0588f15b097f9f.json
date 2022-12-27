@@ -1,0 +1,15 @@
+{
+  "name": "Part Rectype",
+  "isStandard": false,
+  "developerName": "MAP1578068357237761c88d0eb5b54841e0588f15b097f9f",
+  "targetObject": "Project_Detail__c",
+  "objectMappingDetails": [
+    {
+      "value": "Parts Forecast",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Parts Forecast",
+      "actionType": "Set Value"
+    }
+  ]
+}

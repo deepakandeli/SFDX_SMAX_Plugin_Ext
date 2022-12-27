@@ -1,0 +1,80 @@
+{
+  "name": "CCFC-0002",
+  "isStandard": false,
+  "developerName": "CCFC-0002",
+  "targetObject": "Case",
+  "sourceObject": "Contact",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "AccountId",
+      "sourceFieldAPIName": "AccountId",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Phone",
+      "targetFieldAPIName": "Origin",
+      "mappingType": "Value",
+      "displayValue": "Phone"
+    },
+    {
+      "value": "Problem",
+      "targetFieldAPIName": "Type",
+      "mappingType": "Value",
+      "displayValue": "Problem"
+    },
+    {
+      "targetFieldAPIName": "ContactId",
+      "sourceFieldAPIName": "ID",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "United States",
+      "targetFieldAPIName": "Country_Code__c",
+      "mappingType": "Value",
+      "displayValue": "United States"
+    },
+    {
+      "targetFieldAPIName": "Description",
+      "sourceFieldAPIName": "Description",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SuppliedEmail",
+      "sourceFieldAPIName": "Email",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SuppliedName",
+      "sourceFieldAPIName": "Name",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Perform_Auto_Entitlement__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    },
+    {
+      "targetFieldAPIName": "SuppliedPhone",
+      "sourceFieldAPIName": "Phone",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "Medium",
+      "targetFieldAPIName": "Priority",
+      "mappingType": "Value",
+      "displayValue": "Medium"
+    },
+    {
+      "value": "New",
+      "targetFieldAPIName": "Status",
+      "mappingType": "Value",
+      "displayValue": "New"
+    },
+    {
+      "targetFieldAPIName": "Street_Name__c",
+      "sourceFieldAPIName": "MailingStreet",
+      "mappingType": "Field Value"
+    }
+  ]
+}

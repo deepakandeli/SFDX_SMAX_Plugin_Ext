@@ -1,0 +1,13 @@
+{
+  "name": "Edit Location",
+  "developerName": "Edit_Location",
+  "description": "Edit Location \n- Used in IB App",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

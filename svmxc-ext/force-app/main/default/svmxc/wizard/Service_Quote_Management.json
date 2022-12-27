@@ -1,0 +1,43 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Service_Quote_Management",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "TDM019_ManageQuoteLines",
+      "processDeveloperName": "TDM019_ManageQuoteLines",
+      "name": "Manage Quote Lines",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM transaction is used to create or edit lines in an existing Service Quote.",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Service_Quote_Management",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "SQ_Report_001_W14",
+      "processDeveloperName": "SQ_Report_001_W14",
+      "name": "Print Service Quote",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Print Service Quote",
+      "active": false,
+      "actionType": "OUTPUT_DOCUMENT"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Quote__c",
+  "name": "Service Quote Management",
+  "isStandard": false,
+  "developerName": "Service_Quote_Management",
+  "description": "Service Quote Management",
+  "active": true
+}

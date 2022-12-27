@@ -1,0 +1,26 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "ServiceQuoteActions",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_Work_Order_from_Service_Quote",
+      "processDeveloperName": "Create_Work_Order_from_Service_Quote",
+      "name": "Create Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "SFM"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Quote__c",
+  "name": "Service Quote Actions",
+  "isStandard": false,
+  "developerName": "ServiceQuoteActions",
+  "description": "Create WorkOrder",
+  "active": true
+}

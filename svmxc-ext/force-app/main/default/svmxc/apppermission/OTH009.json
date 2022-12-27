@@ -1,0 +1,13 @@
+{
+  "name": "Cancel Contract",
+  "developerName": "OTH009",
+  "description": "Cancel Contract",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Contract__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

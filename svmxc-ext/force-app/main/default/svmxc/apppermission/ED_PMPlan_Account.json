@@ -1,0 +1,13 @@
+{
+  "name": "Manage Account based Preventive Maintenance Plan",
+  "developerName": "ED_PMPlan_Account",
+  "description": "Manage Account based Preventive Maintenance Plan",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__PM_Plan__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

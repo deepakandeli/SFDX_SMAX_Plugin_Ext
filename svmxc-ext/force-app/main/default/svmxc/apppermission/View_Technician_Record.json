@@ -1,0 +1,13 @@
+{
+  "name": "View Technician Record",
+  "developerName": "View_Technician_Record",
+  "description": "This SFM transaction is used to view technician record",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Group_Members__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": false,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

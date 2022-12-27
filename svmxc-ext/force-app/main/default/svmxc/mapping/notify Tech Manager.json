@@ -1,0 +1,13 @@
+{
+  "targetObject": "SVMXC__Service_Group_Members__c",
+  "objectMappingDetails": [
+    {
+      "value": "true",
+      "targetFieldAPIName": "Notify_Manager__c",
+      "mappingType": "Value"
+    }
+  ],
+  "name": "notify Tech Manager",
+  "isStandard": false,
+  "developerName": "notify Tech Manager"
+}

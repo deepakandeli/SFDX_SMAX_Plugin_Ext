@@ -1,0 +1,13 @@
+{
+  "name": "Cancel Shipment Order",
+  "developerName": "PO-TDM004",
+  "description": "This SFM transaction allows users to cancel a shipment order.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__RMA_Shipment_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

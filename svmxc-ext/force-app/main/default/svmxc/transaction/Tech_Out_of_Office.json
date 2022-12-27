@@ -1,0 +1,133 @@
+{
+  "validationRules": [
+    {
+      "sequence": 0,
+      "referenceId": "a0G5g000006qjxMEAQ",
+      "name": "SVMXSTD: EVT_BizRule002",
+      "message": "Start Date/Time must be before End Date/Time."
+    }
+  ],
+  "transactionType": "SOURCE TO TARGET ALL",
+  "tagKeys": "TECH_OUT_OF_OFFICE;EVENT;DETAIL;START_DATE/TIME_MUST_BE_BEFORE_END_DATE/TIME.;THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION;",
+  "syncMobileOption": "Default",
+  "status": "Complete",
+  "sorting": [],
+  "parentProcessNodes": [
+    {
+      "type": "SOURCE",
+      "referenceId": "a0G5g000006qjxLEAQ",
+      "objectAPIName": "SVMXC__Service_Group_Members__c",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    },
+    {
+      "type": "TARGET",
+      "sourceAPIName": "SVMXC__Service_Group_Members__c",
+      "referenceId": "a0G5g000006qjxMEAQ",
+      "qualificationCriteriaId": "Technicians",
+      "objectLabel": "Out of Office",
+      "objectAPIName": "Event",
+      "mappingId": "Tech_Out_of_Office",
+      "enableOnlineSearch": false,
+      "allowImages": false,
+      "allowAttachments": false
+    }
+  ],
+  "pageLayoutDetails": {
+    "type": "Header",
+    "showAllSections": true,
+    "pageHeader": {
+      "sections": [
+        {
+          "type": "Section",
+          "sequence": 1,
+          "referenceId": "a0c5g00000FJBf7AAH",
+          "name": "Event",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "DATETIME",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "StartDateTime"
+            },
+            {
+              "type": "DATETIME",
+              "sequence": 2,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 2,
+              "apiName": "EndDateTime"
+            },
+            {
+              "type": "BOOLEAN",
+              "sequence": 3,
+              "row": 2,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "IsAllDayEvent"
+            }
+          ],
+          "columns": 2
+        },
+        {
+          "type": "Section",
+          "sequence": 2,
+          "referenceId": "a0c5g00000FJBf8AAH",
+          "name": "Detail",
+          "hideSectionTitle": false,
+          "elements": [
+            {
+              "type": "STRING",
+              "sequence": 1,
+              "row": 1,
+              "required": false,
+              "readOnly": false,
+              "overrideLookupContext": false,
+              "lookupConfiguration": {},
+              "events": [],
+              "eltType": "Field",
+              "column": 1,
+              "apiName": "Subject"
+            }
+          ],
+          "columns": 1
+        }
+      ],
+      "objectAPIName": "Event"
+    },
+    "objectAPIName": "Event",
+    "name": "Out of Office",
+    "lines": [],
+    "isStandard": false,
+    "hideSave": false,
+    "hideQuickSave": true,
+    "helpUrl": "http://userdocs.servicemax.com:8080/ServiceMaxHelp/Winter17/en_us/svmx_redirector.htm?uid=SFM|HowToUseSFMDelivery",
+    "events": [],
+    "dependencyExist": true
+  },
+  "name": "Tech Out of Office",
+  "linkedProcesses": [],
+  "isStandard": false,
+  "formulas": [],
+  "developerName": "Tech_Out_of_Office",
+  "childProcessNodes": []
+}

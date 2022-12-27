@@ -1,0 +1,25 @@
+{
+  "name": "Must Have End Date",
+  "isStandard": false,
+  "developerName": "Must_Have_End_Date",
+  "subType": "Error",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "message": "Please enter an End Date to complete job",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnull",
+      "operandType": "Value",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "SVMXC__End_Date_and_Time__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnotnull",
+      "operandType": "Value",
+      "fieldType": "DATETIME",
+      "fieldAPIName": "SVMXC__Start_Date_and_Time__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2"
+}

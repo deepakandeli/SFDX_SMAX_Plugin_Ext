@@ -1,0 +1,13 @@
+{
+  "name": "Create New Location (for an existing account)",
+  "developerName": "IPAD-003",
+  "description": "This SFM transaction is used to create new service location or address location for an existing account.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

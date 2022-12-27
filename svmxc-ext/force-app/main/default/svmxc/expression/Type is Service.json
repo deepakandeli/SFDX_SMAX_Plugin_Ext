@@ -1,0 +1,16 @@
+{
+  "objectAPIName": "SVMXC__Proforma_Invoice__c",
+  "name": "Type is Service",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Service",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Service",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Type__c"
+    }
+  ],
+  "developerName": "Type is Service"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "View Location - Intro",
+  "developerName": "View_Location_Intro",
+  "description": "iPad Location View",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Site__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

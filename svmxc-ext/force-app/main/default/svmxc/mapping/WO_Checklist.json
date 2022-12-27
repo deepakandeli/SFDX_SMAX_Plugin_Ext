@@ -1,0 +1,34 @@
+{
+  "name": "WO Checklist",
+  "isStandard": false,
+  "developerName": "WO_Checklist",
+  "targetObject": "SVMXC__Checklist__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Account__c",
+      "sourceFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Installed_Product__c",
+      "sourceFieldAPIName": "SVMXC__Component__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Location__c",
+      "sourceFieldAPIName": "SVMXC__Site__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__SM_Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Work_Order__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    }
+  ]
+}

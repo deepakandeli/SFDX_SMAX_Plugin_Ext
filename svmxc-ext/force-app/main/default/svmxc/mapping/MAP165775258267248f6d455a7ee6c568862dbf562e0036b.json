@@ -1,0 +1,22 @@
+{
+  "name": "Set Order Status To Quote Hold",
+  "isStandard": false,
+  "developerName": "MAP165775258267248f6d455a7ee6c568862dbf562e0036b",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Quote Hold",
+      "targetFieldAPIName": "SVMXC__Order_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Quote Hold",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Draft",
+      "targetFieldAPIName": "Estimate_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Draft",
+      "actionType": "Set Value"
+    }
+  ]
+}

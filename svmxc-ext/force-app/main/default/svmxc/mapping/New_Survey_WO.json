@@ -1,0 +1,158 @@
+{
+  "name": "New Survey WO",
+  "isStandard": false,
+  "developerName": "New_Survey_WO",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "0015g000010KYsHAAW",
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "mappingType": "Value",
+      "displayValue": "0015g000010KYsHAAW"
+    },
+    {
+      "value": "false",
+      "targetFieldAPIName": "Auto_Calc_Drive_Time__c",
+      "mappingType": "Value",
+      "displayValue": "false"
+    },
+    {
+      "value": "Contract",
+      "targetFieldAPIName": "SVMXC__Billing_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Contract"
+    },
+    {
+      "value": "Santa Clara",
+      "targetFieldAPIName": "SVMXC__City__c",
+      "mappingType": "Value",
+      "displayValue": "Santa Clara"
+    },
+    {
+      "value": "0035g00000mLqzQAAS",
+      "targetFieldAPIName": "SVMXC__Contact__c",
+      "mappingType": "Value",
+      "displayValue": "0035g00000mLqzQAAS"
+    },
+    {
+      "value": "United States",
+      "targetFieldAPIName": "SVMXC__Country__c",
+      "mappingType": "Value",
+      "displayValue": "United States"
+    },
+    {
+      "value": "United States",
+      "targetFieldAPIName": "Country_text__c",
+      "mappingType": "Value",
+      "displayValue": "United States"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Download_to_Mobile__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    },
+    {
+      "value": "37.252116",
+      "targetFieldAPIName": "SVMXC__Latitude__c",
+      "mappingType": "Value",
+      "displayValue": "37.252116"
+    },
+    {
+      "value": "-121.946613",
+      "targetFieldAPIName": "SVMXC__Longitude__c",
+      "mappingType": "Value",
+      "displayValue": "-121.946613"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Order_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Open"
+    },
+    {
+      "value": "New Request",
+      "targetFieldAPIName": "SVMXC__Order_Type__c",
+      "mappingType": "Value",
+      "displayValue": "New Request"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Perform_Auto_Entitlement__c",
+      "mappingType": "Value",
+      "displayValue": "true"
+    },
+    {
+      "value": "01m5g000001bBgMAAU",
+      "targetFieldAPIName": "SVMXC__Preferred_Business_Hours__c",
+      "mappingType": "Value",
+      "displayValue": "01m5g000001bBgMAAU"
+    },
+    {
+      "value": "tomorrow",
+      "targetFieldAPIName": "SVMXC__Preferred_End_Time__c",
+      "mappingType": "Constant",
+      "displayValue": "Tomorrow"
+    },
+    {
+      "value": "tomorrow",
+      "targetFieldAPIName": "SVMXC__Preferred_Start_Time__c",
+      "mappingType": "Constant",
+      "displayValue": "Tomorrow"
+    },
+    {
+      "value": "a1n5g000000AqYzAAK",
+      "targetFieldAPIName": "SVMXC__Primary_Territory__c",
+      "mappingType": "Value",
+      "displayValue": "a1n5g000000AqYzAAK"
+    },
+    {
+      "value": "Medium",
+      "targetFieldAPIName": "SVMXC__Priority__c",
+      "mappingType": "Value",
+      "displayValue": "Medium"
+    },
+    {
+      "value": "Service",
+      "targetFieldAPIName": "SVMXC__Purpose_of_Visit__c",
+      "mappingType": "Value",
+      "displayValue": "Service"
+    },
+    {
+      "value": "New Request",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "New Request"
+    },
+    {
+      "value": "false",
+      "targetFieldAPIName": "Send_Customer_Sat_Survey__c",
+      "mappingType": "Value",
+      "displayValue": "false"
+    },
+    {
+      "value": "a0S5g000009gCmoEAE",
+      "targetFieldAPIName": "SVMXC__Site__c",
+      "mappingType": "Value",
+      "displayValue": "a0S5g000009gCmoEAE"
+    },
+    {
+      "value": "CA",
+      "targetFieldAPIName": "SVMXC__State__c",
+      "mappingType": "Value",
+      "displayValue": "CA"
+    },
+    {
+      "value": "2425 Samaritan Dr",
+      "targetFieldAPIName": "SVMXC__Street__c",
+      "mappingType": "Value",
+      "displayValue": "2425 Samaritan Dr"
+    },
+    {
+      "value": "95054",
+      "targetFieldAPIName": "SVMXC__Zip__c",
+      "mappingType": "Value",
+      "displayValue": "95054"
+    }
+  ]
+}

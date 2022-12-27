@@ -1,0 +1,13 @@
+{
+  "name": "Create Service Contract From Service Plan(BackGround Process)",
+  "developerName": "SCON_CR_SC_FromServicePlan",
+  "description": "Create Service Contract From Service Plan(BackGround Process)",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Plan__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

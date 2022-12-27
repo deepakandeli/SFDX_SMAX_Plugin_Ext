@@ -1,0 +1,20 @@
+{
+  "name": "MapAccountToSC",
+  "isStandard": false,
+  "developerName": "MapAccountToSC",
+  "targetObject": "SVMXC__Service_Contract__c",
+  "sourceObject": "Account",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "today",
+      "targetFieldAPIName": "SVMXC__Start_Date__c",
+      "mappingType": "Constant",
+      "displayValue": "Today"
+    }
+  ]
+}

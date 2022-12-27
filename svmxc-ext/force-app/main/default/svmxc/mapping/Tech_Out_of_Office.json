@@ -1,0 +1,37 @@
+{
+  "name": "Tech Out of Office",
+  "isStandard": false,
+  "developerName": "Tech_Out_of_Office",
+  "targetObject": "Event",
+  "sourceObject": "SVMXC__Service_Group_Members__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "SVMXC__Salesforce_User__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "8",
+      "targetFieldAPIName": "DurationInMinutes",
+      "mappingType": "Value",
+      "displayValue": "8"
+    },
+    {
+      "value": "tomorrow",
+      "targetFieldAPIName": "StartDateTime",
+      "mappingType": "Constant",
+      "displayValue": "Tomorrow"
+    },
+    {
+      "value": "Out of Office",
+      "targetFieldAPIName": "Subject",
+      "mappingType": "Value",
+      "displayValue": "Out of Office"
+    }
+  ]
+}

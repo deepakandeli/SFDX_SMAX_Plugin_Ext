@@ -1,0 +1,13 @@
+{
+  "name": "Work Order Summary",
+  "developerName": "Generate_Doc",
+  "description": "Generate Document from Drawloop",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

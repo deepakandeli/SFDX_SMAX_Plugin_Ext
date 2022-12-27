@@ -1,0 +1,12 @@
+{
+  "name": "Create Work Order From Account",
+  "developerName": "CreateWOFromAccount",
+  "windowsEnabled": true,
+  "sourceObjectName": "Account",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

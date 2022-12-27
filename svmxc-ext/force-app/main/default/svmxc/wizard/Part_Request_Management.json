@@ -1,0 +1,94 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Part_Request_Management",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "TDM012",
+      "processDeveloperName": "TDM012",
+      "name": "Manage Request Lines",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Manage Request Lines",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Part_Request_Management",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "PREQ004",
+      "processDeveloperName": "PREQ004",
+      "name": "Process Receipt Lines",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Process Receipt Lines",
+      "active": false,
+      "actionType": "INVENTORY"
+    },
+    {
+      "wizardDeveloperName": "Part_Request_Management",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH007",
+      "processDeveloperName": "OTH007",
+      "name": "Print Requisition Document",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Print Requisition",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Part_Request_Management",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH006",
+      "processDeveloperName": "OTH006",
+      "name": "Cancel Requisition",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Cancel Requisition",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Part_Request_Management",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Part_Request_Management"
+    },
+    {
+      "wizardDeveloperName": "Part_Request_Management",
+      "accessConfigurationProfile": "Demo Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Part_Request_Management",
+      "accessConfigurationProfile": "Intro Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Parts_Request__c",
+  "name": "Part Request Management",
+  "isStandard": false,
+  "expressionDeveloperName": "EXPR029",
+  "expression": "EXPR029",
+  "developerName": "Part_Request_Management",
+  "description": "Spring 13\nWizard Steps: Manage Request Lines, Process Receipt Lines, Print Requisition Document, Cancel Requisition",
+  "active": true
+}

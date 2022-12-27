@@ -1,0 +1,29 @@
+{
+  "name": "WOtoServiceLead",
+  "isStandard": false,
+  "developerName": "WOtoServiceLead",
+  "targetObject": "Service_Lead__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Associated_Work_Order__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Contact__c",
+      "sourceFieldAPIName": "SVMXC__Contact__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "Technician__c",
+      "sourceFieldAPIName": "SVMXC__Group_Member__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value"
+    }
+  ]
+}

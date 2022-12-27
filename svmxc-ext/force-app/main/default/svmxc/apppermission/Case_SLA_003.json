@@ -1,0 +1,13 @@
+{
+  "name": "Issue Resolved on Case",
+  "developerName": "Case_SLA_003",
+  "description": "This SFM transaction is used to update the actual restoration time to the current date and time.",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

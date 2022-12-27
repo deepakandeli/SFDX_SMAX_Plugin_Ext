@@ -1,0 +1,161 @@
+{
+  "name": "Project to WO",
+  "isStandard": false,
+  "developerName": "MAP1577665843087baa44302d79aa6b0d83c7bdb65947a6f",
+  "targetObject": "SVMXC__Service_Order__c",
+  "sourceObject": "Project__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Company__c",
+      "sourceFieldAPIName": "Account__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Apply_Business_Hours_For_OptiMax__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Contact__c",
+      "sourceFieldAPIName": "Contact__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "CurrencyIsoCode",
+      "sourceFieldAPIName": "CurrencyIsoCode",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "Download_to_Mobile__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Order_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Open",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Onsite Service",
+      "targetFieldAPIName": "SVMXC__Order_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Onsite Service",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "OwnerId",
+      "sourceFieldAPIName": "OwnerId",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Perform_Auto_Entitlement__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Priority__c",
+      "sourceFieldAPIName": "Priority__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Problem_Description__c",
+      "sourceFieldAPIName": "Problem_Description__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Project_Description__c",
+      "sourceFieldAPIName": "Project_Description__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Site__c",
+      "sourceFieldAPIName": "Site__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Preferred_End_Time__c",
+      "sourceFieldAPIName": "Project_End_Date__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Preferred_Start_Time__c",
+      "sourceFieldAPIName": "Project_Start_Date__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "Product__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Installation",
+      "targetFieldAPIName": "SVMXC__Purpose_of_Visit__c",
+      "mappingType": "Value",
+      "displayValue": "Installation",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Component__c",
+      "sourceFieldAPIName": "Serial_Lot_Number__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Service_Contract__c",
+      "sourceFieldAPIName": "Service_Contract__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__Special_Instructions__c",
+      "sourceFieldAPIName": "Special_Instructions__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Subject2__c",
+      "sourceFieldAPIName": "Name",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "01m5g000001bBgMAAU",
+      "targetFieldAPIName": "SVMXC__Preferred_Business_Hours__c",
+      "mappingType": "Value",
+      "displayValue": "Standard - 8am-5pm Weekdays",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Field Service",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Field Service",
+      "actionType": "Set Value"
+    },
+    {
+      "targetFieldAPIName": "Project__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ]
+}

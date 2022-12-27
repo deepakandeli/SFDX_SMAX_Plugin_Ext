@@ -1,0 +1,20 @@
+{
+  "targetObject": "SVMXC__Parts_Request_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "Open",
+      "targetFieldAPIName": "SVMXC__Line_Status__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Use_Price_From_Pricebook__c",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "New Parts Request Lines",
+  "isStandard": false,
+  "developerName": "New Parts Request Lines"
+}

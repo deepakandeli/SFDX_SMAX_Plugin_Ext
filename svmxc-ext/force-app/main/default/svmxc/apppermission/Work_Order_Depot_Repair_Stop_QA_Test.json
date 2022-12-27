@@ -1,0 +1,13 @@
+{
+  "name": "Work Order Depot Repair - Stop QA Test",
+  "developerName": "Work_Order_Depot_Repair_Stop_QA_Test",
+  "description": "SFM trasnaction that allows a user to edit a Depot WO for the QA Test phase",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

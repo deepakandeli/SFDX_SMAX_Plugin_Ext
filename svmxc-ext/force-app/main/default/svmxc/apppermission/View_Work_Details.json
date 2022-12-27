@@ -1,0 +1,12 @@
+{
+  "name": "View Work Details",
+  "developerName": "View_Work_Details",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order_Line__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

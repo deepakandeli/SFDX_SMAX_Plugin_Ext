@@ -1,0 +1,15 @@
+{
+  "name": "Account to QItem",
+  "isStandard": false,
+  "developerName": "Account_to_QItem",
+  "targetObject": "SVMXC__Quote_Line__c",
+  "sourceObject": "Account",
+  "objectMappingDetails": [
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Quantity2__c",
+      "mappingType": "Value",
+      "displayValue": "1"
+    }
+  ]
+}

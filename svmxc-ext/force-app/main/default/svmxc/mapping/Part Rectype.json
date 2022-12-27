@@ -1,0 +1,14 @@
+{
+  "targetObject": "Project_Detail__c",
+  "objectMappingDetails": [
+    {
+      "value": "Parts Forecast",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Part Rectype",
+  "isStandard": false,
+  "developerName": "Part Rectype"
+}

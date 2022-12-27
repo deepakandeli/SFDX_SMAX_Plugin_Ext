@@ -1,0 +1,32 @@
+{
+  "name": "Stop Inspection Mapping",
+  "isStandard": false,
+  "developerName": "Stop_Inspection_Mapping",
+  "targetObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "value": "Within Specification",
+      "targetFieldAPIName": "As_Received_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Within Specification"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Inspection_End_Time__c",
+      "mappingType": "Constant",
+      "displayValue": "Now"
+    },
+    {
+      "value": "Now",
+      "targetFieldAPIName": "Task_End_Date__c",
+      "mappingType": "Constant",
+      "displayValue": "Now"
+    },
+    {
+      "value": "Stop",
+      "targetFieldAPIName": "Task_Status__c",
+      "mappingType": "Value",
+      "displayValue": "Stop"
+    }
+  ]
+}

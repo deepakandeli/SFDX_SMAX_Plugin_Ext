@@ -1,0 +1,15 @@
+{
+  "name": "Estimate Not Null",
+  "isStandard": false,
+  "developerName": "Estimate_Not_Null",
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "expressionDetails": [
+    {
+      "sequence": 1,
+      "operator": "isnotnull",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "Estimate_Status__c",
+      "actionType": "Set Value"
+    }
+  ]
+}

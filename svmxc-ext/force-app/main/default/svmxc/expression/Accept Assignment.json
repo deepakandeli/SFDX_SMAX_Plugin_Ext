@@ -1,0 +1,23 @@
+{
+  "objectAPIName": "SVMXC__Service_Order__c",
+  "name": "Accept Assignment",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "Assigned",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Assigned",
+      "fieldType": "STRING",
+      "fieldAPIName": "SVMXC__Dispatch_Status__c"
+    },
+    {
+      "sequence": 2,
+      "operator": "isnull",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Dispatch_Response__c"
+    }
+  ],
+  "advancedExpression": "1 AND 2",
+  "developerName": "Accept Assignment"
+}

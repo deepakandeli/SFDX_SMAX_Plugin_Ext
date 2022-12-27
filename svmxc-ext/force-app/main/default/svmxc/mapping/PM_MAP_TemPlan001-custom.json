@@ -1,0 +1,31 @@
+{
+  "name": "PM_MAP_TemPlan001-custom",
+  "isStandard": false,
+  "developerName": "PM_MAP_TemPlan001-custom",
+  "targetObject": "SVMXC__PM_Plan__c",
+  "sourceObject": "SVMXC__PM_Plan_Template__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Coverage_Type__c",
+      "sourceFieldAPIName": "SVMXC__Coverage_Type__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMXC__PM_Plan_Template__c",
+      "sourceFieldAPIName": "Id",
+      "mappingType": "Field Value"
+    },
+    {
+      "value": "today",
+      "targetFieldAPIName": "SVMXC__Start_Date__c",
+      "mappingType": "Constant",
+      "displayValue": "Today"
+    },
+    {
+      "value": "Active",
+      "targetFieldAPIName": "SVMXC__Status__c",
+      "mappingType": "Value",
+      "displayValue": "Active"
+    }
+  ]
+}

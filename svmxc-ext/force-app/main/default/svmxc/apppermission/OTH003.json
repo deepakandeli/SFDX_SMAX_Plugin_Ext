@@ -1,0 +1,13 @@
+{
+  "name": "Installed Product: Validate Address",
+  "developerName": "OTH003",
+  "description": "Validate Address",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Installed_Product__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

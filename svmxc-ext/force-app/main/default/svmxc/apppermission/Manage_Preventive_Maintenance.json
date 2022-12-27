@@ -1,0 +1,12 @@
+{
+  "name": "Manage Preventive Maintenance - custom",
+  "developerName": "Manage_Preventive_Maintenance",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__PM_Plan__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Generate Invoice",
+  "developerName": "OTH048",
+  "description": "Generate Invoice",
+  "windowsEnabled": true,
+  "sourceObjectName": "Case",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

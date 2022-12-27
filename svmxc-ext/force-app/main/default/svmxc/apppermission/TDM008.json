@@ -1,0 +1,13 @@
+{
+  "name": "Create Shipment From Parts Request",
+  "developerName": "TDM008",
+  "description": "This SFM transaction is used to create a shipment order from a Parts Request.",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Parts_Request__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Problem Analysis Labor Usage Lines",
+  "isStandard": false,
+  "developerName": "Problem_Analysis_Labor_Usage_Lines",
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "message": "This record does not meet the qualification criteria for this SFM Transaction",
+  "expressionDetails": [
+    {
+      "value": "Labor",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "Labor",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Line_Type__c"
+    },
+    {
+      "value": "Usage/Consumption",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Usage/Consumption",
+      "fieldType": "REFERENCE",
+      "fieldAPIName": "RecordTypeId"
+    },
+    {
+      "value": "Problem Analysis",
+      "sequence": 3,
+      "operator": "eq",
+      "operand": "Problem Analysis",
+      "fieldType": "PICKLIST",
+      "fieldAPIName": "SVMXC__Activity_Type__c"
+    }
+  ],
+  "advancedExpression": "1 and 2 and 3"
+}

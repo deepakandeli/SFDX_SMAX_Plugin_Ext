@@ -1,0 +1,13 @@
+{
+  "name": "Generate Service Report (Enhanced)",
+  "developerName": "WO_ServiceReport_001_Usage_Enhanced1",
+  "description": "Work Order Service Report\nNo Travel, Customer and Technician Signature",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

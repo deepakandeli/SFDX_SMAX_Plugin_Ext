@@ -1,0 +1,15 @@
+{
+  "targetObject": "Project_Detail__c",
+  "sourceObject": "Product2",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "Cost_per_unit__c",
+      "sourceFieldAPIName": "SVMXC__Product_Cost__c",
+      "mappingType": "Field Value",
+      "actionType": "Set Value"
+    }
+  ],
+  "name": "Product to Project Cost",
+  "isStandard": false,
+  "developerName": "Product to Project Cost"
+}

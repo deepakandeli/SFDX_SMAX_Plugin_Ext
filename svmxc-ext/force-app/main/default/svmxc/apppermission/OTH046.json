@@ -1,0 +1,13 @@
+{
+  "name": "Generate Invoice",
+  "developerName": "OTH046",
+  "description": "Generate Invoice on Work Order",
+  "windowsEnabled": false,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "SF Action",
+  "onlineEnabled": true,
+  "iPhoneEnabled": false,
+  "iPadEnabled": false,
+  "androidTabletEnabled": false,
+  "androidPhoneEnabled": false
+}

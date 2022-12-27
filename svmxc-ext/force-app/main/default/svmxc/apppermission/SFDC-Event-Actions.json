@@ -1,0 +1,12 @@
+{
+  "name": "Salesforce Events Actions",
+  "developerName": "SFDC-Event-Actions",
+  "windowsEnabled": true,
+  "sourceObjectName": "Event",
+  "processType": "Wizard",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

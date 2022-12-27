@@ -1,0 +1,24 @@
+{
+  "objectAPIName": "SVMXC__Service_Order_Line__c",
+  "name": "WO Download to Mobile & Logged In as Assigned",
+  "isStandard": false,
+  "expressionDetails": [
+    {
+      "value": "true",
+      "sequence": 1,
+      "operator": "eq",
+      "operand": "true",
+      "fieldType": "STRING",
+      "fieldAPIName": "WO_Download_to_Mobile__c"
+    },
+    {
+      "value": "Yes",
+      "sequence": 2,
+      "operator": "eq",
+      "operand": "Yes",
+      "fieldType": "STRING",
+      "fieldAPIName": "WO_Logged_in_as_Assigned__c"
+    }
+  ],
+  "developerName": "WO Download to Mobile & Logged In as Assigned"
+}

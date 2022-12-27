@@ -1,0 +1,12 @@
+{
+  "name": "View Covered Product",
+  "developerName": "SFM158170292362590fa42560ec3eb1dae4467bafa90cac9",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Contract_Products__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

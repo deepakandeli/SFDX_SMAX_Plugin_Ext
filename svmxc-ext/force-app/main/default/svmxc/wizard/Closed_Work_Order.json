@@ -1,0 +1,103 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Closed_Work_Order",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_Follow_Up_Work_Order",
+      "processDeveloperName": "Create_Follow_Up_Work_Order",
+      "name": "Create Follow-Up Work Order",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "This SFM is used to create a new follow up Work Order from an existing Work Order record",
+      "active": false,
+      "actionType": "SFM"
+    },
+    {
+      "wizardDeveloperName": "Closed_Work_Order",
+      "sequence": 2,
+      "selectTemplateAtRuntime": false,
+      "processId": "WO_ServiceReport_001_Usage_external",
+      "processDeveloperName": "WO_ServiceReport_001_Usage_external",
+      "name": "Generate Service Report",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Work Order Service Report\nCustomer and Technician Signature, No Parts Pricing",
+      "active": false,
+      "actionType": "OUTPUT_DOCUMENT"
+    },
+    {
+      "wizardDeveloperName": "Closed_Work_Order",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "OTH046",
+      "processDeveloperName": "OTH046",
+      "name": "Generate Proforma Invoice",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Generate Proforma Invoice on Work Order",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Closed_Work_Order",
+      "sequence": 4,
+      "selectTemplateAtRuntime": false,
+      "processId": "Generate_Document_Package_WO",
+      "processDeveloperName": "Generate_Document_Package_WO",
+      "name": "Equipment Service Report (Drawloop)",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "Custom action button that will generate Drawloop document",
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Closed_Work_Order",
+      "sequence": 5,
+      "selectTemplateAtRuntime": false,
+      "processId": "DrawloopReport",
+      "processDeveloperName": "DrawloopReport",
+      "name": "Output Report (Drawloop Mobile)",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "App to App integration Drawloop Output Document",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "wizardAccess": [
+    {
+      "wizardDeveloperName": "Closed_Work_Order",
+      "accessConfigurationProfile": "Default Group Profile"
+    },
+    {
+      "wizardDeveloperName": "Closed_Work_Order",
+      "accessConfigurationProfile": "Demo Group Profile"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "SVMXC__Service_Order__c",
+  "name": "Work Order Closure",
+  "isStandard": false,
+  "expressionDeveloperName": "Closed_Work_Order_SFW",
+  "expression": "Closed_Work_Order_SFW",
+  "developerName": "Closed_Work_Order",
+  "description": "Summer 13\nWizard Steps: Re-Print Service Report, Generate Invoice",
+  "active": true
+}

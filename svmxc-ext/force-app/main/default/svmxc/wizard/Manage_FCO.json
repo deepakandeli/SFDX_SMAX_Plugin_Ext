@@ -1,0 +1,42 @@
+{
+  "wizardSteps": [
+    {
+      "wizardDeveloperName": "Manage_FCO",
+      "sequence": 1,
+      "selectTemplateAtRuntime": false,
+      "processId": "FCO_Search",
+      "processDeveloperName": "FCO_Search",
+      "name": "FCO Search",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "active": false,
+      "actionType": "OTHERS"
+    },
+    {
+      "wizardDeveloperName": "Manage_FCO",
+      "sequence": 3,
+      "selectTemplateAtRuntime": false,
+      "processId": "Create_FCO_WO",
+      "processDeveloperName": "Create_FCO_WO",
+      "name": "Create FCO WO",
+      "modeOfExecution": "Interactive",
+      "isStandard": false,
+      "handover": false,
+      "expertiseMatchEnabled": false,
+      "enableConfirmationDialog": false,
+      "description": "for Field Change Order, create work orders",
+      "active": false,
+      "actionType": "OTHERS"
+    }
+  ],
+  "status": "Complete",
+  "objectName": "FCO__c",
+  "name": "Manage FCO",
+  "isStandard": false,
+  "developerName": "Manage_FCO",
+  "description": "for Field Change Order (FCO",
+  "active": true
+}

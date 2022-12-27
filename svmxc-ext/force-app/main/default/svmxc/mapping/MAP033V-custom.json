@@ -1,0 +1,44 @@
+{
+  "name": "Create Usage Lines ( Expenses)",
+  "isStandard": false,
+  "developerName": "MAP033V-custom",
+  "targetObject": "SVMXC__Service_Order_Line__c",
+  "objectMappingDetails": [
+    {
+      "value": "true",
+      "targetFieldAPIName": "SVMXC__Is_Billable__c",
+      "mappingType": "Value",
+      "displayValue": "true",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "1",
+      "targetFieldAPIName": "SVMXC__Actual_Quantity2__c",
+      "mappingType": "Value",
+      "displayValue": "1",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Expenses",
+      "targetFieldAPIName": "SVMXC__Line_Type__c",
+      "mappingType": "Value",
+      "displayValue": "Expenses",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Usage/Consumption",
+      "targetFieldAPIName": "RecordTypeId",
+      "mappingType": "Value",
+      "displayValue": "Usage/Consumption",
+      "actionType": "Set Value"
+    },
+    {
+      "value": "Current Record Header",
+      "targetFieldAPIName": "SVMXC__Service_Order__c",
+      "mappingType": "Constant",
+      "literalValue": "Id",
+      "displayValue": "SVMX.CURRENTRECORDHEADER.Id",
+      "actionType": "Set Value"
+    }
+  ]
+}

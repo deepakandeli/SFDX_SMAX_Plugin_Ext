@@ -1,0 +1,24 @@
+{
+  "name": "PTFDRO_003",
+  "isStandard": false,
+  "developerName": "PTFDRO_003",
+  "targetObject": "SVMXC__Stock_Transfer_Line__c",
+  "sourceObject": "SVMXC__Service_Order__c",
+  "objectMappingDetails": [
+    {
+      "targetFieldAPIName": "SVMXC__Product__c",
+      "sourceFieldAPIName": "SVMXC__Product__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_ID__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_ID__c",
+      "mappingType": "Field Value"
+    },
+    {
+      "targetFieldAPIName": "SVMX_Old_Record_Number__c",
+      "sourceFieldAPIName": "SVMX_Old_Record_Number__c",
+      "mappingType": "Field Value"
+    }
+  ]
+}

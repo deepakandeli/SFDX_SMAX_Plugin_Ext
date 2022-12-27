@@ -1,0 +1,13 @@
+{
+  "name": "Create Service Plan",
+  "developerName": "SCON_CR_ServicePlan",
+  "description": "Create Service Plan",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Plan__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}

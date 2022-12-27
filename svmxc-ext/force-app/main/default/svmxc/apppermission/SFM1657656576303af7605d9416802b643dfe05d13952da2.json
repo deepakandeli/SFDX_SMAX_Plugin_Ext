@@ -1,0 +1,13 @@
+{
+  "name": "Create Work Order Quote",
+  "developerName": "SFM1657656576303af7605d9416802b643dfe05d13952da2",
+  "description": "This custom SFM transaction is used to create or edit Estimate lines in a work order. Estimate line types can be of Parts, labor or expense",
+  "windowsEnabled": true,
+  "sourceObjectName": "SVMXC__Service_Order__c",
+  "processType": "Process Node Objects",
+  "onlineEnabled": true,
+  "iPhoneEnabled": true,
+  "iPadEnabled": true,
+  "androidTabletEnabled": true,
+  "androidPhoneEnabled": true
+}
