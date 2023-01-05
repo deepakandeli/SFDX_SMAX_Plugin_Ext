@@ -1,7 +1,7 @@
-svmxc-ext
+svmxc-x
 =========
 
-Extension plugin for ServiceMax SFDX plugin
+Extension plugin built over ServiceMax's SVMXC SFDX plugin
 
 [![Version](https://img.shields.io/npm/v/svmxc-ext.svg)](https://npmjs.org/package/svmxc-ext)
 [![CircleCI](https://circleci.com/gh/deepakandeli/svmxc-ext/tree/master.svg?style=shield)](https://circleci.com/gh/deepakandeli/svmxc-ext/tree/master)
@@ -17,11 +17,11 @@ Extension plugin for ServiceMax SFDX plugin
 <!-- install -->
 <!-- usage -->
 ```sh-session
-$ npm install -g svmxc-ext
+$ npm install -g svmxc-x
 $ sfdx COMMAND
 running command...
 $ sfdx (--version)
-svmxc-ext/0.0.1 win32-x64 node-v19.3.0
+svmxc-x/0.0.2 win32-x64 node-v19.3.0
 $ sfdx --help [COMMAND]
 USAGE
   $ sfdx COMMAND
@@ -29,7 +29,60 @@ USAGE
 ```
 <!-- usagestop -->
 <!-- commands -->
+* [`sfdx svmxc-x:org:clone -x <string> [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-svmxc-xorgclone--x-string--u-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
+* [`sfdx svmxc-x:org:diff -x <string> [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-svmxc-xorgdiff--x-string--u-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
 
+## `sfdx svmxc-x:org:clone -x <string> [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
+
+Clone a servicemax org for config
+
+```
+USAGE
+  $ sfdx svmxc-x:org:clone -x <string> [-u <string>] [--apiversion <string>] [--json] [--loglevel
+    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
+
+FLAGS
+  -u, --targetusername=<value>                                                      username or alias for the target
+                                                                                    org; overrides default target org
+  -x, --deployusername=<value>                                                      (required) Username or alias of
+                                                                                    Target Org
+  --apiversion=<value>                                                              override the api version used for
+                                                                                    api requests made by this command
+  --json                                                                            format output as json
+  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
+                                                                                    this command invocation
+
+DESCRIPTION
+  Clone a servicemax org for config
+```
+
+_See code: [src/commands/svmxc-x/org/clone.ts](https://github.com/deepakandeli/svmxc-ext/blob/v0.0.2/src/commands/svmxc-x/org/clone.ts)_
+
+## `sfdx svmxc-x:org:diff -x <string> [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
+
+Compare the 2 servicemax orgs for config
+
+```
+USAGE
+  $ sfdx svmxc-x:org:diff -x <string> [-u <string>] [--apiversion <string>] [--json] [--loglevel
+    trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
+
+FLAGS
+  -u, --targetusername=<value>                                                      username or alias for the target
+                                                                                    org; overrides default target org
+  -x, --deployusername=<value>                                                      (required) Username or alias of
+                                                                                    Target Org
+  --apiversion=<value>                                                              override the api version used for
+                                                                                    api requests made by this command
+  --json                                                                            format output as json
+  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
+                                                                                    this command invocation
+
+DESCRIPTION
+  Compare the 2 servicemax orgs for config
+```
+
+_See code: [src/commands/svmxc-x/org/diff.ts](https://github.com/deepakandeli/svmxc-ext/blob/v0.0.2/src/commands/svmxc-x/org/diff.ts)_
 <!-- commandsstop -->
 <!-- debugging-your-plugin -->
 # Debugging your plugin

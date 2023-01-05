@@ -1,13 +1,14 @@
 {
-  "name": "svmxc-ext",
-  "description": "Extension plugin for ServiceMax SFDX plugin",
-  "version": "0.0.1",
+  "name": "svmxc-x",
+  "description": "Extension plugin built over ServiceMax's SVMXC SFDX plugin",
+  "version": "0.0.3",
   "author": "Deepak.H.Andeli @deepakandeli",
-  "bugs": "https://github.com/deepakandeli/svmxc-ext/issues",
+  "bugs": "https://github.com/deepakandeli/SFDX_SMAX_Plugin_Ext/issues",
   "dependencies": {
     "@oclif/core": "^1",
     "@salesforce/command": "^5",
     "@salesforce/core": "^3",
+    "dir-compare": "^4.0.0",
     "svmxc-sfdx": "^0.0.12",
     "tslib": "^2"
   },
@@ -44,9 +45,9 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/deepakandeli/svmxc-ext",
+  "homepage": "https://github.com/deepakandeli/SFDX_SMAX_Plugin_Ext",
   "keywords": [
-    "sfdx-plugin"
+    "sfdx-plugin","svmxc"
   ],
   "license": "MIT",
   "oclif": {
