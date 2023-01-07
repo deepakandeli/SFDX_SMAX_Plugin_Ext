@@ -108,3 +108,12 @@ $ NODE_OPTIONS=--inspect-brk bin/run hello:org -u myOrg@example.com
 6. Hit the green play button at the top middle of VS Code (this play button will be to the right of the play button that you clicked in step #5).
 <br><img src=".images/vscodeScreenshot.png" width="480" height="278"><br>
 Congrats, you are debugging!
+
+<centre>
+<table border='0px'>
+    <tr>
+        <td>To Support my work</td>
+        <td><a href="https://www.buymeacoffee.com/Lifeonauto" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a></td>
+    </tr>
+</table>
+</centre>
